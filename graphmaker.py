@@ -6,3 +6,5 @@ def make_graph(segments: Segments, clusters: int) -> nx.Graph:
 
 def simplify_graph(graph: nx.Graph, epsilon: float) -> nx.Graph:
     """Simplify the graph."""
+
+#This was added in hao's branch
