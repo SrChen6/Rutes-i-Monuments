@@ -1,3 +1,6 @@
+from dataclasses import dataclass
+from segments import Point
+from typing import TypeAlias
 
 @dataclass
 class Monument:
@@ -8,9 +11,11 @@ Monuments: TypeAlias = list[Monument]
 
 def download_monuments() -> Monuments:
     """Download monuments from Catalunya Medieval."""
+    ...
 
 def load_monuments(filename: str) -> Monuments:
     """Load monuments from a file."""
+    ...
 
 def get_monuments(filename: str) -> Monuments:
     """
@@ -18,4 +23,4 @@ def get_monuments(filename: str) -> Monuments:
     If filename exists, load monuments from the file.
     Otherwise, download monuments and save them to the file.
     """
-
+    ...
