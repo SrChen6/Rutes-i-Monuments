@@ -4,8 +4,8 @@ from typing import TypeAlias
 
 @dataclass
 class Monument:
-     name: str
-     location: Point
+    name: str
+    location: Point
 
 Monuments: TypeAlias = list[Monument]
 
