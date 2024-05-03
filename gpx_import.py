@@ -1,9 +1,15 @@
 import requests
 import gpxpy
+import pandas as pd
+from typing import TypeVar
+
 
 BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
 
 page = 0
+
+datos = pd.DataFrame([], columns=['x', 'y', 't', 's'])
+df = pd.DataFrame(datos)
 
 while True:
     url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={BOX_EBRE}&page={page}"
@@ -20,5 +26,8 @@ while True:
                 segment.points.sort(key=lambda p: p.time)  # type: ignore
                 for i in range(len(segment.points) - 1):
                     p1, p2 = segment.points[i], segment.points[i + 1]
+                    
                     print(p1.latitude, p1.longitude, p1.time, "-", p2.latitude, p2.longitude, p2.time)
     page += 1
+
+df.to_csv("data", sep=" ")
