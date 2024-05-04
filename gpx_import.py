@@ -3,7 +3,7 @@ import gpxpy
 import pandas as pd
 
 
-BOX_EBRE = "0.6,40.6,0.7,40.7"
+BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
 
 page = 0
 datos = pd.DataFrame([], columns=['x', 'y', 't', 's'])
@@ -29,10 +29,9 @@ while True:
                         print("started importing")
                         started= True
                     df.loc[len(df.index)] = pd.Series([p1.longitude, p1.latitude, p1.time, num_seg], index=df.columns)
-                    df.loc[len(df.index)] = pd.Series([p2.longitude, p2.latitude, p2.time, num_seg], index=df.columns)
         num_seg += 1
     print(f"finished importing page {page}")                
     page += 1
-    df.to_csv("data.csv", sep=" ", index=False)
+    df.to_csv("ebre.csv", sep=" ", index=False)
 print("finished importing")
     
