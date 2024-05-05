@@ -7,7 +7,7 @@ BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
 
 page = 0
 datos = pd.DataFrame([], columns=['x', 'y', 't', 's'])
-df = pd.DataFrame(datos)
+df = pd.DataFrame(datos, dtype=float)
 num_seg = 0
 
 started = False
