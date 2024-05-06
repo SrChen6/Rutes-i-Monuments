@@ -28,7 +28,7 @@ while True:
                     if not started:
                         print("started importing")
                         started= True
-                    df.loc[len(df.index)] = pd.Series([p1.longitude, p1.latitude, p1.time, num_seg], index=df.columns)
+                    df.loc[len(df)] = pd.Series([p1.longitude, p1.latitude, p1.time, num_seg], index=df.columns)
         num_seg += 1
     print(f"finished importing page {page}")                
     page += 1

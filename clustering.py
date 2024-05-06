@@ -16,3 +16,4 @@ plt.plot(x_clustered, y_clustered, 'ko', markersize=1) #ko == negre
 plt.savefig(f"C:/Users/haoka/vscode/AP2/Projectes/Rutes-i-Monuments/RutesEbre/RutaClust{num_ruta}")
 plt.show()
 print("Image saved")
+   
