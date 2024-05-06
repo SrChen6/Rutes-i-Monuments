@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("ebre.csv", sep=" ", header=0)
+df = pd.read_csv("ebre.csv", sep=" ", header=0, dtype={'x': float, 'y': float, 't': str, 's': int})
 
 num_ruta = 6
 df = df[df['s'] == num_ruta]
