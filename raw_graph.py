@@ -13,7 +13,7 @@ def plot_csv(df: DataFrame) -> None:
 
 
 def main() -> None:
-    df = pd.read_csv("ebre.csv", sep=" ", header=0)
+    df = pd.read_csv("ebre2.csv", sep=" ", header=0)
     plot_csv(df)
 
 if __name__ == "__main__":

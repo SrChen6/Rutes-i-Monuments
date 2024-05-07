@@ -31,7 +31,7 @@ def importer(box: str) -> None:
                 num_seg += 1
         print(f"finished importing page {page}")                
         page += 1
-        df.to_csv("test.csv", sep=" ", index=False)
+        df.to_csv("ebre2.csv", sep=" ", index=False)
     print("finished importing")
 
 def main() -> None:
