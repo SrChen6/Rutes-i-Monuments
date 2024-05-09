@@ -7,6 +7,10 @@ class Punt:
     x: int
     y: int
 
+# hola Hao ets molt bona persona
+# m'agraden les patates
+
+
 def importer(box: str) -> None:
     """Donades unes coordenades en la forma esquina inferior dret, esquina
     esquina superior esquerra, descarreva el .csv amb les dades:
@@ -43,6 +47,7 @@ def importer(box: str) -> None:
 def main() -> None:
     BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
     importer(BOX_EBRE)
+
 
 if __name__ == "__main__":
     main()
