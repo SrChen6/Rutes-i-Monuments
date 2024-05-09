@@ -1,6 +1,7 @@
-import pandas as pd
+f = open("demofile2.csv", "a")
+f.write("Now the file has more content!")
+f.close()
 
-df = pd.read_csv('ebre.csv', sep=" ", header=0)
-print(df[df['s'] == 2])
-x_lst = df['x'].tolist()
-# print(x_lst)
+#open and read the file after the appending:
+f = open("demofile2.txt", "r")
+print(f.read())

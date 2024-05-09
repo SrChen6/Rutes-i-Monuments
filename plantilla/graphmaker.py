@@ -9,4 +9,3 @@ def simplify_graph(graph: nx.Graph, epsilon: float) -> nx.Graph:
     """Simplify the graph."""
     ...
 
-#This was added in hao's branch

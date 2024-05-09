@@ -1,24 +1,14 @@
 import requests
 import gpxpy
-from dataclasses import dataclass
-
-@dataclass
-class Punt:
-    x: int
-    y: int
-
-# hola Hao ets molt bona persona
-# m'agraden les patates
-
 
 def importer(box: str) -> None:
     """Donades unes coordenades en la forma esquina inferior dret, esquina
     esquina superior esquerra, descarreva el .csv amb les dades:
     longitud, latitud, temps, nombre de ruta"""
-    punts: list[tuple[Punt, int]] = []
     num_seg = 0
     started = False
     page = 0
+    f = open("ebre3.csv", "w")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={box}&page={page}"
         response = requests.get(url)
@@ -36,13 +26,15 @@ def importer(box: str) -> None:
                         if not started:
                             print("started importing")
                             started= True
-                        df.loc[len(df)] = pd.Series([p1.longitude, p1.latitude, p1.time, num_seg], index=df.columns)
-                        punts.append((p1.longitude, p1.latitude))
+                        f.write(f"{p1.longitude},{p1.latitude},{num_seg}")
+                        f.write("\n")
                 num_seg += 1
         print(f"finished importing page {page}")                
         page += 1
-        df.to_csv("ebre2.csv", sep=" ", index=False)
+        #TODO: passar la llista a csv
+
     print("finished importing")
+    f.close()
 
 def main() -> None:
     BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
