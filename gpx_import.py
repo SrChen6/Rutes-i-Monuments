@@ -2,6 +2,9 @@ import requests
 import gpxpy
 import pandas as pd
 
+# hola Hao ets molt bona persona
+# m'agraden les patates
+
 
 def importer(box: str) -> None:
     """Donades unes coordenades en la forma esquina inferior dret, esquina
