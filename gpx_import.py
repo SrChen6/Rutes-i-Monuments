@@ -1,12 +1,17 @@
 import requests
 import gpxpy
-import pandas as pd
+from dataclasses import dataclass
+
+@dataclass
+class Punt:
+    x: int
+    y: int
 
 def importer(box: str) -> None:
     """Donades unes coordenades en la forma esquina inferior dret, esquina
     esquina superior esquerra, descarreva el .csv amb les dades:
     longitud, latitud, temps, nombre de ruta"""
-    df = pd.DataFrame([], columns=['x', 'y', 't', 's'])
+    punts: list[tuple[Punt, int]] = []
     num_seg = 0
     started = False
     page = 0
@@ -28,6 +33,7 @@ def importer(box: str) -> None:
                             print("started importing")
                             started= True
                         df.loc[len(df)] = pd.Series([p1.longitude, p1.latitude, p1.time, num_seg], index=df.columns)
+                        punts.append((p1.longitude, p1.latitude))
                 num_seg += 1
         print(f"finished importing page {page}")                
         page += 1

@@ -1,5 +1,4 @@
 import pandas as pd
-from pandas import DataFrame
 from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
 
