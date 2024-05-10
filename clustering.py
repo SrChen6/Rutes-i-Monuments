@@ -12,6 +12,8 @@ def cluster(n: int)-> list[tuple[int, int]]:
     with open('test.csv', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
+    # de martí: jo aquí faria
+    # coords = [(x, y) for x, y, _, _ in data]
     for punt in data:
         x.append(float(punt[0]))
         y.append(float(punt[1]))
