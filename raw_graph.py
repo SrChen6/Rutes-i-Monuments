@@ -11,7 +11,7 @@ def plot_csv() -> None:
     for punt in data:
         x.append(float(punt[0]))
         y.append(float(punt[1]))
-    plt.plot(x, y)
+    plt.scatter(x, y, color='black', s=1)
     plt.axis('off')
     # plt.savefig(f"C:{Directori}/Ruta{num_ruta}") #Per si es vol auto-save
     plt.show()

@@ -9,7 +9,7 @@ def cluster(n: int)-> list[tuple[int, int]]:
     coordenades del cluster amb n coordenades"""
     x: list[float] = []
     y: list[float] = []
-    with open('test.csv', newline='') as f:
+    with open('ebre3.csv', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
     # de martí: jo aquí faria
@@ -17,8 +17,14 @@ def cluster(n: int)-> list[tuple[int, int]]:
     for punt in data:
         x.append(float(punt[0]))
         y.append(float(punt[1]))
+    plt.scatter(x, y, color='black', s=1)
+    plt.show()
     coords = list(zip(x, y))
     kmeans = KMeans(n_clusters=n, random_state=0, n_init="auto").fit(coords)
+    print(kmeans.cluster_centers_)
+    x_cl, y_cl = zip(*kmeans.cluster_centers_)
+    plt.scatter(x_cl, y_cl, color='black', s=1)
+    plt.show()
 
 
     # x_lst = df['x'].tolist() #TODO: Veure si val la pena el .tolist()
