@@ -8,7 +8,7 @@ def importer(box: str) -> None:
     num_seg = 0
     started = False
     page = 0
-    f = open("ebre3.csv", "w")
+    f = open("ebre.csv", "w")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={box}&page={page}"
         response = requests.get(url)
