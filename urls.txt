@@ -1,0 +1,17 @@
+URL_INFO = [
+    ("edificacions-de-caracter-militar/castells/",                      "castell"),
+    ("edificacions-de-caracter-militar/fortificacions-depoca-carlina/", "epoca-carlina"),
+    ("edificacions-de-caracter-militar/muralles/",                      "muralles"),
+    ("edificacions-de-caracter-militar/torres/",                        "torre"),
+    ("edificacions-de-caracter-civil/cases-fortes/",                    "casa-forta"),
+    ("edificacions-de-caracter-civil/palaus/",                          "palau"),
+    ("edificacions-de-caracter-civil/ponts/",                           "pont"),
+    ("edificacions-de-caracter-civil/torres-colomer/",                  "torre-colomer"),
+    ("edificacions-de-caracter-religios/basiliques/",                   "basilica"),
+    ("edificacions-de-caracter-religios/catedrals/",                    "catedral"),
+    ("edificacions-de-caracter-religios/ermites/",                      "ermita"),
+    ("edificacions-de-caracter-religios/esglesies/",                    "esglesia"),
+    ("edificacions-de-caracter-religios/esglesies-fortificades/",       "esglesia-fortificada"),
+    ("edificacions-de-caracter-religios/monestirs/",                    "monestir"),
+    ("altres-llocs-dinteres/",                                          "altres-llocs-dinteres")
+]
