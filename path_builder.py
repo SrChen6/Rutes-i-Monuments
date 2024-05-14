@@ -7,7 +7,6 @@ from matplotlib import pyplot as plt
 
 from clustering import cluster
 
-from random import randint
 import yogi
 
 
@@ -18,9 +17,8 @@ Path = list[tuple[Point, Point]]
 def distance(p1: Point, p2: Point) -> float:
     """Returns the distance between two points on Earth expressed in
     spherical coordinates (longitude, latitude)."""
-    return haversine((p1[1], p1[0]), (p2[1], p2[0]))
+    return haversine((p1[1], p1[0]), (p2[1], p2[0])) 
 
-# TODO: capçalera subject to change, l'estructura de les dades pot canviar
 def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     """
     L'entrada és una llista de tuples corresponents als centres dels clusters
@@ -30,6 +28,7 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     G = nx.Graph()
     for i in range(len(clust_center)):
         G.add_node(i, pos=clust_center[i])
+    pos = nx.get_node_attributes(G, 'pos')
 
     #Obrir CSV
     with open('ebre_clusters.csv', 'r', newline='') as f:
@@ -41,11 +40,17 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     prev_label = -1
     for _, _, s, c in data:
         if prev_seg == int(s) and prev_label != int(c):
-            G.add_edge(prev_label, int(c))
+            #TODO: si la distancia entre els dos nodes és major que x, no afegir-lo
+            if distance(pos[prev_label], pos[int(c)]) < 5:
+                print(distance(pos[prev_label], pos[int(c)]))
+                
+            #TODO: afegir distàncies
+
+                G.add_edge(prev_label, int(c), dist=distance(pos[prev_label], pos[int(c)]))
         prev_seg = int(s)
         prev_label = int(c)
     
-    pos = nx.get_node_attributes(G, 'pos')
+    #Graph Plot
     nx.draw(G, pos, node_color='red', node_size=2)
     plt.show()
     return G

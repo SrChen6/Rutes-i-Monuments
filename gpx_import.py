@@ -1,6 +1,8 @@
 import requests
 import gpxpy
 
+#TODO: canviar el nom del csv tal que sigui més flexible
+
 def importer(box: str) -> None:
     """Donades unes coordenades en la forma esquina inferior dret, esquina
     esquina superior esquerra, descarreva el .csv amb les dades:
