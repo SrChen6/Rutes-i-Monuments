@@ -33,7 +33,6 @@ def importer(box: str) -> None:
                 num_seg += 1
         print(f"finished importing page {page}")                
         page += 1
-        #TODO: passar la llista a csv
 
     print("finished importing")
     f.close()

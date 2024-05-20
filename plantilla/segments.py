@@ -2,6 +2,7 @@ from dataclasses import dataclass
 import requests
 import gpxpy
 import csv
+from os.path import isfile #checks if file exists
 
 @dataclass
 class Point:
@@ -21,9 +22,10 @@ def download_points(box: Box, filename: str) -> None:
     num_seg = 0
     started = False
     page = 0
+    region = f"{box.bottom_left.lat},{box.bottom_left.lon},{box.top_right.lat},{box.top_right.lon}"
     f = open(f"{filename}.csv", "w")
     while True:
-        url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={box}&page={page}"
+        url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
         response = requests.get(url)
         gpx_content = response.content.decode("utf-8")
         gpx = gpxpy.parse(gpx_content)
@@ -68,8 +70,13 @@ def get_points(box: Box, filename: str) -> list[Point]:
     If filename exists, load segments from the file.
     Otherwise, download segments in the box and save them to the file.
     """
-    ...
+    if isfile(filename):
+        return load_points(filename)
+    else:
+        download_points(box, filename)
+        return load_points(filename)
 
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
+    #TODO: plotejar tots els camins
     ...
