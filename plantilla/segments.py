@@ -11,6 +11,7 @@ class Point:
     seg: int
     clust: int
 
+# TODO: Is this necessary?
 @dataclass
 class Box:
     bottom_left: Point
