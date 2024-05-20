@@ -3,6 +3,7 @@ import networkx as nx
 from sklearn.cluster import KMeans
 import csv
 from matplotlib import pyplot as plt
+from staticmap import *
 
 
 from clustering import cluster
@@ -30,6 +31,9 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
         G.add_node(i, pos=clust_center[i])
     pos = nx.get_node_attributes(G, 'pos')
 
+    #Generar el staticmap
+    m = StaticMap(1000, 1000)
+
     #Obrir CSV
     with open('ebre_clusters.csv', 'r', newline='') as f:
         reader = csv.reader(f)
@@ -40,16 +44,16 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     prev_label = -1
     for _, _, s, c in data:
         if prev_seg == int(s) and prev_label != int(c):
-            #TODO: si la distancia entre els dos nodes és major que x, no afegir-lo
             if distance(pos[prev_label], pos[int(c)]) < 5:
-                print(distance(pos[prev_label], pos[int(c)]))
-                
-            #TODO: afegir distàncies
-
                 G.add_edge(prev_label, int(c), dist=distance(pos[prev_label], pos[int(c)]))
+                m.add_line(Line((pos[prev_label], pos[int(c)]), 'blue', 1))
         prev_seg = int(s)
         prev_label = int(c)
     
+    #Save staticmap image
+    image = m.render()
+    image.save('map.png')
+
     #Graph Plot
     nx.draw(G, pos, node_color='red', node_size=2)
     plt.show()
