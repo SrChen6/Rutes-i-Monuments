@@ -59,15 +59,6 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     plt.show()
     return G
 
-def create_graph_experimental(data: list[tuple[Point, int]], n: int) -> nx.Graph:
-    """
-    L'entrada és una llista de tuples i el nombre de clusters.
-    En cada tupla, el primer element és un punt, el segon és l'ID del seu segment.
-
-    Fa el clustering de tots els punts.
-    Retorna una llista de camins entre clusters.
-    """
-    paths = clustering()
 
 def create_graph(cluster_paths: list[list[Point]], filename: str) -> nx.Graph:
     """
@@ -88,7 +79,7 @@ def simplify_graph(graph: nx.Graph) -> nx.Graph:
     """
     Simplifica el graf.
     """
-
+    ...
 
 def testing() -> None:
     """
