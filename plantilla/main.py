@@ -17,12 +17,14 @@ def user_pov() ->None:
     box = Box(bl, tr)
     print("Please enter a name for this region")
     name = read(str)
-    # segments.download_points(box, name)
+    segments.download_points(box, name)
     segments.show_segments(segments.load_points(name), name)
 
 
 def tests() -> None:
-    
+    name = read(str)
+    segments.show_segments(segments.load_points(name), name)
+
 
 def main() -> None:
     print("If user, write 1. If developer, write 2")
