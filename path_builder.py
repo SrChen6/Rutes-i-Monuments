@@ -35,7 +35,7 @@ def cluster_paths(clust_center: list[Point]) -> nx.Graph:
     m = StaticMap(1000, 1000)
 
     #Obrir CSV
-    with open('ebre_clusters.csv', 'r', newline='') as f:
+    with open('girona_clusters.csv', 'r', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
 

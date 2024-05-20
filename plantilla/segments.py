@@ -1,32 +1,68 @@
 from dataclasses import dataclass
-from typing import TypeAlias
+import requests
+import gpxpy
+import csv
 
 @dataclass
 class Point:
     lat: float
     lon: float
+    seg: int
+    clust: int
 
 @dataclass
-class Segment:
-    start: Point
-    end: Point
-
 class Box:
     bottom_left: Point
     top_right: Point
 
-Segments: TypeAlias = list[Segment]
 
-def download_segments(box: Box, filename: str) -> None:
+def download_points(box: Box, filename: str) -> None:
     """Download all segments in the box and save them to the file."""
-    ...
+    num_seg = 0
+    started = False
+    page = 0
+    f = open(f"{filename}.csv", "w")
+    while True:
+        url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={box}&page={page}"
+        response = requests.get(url)
+        gpx_content = response.content.decode("utf-8")
+        gpx = gpxpy.parse(gpx_content)
 
-def load_segments(filename: str) -> Segments:
+        if len(gpx.tracks) == 0:
+            break
+        for track in gpx.tracks:
+            for segment in track.segments:
+                if all(point.time is not None for point in segment.points):
+                    segment.points.sort(key=lambda p: p.time)  # type: ignore
+                    for i in range(len(segment.points)):
+                        p1 = segment.points[i]
+                        if not started:
+                            print("started importing")
+                            started= True
+                        f.write(f"{p1.longitude},{p1.latitude},{num_seg}")
+                        f.write("\n")
+                num_seg += 1
+        print(f"finished importing page {page}")                
+        page += 1
+
+    print("finished importing")
+    f.close()
+
+def load_points(filename: str) -> list[Point]:
     """Load segments from the file."""
-    ...
+    pts: list[Point] = []
 
+    #Obrir CSV
+    with open(f'{filename}.csv', 'r', newline='') as f:
+        reader = csv.reader(f)
+        data = list(reader)
+    #Llegir fila
+    for x, y, s in data:
+        #Mentre no es fagi el cluster, Point.clust = -1
+        pts.append(Point(float(x), float(y), int(s), -1))
+    return pts
 
-def get_segments(box: Box, filename: str) -> Segments:
+def get_points(box: Box, filename: str) -> list[Point]:
     """
     Get all segments in the box.
     If filename exists, load segments from the file.
@@ -34,6 +70,6 @@ def get_segments(box: Box, filename: str) -> Segments:
     """
     ...
 
-def show_segments(segments: Segments, filename: str) -> None:
+def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
     ...

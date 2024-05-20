@@ -10,7 +10,7 @@ def importer(box: str) -> None:
     num_seg = 0
     started = False
     page = 0
-    f = open("ebre.csv", "w")
+    f = open("girona.csv", "w")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={box}&page={page}"
         response = requests.get(url)
@@ -39,9 +39,8 @@ def importer(box: str) -> None:
     f.close()
 
 def main() -> None:
-    BOX_EBRE = "0.5739316671,40.5363713,0.9021482,40.79886535"
-    importer(BOX_EBRE)
-
+    BOX = "2.7359,41.9199,2.9031,42.0350"
+    importer(BOX)
 
 if __name__ == "__main__":
     main()

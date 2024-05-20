@@ -6,7 +6,7 @@ def cluster(n: int)-> list[tuple[float, float]]:
     """Donat un dataframe amb coordenades i un enter n, afegeix una columna
     al dataframe corresponent al label del cluster"""
     # Llegir CSV
-    with open('ebre.csv', 'r', newline='') as f:
+    with open('girona.csv', 'r', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
     coords = [(float(x), float(y)) for x, y, _ in data]
@@ -17,7 +17,7 @@ def cluster(n: int)-> list[tuple[float, float]]:
     #Escriure dades
     for i in range(len(data)):
         data[i].append(kmeans.labels_[i])
-    with open('ebre_clusters.csv', 'w', newline='') as f:
+    with open('girona_clusters.csv', 'w', newline='') as f:
         writer =csv.writer(f)
         writer.writerows(data)
 
