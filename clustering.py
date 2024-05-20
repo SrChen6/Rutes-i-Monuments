@@ -2,7 +2,7 @@ from sklearn.cluster import KMeans
 import csv
 import plotter
 
-def cluster(n: int)-> list[tuple[float, float]]:
+def cluster(n: int) -> list[tuple[float, float]]:
     """Donat un dataframe amb coordenades i un enter n, afegeix una columna
     al dataframe corresponent al label del cluster"""
     # Llegir CSV
