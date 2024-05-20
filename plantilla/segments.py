@@ -3,6 +3,7 @@ import requests
 import gpxpy
 import csv
 from os.path import isfile #checks if file exists
+from staticmap import Line, StaticMap
 
 @dataclass
 class Point:
@@ -80,4 +81,12 @@ def get_points(box: Box, filename: str) -> list[Point]:
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
     #TODO: plotejar tots els camins
-    ...
+    print("show_segments")
+    m = StaticMap(1000, 1000)
+    prev_pt = Point(-1, -1, -1, -1)
+    for pt in pts:
+        if prev_pt != Point(-1, -1, -1, -1):
+            m.add_line(Line(([prev_pt.lat, prev_pt.lon], [pt.lat, pt.lon]), 'blue', 1))
+        prev_pt = pt
+    img = m.render() #TODO: Check if this works (requires internet)
+    img.save(f"{filename}_total.png")
