@@ -2,7 +2,7 @@
 # De moment, només de prova.
 
 import requests
-import bs4      # This
+import bs4
 
 WEBSITE_URL = "https://www.catalunyamedieval.es/"
 
@@ -70,6 +70,7 @@ def __download_monuments() -> None:
                 strong = p.find("strong")
                 if strong is not None and strong.text == "Localització":
                     coordinates = p.text
+                    break
             print(coordinates, link.text)
 
 
@@ -79,5 +80,5 @@ def __load_monuments(filename: str) -> None:
     ...
 
 if __name__ == "__main__":
-    __download_and_print_links()
-    # __download_monuments()
+    # __download_and_print_links()
+    __download_monuments()
