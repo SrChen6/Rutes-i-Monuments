@@ -1,12 +1,14 @@
 import networkx as nx
+from haversine import haversine
+from typing import TypeAlias
+
 from segments import Point
 from monuments import Monuments
-from haversine import haversine
 
 
-# TODO: WTF com defineixo això?
-class Routes:
-    ...
+Route: TypeAlias = list[Point]
+Routes: TypeAlias = list[Route]
+
 
 def __nearest_node(graph: nx.Graph, point: Point) -> int:
     """
@@ -20,11 +22,14 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     # TODO: Per cada monument:
     # - Aproximar cada monument a un node del graf (es pot fer lineal en principi).
     # - Buscar la ruta més curta del start al endpoint.
+    routes = Routes()
     start_node = __nearest_node(graph, start)
+
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
         try:
             path = nx.algorithms.dijkstra_path(graph, start_node, end_node, 'dist')
+            routes.append([node for node in path])
         except nx.NodeNotFound:
             print("WTF")
         except nx.NetworkXNoPath:

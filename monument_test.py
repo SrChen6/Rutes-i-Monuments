@@ -97,7 +97,7 @@ def filter_monuments(filename: str, box: Box) -> list[Monument]:
     Des d'un fitxer local, filtra els monuments segons si
     es troben dins de la caixa o no.
     """
-    # TODO: Com guardarem els monuments?
+    # TODO: Canviar si és necessari
     (low_lat, low_long), (high_lat, high_long) = box
     result = list[Monument]()
 

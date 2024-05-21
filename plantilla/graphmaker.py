@@ -1,7 +1,7 @@
 import csv
 import networkx as nx
 from sklearn.cluster import KMeans
-from haversine import haversine, Unit
+from haversine import haversine
 
 import viewer
 from segments import Point
@@ -54,17 +54,19 @@ def __testing(n: int, simplify: bool,
               filename: str) -> None:
     """Testing function."""
 
+    print("Loading points...")
     fd = open("Ebre.csv", 'r')
-    points = [Point(float(lat), float(lon), int(seg), -1)
+    points = [Point(float(lat), float(lon), int(seg))
                 for lon, lat, seg in csv.reader(fd)]
     
+    print("Creating graph...")
     graph = make_graph(points, n)
     if simplify:
         simplify_graph(graph, max_dist, epsilon)
-    ...
-
+    
+    print("Exporting graph...")
     viewer.export_PNG(graph, filename)
 
 
 if __name__ == "__main__":
-    __testing(500, True, 4.0, 0, "test_500_simple4km.png")
+    __testing(300, True, 4.0, 0, "test_300_simple4km.png")

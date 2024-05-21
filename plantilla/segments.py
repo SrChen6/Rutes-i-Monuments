@@ -5,13 +5,12 @@ import csv
 from os.path import isfile #checks if file exists
 from staticmap import Line, StaticMap
 
-# TODO: remove 'clust' field?
+
 @dataclass
 class Point:
     lat: float
     lon: float
     seg: int
-    clust: int
 
 @dataclass
 class Box:
@@ -63,7 +62,7 @@ def load_points(filename: str) -> list[Point]:
     #Llegir fila
     for x, y, s in data:
         #Mentre no es fagi el cluster, Point.clust = -1
-        pts.append(Point(float(x), float(y), int(s), -1))
+        pts.append(Point(float(x), float(y), int(s)))
     return pts
 
 def get_points(box: Box, filename: str) -> list[Point]:
@@ -83,10 +82,10 @@ def show_segments(pts: list[Point], filename: str) -> None:
     #TODO: plotejar tots els camins
     print("show_segments")
     m = StaticMap(1000, 1000)
-    prev_pt = Point(-1, -1, -1, -1)
+    prev_pt = Point(-1, -1, -1)
     for pt in pts:
-        if prev_pt != Point(-1, -1, -1, -1) and pt.seg == prev_pt.seg:
-            m.add_line(Line(([prev_pt.lat, prev_pt.lon], [pt.lat, pt.lon]), 'blue', 1))
+        if prev_pt != Point(-1, -1, -1) and pt.seg == prev_pt.seg:
+            m.add_line(Line(((prev_pt.lat, prev_pt.lon), (pt.lat, pt.lon)), 'blue', 1))
         prev_pt = pt
     img = m.render() #TODO: Check if this works (requires internet)
     img.save(f"{filename}_total.png")
