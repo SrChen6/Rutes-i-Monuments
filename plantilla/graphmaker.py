@@ -1,19 +1,11 @@
-
-from segments import Point
-
+import csv
 import networkx as nx
 from sklearn.cluster import KMeans
+from haversine import haversine, Unit
 
+import viewer
 from segments import Point
-from haversine import haversine
 
-def make_graph(segments: Point, clusters: int) -> nx.Graph:
-    """Make a graph from the segments."""
-    ...
-
-def simplify_graph(graph: nx.Graph, epsilon: float) -> nx.Graph:
-    """Simplify the graph."""
-    ...
 
 def make_graph(points: list[Point], n: int) -> nx.Graph:
     """
@@ -26,7 +18,7 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     """
     # clustering
     kmeans = KMeans(n_clusters = n, random_state = 0,
-                    n_init = "auto").fit([(point.lat, point.lon) for point in points])
+                    n_init = "auto").fit([(point.lon, point.lat) for point in points])
     
     # inicialització del graf
     graph = nx.Graph()
@@ -45,12 +37,34 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     return graph
 
 
-def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> nx.Graph:
+def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> None:
     """Simplifies the graph."""
     # TODO: Simplificació per distància 
     # (dos clusters que estan connectats pero molt allunyats)
-    ...
+    dist = nx.get_edge_attributes(graph, 'dist')
+    graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > max_dist)
 
     # TODO: Simplificació per angle.
-    # (lo del github)
+    # (lo del github del Jordi)
     ...
+
+
+def __testing(n: int, simplify: bool,
+              max_dist: float, epsilon: float,
+              filename: str) -> None:
+    """Testing function."""
+
+    fd = open("Ebre.csv", 'r')
+    points = [Point(float(lat), float(lon), int(seg), -1)
+                for lon, lat, seg in csv.reader(fd)]
+    
+    graph = make_graph(points, n)
+    if simplify:
+        simplify_graph(graph, max_dist, epsilon)
+    ...
+
+    viewer.export_PNG(graph, filename)
+
+
+if __name__ == "__main__":
+    __testing(500, True, 4.0, 0, "test_500_simple4km.png")

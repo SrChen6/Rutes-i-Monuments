@@ -5,6 +5,7 @@ import csv
 from os.path import isfile #checks if file exists
 from staticmap import Line, StaticMap
 
+# TODO: remove 'clust' field?
 @dataclass
 class Point:
     lat: float
@@ -12,7 +13,6 @@ class Point:
     seg: int
     clust: int
 
-# TODO: Is this necessary?
 @dataclass
 class Box:
     bottom_left: Point
