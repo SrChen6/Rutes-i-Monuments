@@ -7,11 +7,6 @@ from typing import TypeAlias
 from segments import Point
 from monuments import Monuments
 
-# for testing
-if __name__ == "__main__":
-    import monuments
-    import graphmaker
-    import csv
 
 # TODO: This is shit! Must have monument names.
 Route: TypeAlias = list[tuple[float, float]]
@@ -27,9 +22,7 @@ def __nearest_node(graph: nx.Graph, point: Point) -> int:
 
 def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     """Find the shortest route between the starting point and all the endpoints."""
-    # TODO: Per cada monument:
-    # - Aproximar cada monument a un node del graf (es pot fer lineal en principi).
-    # - Buscar la ruta més curta del start al endpoint.
+    # TODO: Optimitzar (es pot treure 'get_node_attributes'?)
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
@@ -48,7 +41,7 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
 
 
 def export_PNG(routes: Routes, filename: str) -> None:
-    """Export the graph to a PNG file using staticmaps."""
+    """Export the routes to a PNG file using staticmaps."""
     map = StaticMap(1000, 1000)
     for route in routes:
         for i in range(len(route) - 1):
@@ -59,7 +52,7 @@ def export_PNG(routes: Routes, filename: str) -> None:
 
 
 def export_KML(routes: Routes, filename: str) -> None:
-    """Export the graph to a KML file."""
+    """Export the routes to a KML file."""
     # TODO: Make it pretty! Make it glow!
     kml = Kml()
     for route in routes:
@@ -73,6 +66,9 @@ def __testing(n: int, simplify: bool,
               max_dist: float, epsilon: float,
               png_file: str, kml_file: str) -> None:
     """Testing function."""
+    import monuments
+    import graphmaker
+    import csv
 
     print("Loading points...")
     fd = open("Ebre.csv", 'r')
