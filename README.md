@@ -5,6 +5,14 @@
 
 ## Requisits
 
-Llibreria Panda
+Install "import" library stubs
+
+``
+pip install types-requests
+``
+
+Install "staticmaps" library stubs
+``
+
 
 ## Decisions de desenvolupament

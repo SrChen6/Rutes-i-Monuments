@@ -17,6 +17,7 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     n: El nombre de clusters del que estarà format el graf.
     """
     # clustering
+    print("making graph...")
     kmeans = KMeans(n_clusters = n, random_state = 0,
                     n_init = "auto").fit([(point.lon, point.lat) for point in points])
     
@@ -34,11 +35,14 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
         prev_seg = point.seg
         prev_lab = lab
 
+    simplify_graph(graph, 4, 0)
+
     return graph
 
 
 def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> None:
     """Simplifies the graph."""
+    print("simplifying graph...")
     # TODO: Simplificació per distància 
     # (dos clusters que estan connectats pero molt allunyats)
     dist = nx.get_edge_attributes(graph, 'dist')

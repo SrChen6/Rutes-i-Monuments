@@ -20,6 +20,7 @@ class Box:
 
 def download_points(box: Box, filename: str) -> None:
     """Download all segments in the box and save them to the file."""
+    print('downloading points...')
     num_seg = 0
     started = False
     page = 0
@@ -53,6 +54,7 @@ def download_points(box: Box, filename: str) -> None:
 
 def load_points(filename: str) -> list[Point]:
     """Load segments from the file."""
+    print('loading points...')
     pts: list[Point] = []
 
     #Obrir CSV
@@ -71,6 +73,7 @@ def get_points(box: Box, filename: str) -> list[Point]:
     If filename exists, load segments from the file.
     Otherwise, download segments in the box and save them to the file.
     """
+    print('getting points...')
     if isfile(filename):
         return load_points(filename)
     else:
@@ -80,7 +83,7 @@ def get_points(box: Box, filename: str) -> list[Point]:
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
     #TODO: plotejar tots els camins
-    print("show_segments")
+    print("exporting segments to a PNG...")
     m = StaticMap(1000, 1000)
     prev_pt = Point(-1, -1, -1)
     for pt in pts:
