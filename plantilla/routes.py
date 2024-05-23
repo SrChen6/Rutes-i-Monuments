@@ -4,12 +4,19 @@ from simplekml import Kml
 from haversine import haversine
 
 from typing import TypeAlias
+from dataclasses import dataclass
 from segments import Point
 from monuments import Monuments
 
 
-# TODO: This is shit! Must have monument names.
-Route: TypeAlias = list[tuple[float, float]]
+Coord: TypeAlias = tuple[float, float]
+
+@dataclass
+class Route:
+    path: list[Coord]
+    dist: float
+    name: str
+    
 Routes: TypeAlias = list[Route]
 
 
@@ -31,8 +38,13 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
         try:
-            path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
-            routes.append([pos[v] for v in path])
+            node_path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
+            route = Route(
+                path = [pos[v] for v in node_path],
+                
+                name = end.name
+            )
+            routes.append(route)
         except nx.NodeNotFound:
             print("A node was not found??")
         except nx.NetworkXNoPath:
@@ -84,7 +96,8 @@ def __testing(n: int, simplify: bool,
         graphmaker.simplify_graph(graph, max_dist, epsilon)
     
     print("Getting monuments...")
-
+    box = ((), ())
+    mons = monuments.load_monuments()
 
     print("Finding routes...")
 
