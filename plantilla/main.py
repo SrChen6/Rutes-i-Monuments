@@ -26,7 +26,7 @@ def user_pov() ->None:
 
 def tests() -> None:
     name = read(str)
-    graph = graphmaker.make_graph(segments.load_points(name), 300)
+    graph = graphmaker.make_graph(segments.load_points(name), 100)
     viewer.export_KML(graph, name)
     viewer.export_PNG(graph, name)
 

@@ -2,6 +2,7 @@ import csv
 import networkx as nx
 from sklearn.cluster import KMeans
 from haversine import haversine
+import math
 
 import viewer
 from segments import Point
@@ -39,18 +40,39 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
 
     return graph
 
+def angle(graph: nx.Graph, u: int, v: int, w: int) -> float:
+    """Given three connected nodes of a graph, returns the angle between v and w
+    in degrees. If w=-1 it is returned 90"""
+    if w == -1:
+        return 90
+    pos = nx.get_node_attributes(graph, 'pos')
+    uv = (abs(pos[u][0] - pos[v][0]), abs(pos[u][1] - pos[v][1]))
+    uw = (abs(pos[u][0] - pos[w][0]), abs(pos[u][1] - pos[w][1]))
+    mod_uv = math.sqrt(uv[0]**2+uv[1]**2)
+    mod_uw = math.sqrt(uw[0]**2+uw[1]**2)
+    uv_uw = uv[0]*uw[0]+uw[1]*uw[1]
+    print(mod_uv, mod_uw, uv_uw)
+    return math.acos(uv_uw/(mod_uv*mod_uw))*180/math.pi
+    # TODO: falla algo amb l'angle, es corregirà més tard.
 
 def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> None:
     """Simplifies the graph."""
     print("simplifying graph...")
-    # TODO: Simplificació per distància 
-    # (dos clusters que estan connectats pero molt allunyats)
+    pos = nx.get_node_attributes(graph, 'pos')
     dist = nx.get_edge_attributes(graph, 'dist')
-    graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > max_dist)
 
-    # TODO: Simplificació per angle.
-    # (lo del github del Jordi)
-    ...
+    # Deletes the nodes that are comically long
+    graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > max_dist)
+    prev_node = 1
+
+    # Deletes the longest of tow edges that are too close together 
+    edges_to_rm: list[tuple[int, int]] = []
+    for u in graph.nodes:
+        for v in graph.neighbors(u):
+            print(u, v, angle(graph, u, v, prev_node))
+            if angle(graph, u, v, prev_node) < 45:
+                print("Too small!")
+    graph.remove_edges_from(edges_to_rm)
 
 
 def __testing(n: int, simplify: bool,
