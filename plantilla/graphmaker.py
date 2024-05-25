@@ -50,16 +50,16 @@ def angle(graph: nx.Graph, u: int, v: int, w: int) -> float:
     uw = (abs(pos[u][0] - pos[w][0]), abs(pos[u][1] - pos[w][1]))
     mod_uv = math.sqrt(uv[0]**2+uv[1]**2)
     mod_uw = math.sqrt(uw[0]**2+uw[1]**2)
-    uv_uw = uv[0]*uw[0]+uw[1]*uw[1]
-    print(mod_uv, mod_uw, uv_uw)
+    uv_uw = uv[0]*uw[0]+uv[1]*uw[1]
     return math.acos(uv_uw/(mod_uv*mod_uw))*180/math.pi
-    # TODO: falla algo amb l'angle, es corregirà més tard.
+# TODO: functional but not finished
 
 def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> None:
     """Simplifies the graph."""
     print("simplifying graph...")
     pos = nx.get_node_attributes(graph, 'pos')
     dist = nx.get_edge_attributes(graph, 'dist')
+
 
     # Deletes the nodes that are comically long
     graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > max_dist)
@@ -69,9 +69,10 @@ def simplify_graph(graph: nx.Graph, max_dist: float, epsilon: float) -> None:
     edges_to_rm: list[tuple[int, int]] = []
     for u in graph.nodes:
         for v in graph.neighbors(u):
-            print(u, v, angle(graph, u, v, prev_node))
-            if angle(graph, u, v, prev_node) < 45:
-                print("Too small!")
+            ang = angle(graph, u, v, prev_node)
+            if abs(ang) < 5:
+                print(ang, "Too small!")
+                edges_to_rm.append((u, v))
     graph.remove_edges_from(edges_to_rm)
 
 

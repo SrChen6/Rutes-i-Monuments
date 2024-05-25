@@ -913,204 +913,6 @@
                 <width>1</width>
             </LineStyle>
         </Style>
-        <Style id="612">
-            <LineStyle id="613">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="616">
-            <LineStyle id="617">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="620">
-            <LineStyle id="621">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="624">
-            <LineStyle id="625">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="628">
-            <LineStyle id="629">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="632">
-            <LineStyle id="633">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="636">
-            <LineStyle id="637">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="640">
-            <LineStyle id="641">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="644">
-            <LineStyle id="645">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="648">
-            <LineStyle id="649">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="652">
-            <LineStyle id="653">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="656">
-            <LineStyle id="657">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="660">
-            <LineStyle id="661">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="664">
-            <LineStyle id="665">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="668">
-            <LineStyle id="669">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="672">
-            <LineStyle id="673">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="676">
-            <LineStyle id="677">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="680">
-            <LineStyle id="681">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="684">
-            <LineStyle id="685">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="688">
-            <LineStyle id="689">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="692">
-            <LineStyle id="693">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="696">
-            <LineStyle id="697">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="700">
-            <LineStyle id="701">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="704">
-            <LineStyle id="705">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="708">
-            <LineStyle id="709">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="712">
-            <LineStyle id="713">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="716">
-            <LineStyle id="717">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="720">
-            <LineStyle id="721">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="724">
-            <LineStyle id="725">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="728">
-            <LineStyle id="729">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="732">
-            <LineStyle id="733">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="736">
-            <LineStyle id="737">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
-        <Style id="740">
-            <LineStyle id="741">
-                <colorMode>normal</colorMode>
-                <width>1</width>
-            </LineStyle>
-        </Style>
         <Placemark id="3">
             <name>Segment</name>
             <description>Ruta comuna</description>
@@ -1164,7 +966,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#28</styleUrl>
             <LineString id="26">
-                <coordinates>0.700753369041769,40.659852605405405,0.0 0.733995824610592,40.65337875233645,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.6282784104722133,40.653021239961454,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="31">
@@ -1172,7 +974,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#32</styleUrl>
             <LineString id="30">
-                <coordinates>0.700753369041769,40.659852605405405,0.0 0.6771673236589272,40.65859482898318,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.582565596875614,40.6263095654942,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="35">
@@ -1180,7 +982,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#36</styleUrl>
             <LineString id="34">
-                <coordinates>0.700753369041769,40.659852605405405,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.5762524524137931,40.63436421526437,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="39">
@@ -1188,7 +990,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#40</styleUrl>
             <LineString id="38">
-                <coordinates>0.700753369041769,40.659852605405405,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.6054309959919839,40.66478848162993,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="43">
@@ -1196,7 +998,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#44</styleUrl>
             <LineString id="42">
-                <coordinates>0.700753369041769,40.659852605405405,0.0 0.7018711673392181,40.6816526814628,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="47">
@@ -1204,7 +1006,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#48</styleUrl>
             <LineString id="46">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.6282784104722133,40.653021239961454,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="51">
@@ -1212,7 +1014,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#52</styleUrl>
             <LineString id="50">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.582565596875614,40.6263095654942,0.0</coordinates>
+                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.596926803020914,40.62153590929512,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="55">
@@ -1220,7 +1022,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#56</styleUrl>
             <LineString id="54">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.5762524524137931,40.63436421526437,0.0</coordinates>
+                <coordinates>0.83685331,40.72824711345528,0.0 0.8338469850520338,40.714549392904445,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="59">
@@ -1228,7 +1030,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#60</styleUrl>
             <LineString id="58">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.6054309959919839,40.66478848162993,0.0</coordinates>
+                <coordinates>0.83685331,40.72824711345528,0.0 0.8104796572438164,40.73584367491166,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="63">
@@ -1236,7 +1038,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#64</styleUrl>
             <LineString id="62">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
+                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="67">
@@ -1244,7 +1046,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#68</styleUrl>
             <LineString id="66">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
+                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="71">
@@ -1252,7 +1054,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#72</styleUrl>
             <LineString id="70">
-                <coordinates>0.5952286625612316,40.643812614555635,0.0 0.596926803020914,40.62153590929512,0.0</coordinates>
+                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7551698355297158,40.71264084392765,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="75">
@@ -1260,7 +1062,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#76</styleUrl>
             <LineString id="74">
-                <coordinates>0.83685331,40.72824711345528,0.0 0.8533365144887917,40.72069193985784,0.0</coordinates>
+                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7240606847080631,40.727141663762744,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="79">
@@ -1268,7 +1070,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#80</styleUrl>
             <LineString id="78">
-                <coordinates>0.83685331,40.72824711345528,0.0 0.8338469850520338,40.714549392904445,0.0</coordinates>
+                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7147170418863262,40.71249688093081,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="83">
@@ -1276,7 +1078,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#84</styleUrl>
             <LineString id="82">
-                <coordinates>0.83685331,40.72824711345528,0.0 0.8104796572438164,40.73584367491166,0.0</coordinates>
+                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7462208406162465,40.67834830149393,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="87">
@@ -1284,7 +1086,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#88</styleUrl>
             <LineString id="86">
-                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.5782289722199083,40.703153450870474,0.0</coordinates>
+                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7393819931447226,40.741685873884656,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="91">
@@ -1292,7 +1094,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#92</styleUrl>
             <LineString id="90">
-                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
+                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6524757888733705,40.717136683798884,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="95">
@@ -1300,7 +1102,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#96</styleUrl>
             <LineString id="94">
-                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.592757694270073,40.703640848412405,0.0</coordinates>
+                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6821705626094975,40.727414879668046,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="99">
@@ -1308,7 +1110,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#100</styleUrl>
             <LineString id="98">
-                <coordinates>0.5871539743807951,40.70637371621999,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
+                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6846336500408831,40.712649430907604,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="103">
@@ -1316,7 +1118,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#104</styleUrl>
             <LineString id="102">
-                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7551698355297158,40.71264084392765,0.0</coordinates>
+                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6282784104722133,40.653021239961454,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="107">
@@ -1324,7 +1126,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#108</styleUrl>
             <LineString id="106">
-                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7240606847080631,40.727141663762744,0.0</coordinates>
+                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6612924853626942,40.661734824093266,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="111">
@@ -1332,7 +1134,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#112</styleUrl>
             <LineString id="110">
-                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7147170418863261,40.71249688093081,0.0</coordinates>
+                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6448685727586206,40.63488584452586,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="115">
@@ -1340,7 +1142,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#116</styleUrl>
             <LineString id="114">
-                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7462208406162465,40.67834830149393,0.0</coordinates>
+                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6485925192962543,40.764935861861524,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="119">
@@ -1348,7 +1150,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#120</styleUrl>
             <LineString id="118">
-                <coordinates>0.7379041745977571,40.71269622564603,0.0 0.7393819931447226,40.741685873884656,0.0</coordinates>
+                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="123">
@@ -1356,7 +1158,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#124</styleUrl>
             <LineString id="122">
-                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6524757888733705,40.717136683798884,0.0</coordinates>
+                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6983054503416857,40.764153153416856,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="127">
@@ -1364,7 +1166,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#128</styleUrl>
             <LineString id="126">
-                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6821705626094975,40.727414879668046,0.0</coordinates>
+                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="131">
@@ -1372,7 +1174,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#132</styleUrl>
             <LineString id="130">
-                <coordinates>0.667068238283994,40.720067103261414,0.0 0.6846336500408831,40.712649430907604,0.0</coordinates>
+                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="135">
@@ -1380,7 +1182,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#136</styleUrl>
             <LineString id="134">
-                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6282784104722133,40.653021239961454,0.0</coordinates>
+                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.593039795390625,40.78941445039062,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="139">
@@ -1388,7 +1190,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#140</styleUrl>
             <LineString id="138">
-                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6771673236589272,40.65859482898318,0.0</coordinates>
+                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.6111139396901073,40.78804048200239,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="143">
@@ -1396,7 +1198,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#144</styleUrl>
             <LineString id="142">
-                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6612924853626942,40.661734824093266,0.0</coordinates>
+                <coordinates>0.7445221212976023,40.7652727954866,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="147">
@@ -1404,7 +1206,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#148</styleUrl>
             <LineString id="146">
-                <coordinates>0.6387973665491924,40.64813885406755,0.0 0.6448685727586206,40.63488584452586,0.0</coordinates>
+                <coordinates>0.7445221212976023,40.7652727954866,0.0 0.7734944993065185,40.78656271937125,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="151">
@@ -1412,7 +1214,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#152</styleUrl>
             <LineString id="150">
-                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6485925192962543,40.764935861861524,0.0</coordinates>
+                <coordinates>0.610060554934823,40.69021777126009,0.0 0.6025289743589743,40.69909558238482,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="155">
@@ -1420,7 +1222,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#156</styleUrl>
             <LineString id="154">
-                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
+                <coordinates>0.610060554934823,40.69021777126009,0.0 0.6146694243011348,40.680623830058124,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="159">
@@ -1428,7 +1230,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#160</styleUrl>
             <LineString id="158">
-                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6983054503416857,40.764153153416856,0.0</coordinates>
+                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="163">
@@ -1436,7 +1238,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#164</styleUrl>
             <LineString id="162">
-                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
+                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="167">
@@ -1444,7 +1246,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#168</styleUrl>
             <LineString id="166">
-                <coordinates>0.6708941069489686,40.75833169706841,0.0 0.6821705626094975,40.727414879668046,0.0</coordinates>
+                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.6102861273281821,40.713509400244,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="171">
@@ -1452,7 +1254,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#172</styleUrl>
             <LineString id="170">
-                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
+                <coordinates>0.7880686309660909,40.712812681190016,0.0 0.8123065878487847,40.708102603780375,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="175">
@@ -1460,7 +1262,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#176</styleUrl>
             <LineString id="174">
-                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.593039795390625,40.78941445039062,0.0</coordinates>
+                <coordinates>0.7880686309660909,40.712812681190016,0.0 0.7715294023537802,40.71001428102711,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="179">
@@ -1468,7 +1270,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#180</styleUrl>
             <LineString id="178">
-                <coordinates>0.5932177433566433,40.7753511666521,0.0 0.6111139396901073,40.78804048200239,0.0</coordinates>
+                <coordinates>0.6612924853626942,40.661734824093266,0.0 0.6771673236589272,40.65859482898318,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="183">
@@ -1476,7 +1278,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#184</styleUrl>
             <LineString id="182">
-                <coordinates>0.7445221212976023,40.7652727954866,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
+                <coordinates>0.6612924853626942,40.661734824093266,0.0 0.6565729511535402,40.673780575258554,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="187">
@@ -1484,7 +1286,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#188</styleUrl>
             <LineString id="186">
-                <coordinates>0.7445221212976023,40.7652727954866,0.0 0.7588691580097088,40.741439805946605,0.0</coordinates>
+                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.6821705626094975,40.727414879668046,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="191">
@@ -1492,7 +1294,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#192</styleUrl>
             <LineString id="190">
-                <coordinates>0.7445221212976023,40.7652727954866,0.0 0.7734944993065185,40.78656271937125,0.0</coordinates>
+                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="195">
@@ -1500,7 +1302,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#196</styleUrl>
             <LineString id="194">
-                <coordinates>0.610060554934823,40.69021777126009,0.0 0.6025289743589743,40.69909558238482,0.0</coordinates>
+                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.7147170418863262,40.71249688093081,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="199">
@@ -1508,7 +1310,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#200</styleUrl>
             <LineString id="198">
-                <coordinates>0.610060554934823,40.69021777126009,0.0 0.6146694243011348,40.680623830058124,0.0</coordinates>
+                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.6846336500408831,40.712649430907604,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="203">
@@ -1516,7 +1318,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#204</styleUrl>
             <LineString id="202">
-                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
+                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.7462208406162465,40.67834830149393,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="207">
@@ -1524,7 +1326,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#208</styleUrl>
             <LineString id="206">
-                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
+                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.7441116094420601,40.630959077253216,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="211">
@@ -1532,7 +1334,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#212</styleUrl>
             <LineString id="210">
-                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.6102861273281821,40.713509400244,0.0</coordinates>
+                <coordinates>0.7953353322652758,40.763731937481374,0.0 0.8104796572438164,40.73584367491166,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="215">
@@ -1540,7 +1342,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#216</styleUrl>
             <LineString id="214">
-                <coordinates>0.6011227750938086,40.723884321106944,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
+                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6102861273281821,40.713509400244,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="219">
@@ -1548,7 +1350,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#220</styleUrl>
             <LineString id="218">
-                <coordinates>0.7880686309660909,40.712812681190016,0.0 0.8123065878487847,40.708102603780375,0.0</coordinates>
+                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.638240784370258,40.71542226643399,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="223">
@@ -1556,7 +1358,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#224</styleUrl>
             <LineString id="222">
-                <coordinates>0.7880686309660909,40.712812681190016,0.0 0.7715294023537802,40.71001428102711,0.0</coordinates>
+                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="227">
@@ -1564,7 +1366,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#228</styleUrl>
             <LineString id="226">
-                <coordinates>0.7880686309660909,40.712812681190016,0.0 0.801924886084584,40.72212460436562,0.0</coordinates>
+                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="231">
@@ -1572,7 +1374,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#232</styleUrl>
             <LineString id="230">
-                <coordinates>0.6612924853626942,40.661734824093266,0.0 0.6771673236589272,40.65859482898318,0.0</coordinates>
+                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6288038833533894,40.70676348604091,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="235">
@@ -1580,7 +1382,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#236</styleUrl>
             <LineString id="234">
-                <coordinates>0.6612924853626942,40.661734824093266,0.0 0.6565729511535402,40.673780575258554,0.0</coordinates>
+                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.593039795390625,40.78941445039062,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="239">
@@ -1588,7 +1390,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#240</styleUrl>
             <LineString id="238">
-                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.6821705626094975,40.727414879668046,0.0</coordinates>
+                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.6252581149093904,40.78896567339374,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="243">
@@ -1596,7 +1398,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#244</styleUrl>
             <LineString id="242">
-                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
+                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="247">
@@ -1604,7 +1406,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#248</styleUrl>
             <LineString id="246">
-                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.7147170418863261,40.71249688093081,0.0</coordinates>
+                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="251">
@@ -1612,7 +1414,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#252</styleUrl>
             <LineString id="250">
-                <coordinates>0.6988586561134356,40.720939047838215,0.0 0.6846336500408831,40.712649430907604,0.0</coordinates>
+                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="255">
@@ -1620,7 +1422,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#256</styleUrl>
             <LineString id="254">
-                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.7462208406162465,40.67834830149393,0.0</coordinates>
+                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5915075034930587,40.742251346439765,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="259">
@@ -1628,7 +1430,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#260</styleUrl>
             <LineString id="258">
-                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.7797732608695653,40.65736397365729,0.0</coordinates>
+                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5999232350228658,40.75339116383384,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="263">
@@ -1636,7 +1438,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#264</styleUrl>
             <LineString id="262">
-                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.733995824610592,40.65337875233645,0.0</coordinates>
+                <coordinates>0.582565596875614,40.6263095654942,0.0 0.5762524524137931,40.63436421526437,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="267">
@@ -1644,7 +1446,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#268</styleUrl>
             <LineString id="266">
-                <coordinates>0.7571778105105104,40.65815560500501,0.0 0.7441116094420601,40.630959077253216,0.0</coordinates>
+                <coordinates>0.582565596875614,40.6263095654942,0.0 0.5795461364341086,40.60754748934109,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="271">
@@ -1652,7 +1454,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#272</styleUrl>
             <LineString id="270">
-                <coordinates>0.7953353322652758,40.763731937481374,0.0 0.7861657339055794,40.77466958369099,0.0</coordinates>
+                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.661112689347575,40.633243327165125,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="275">
@@ -1660,7 +1462,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#276</styleUrl>
             <LineString id="274">
-                <coordinates>0.7953353322652758,40.763731937481374,0.0 0.8104796572438164,40.73584367491166,0.0</coordinates>
+                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.6956145898749999,40.640942357375,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="279">
@@ -1668,7 +1470,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#280</styleUrl>
             <LineString id="278">
-                <coordinates>0.7953353322652758,40.763731937481374,0.0 0.7741507877419355,40.73877536073733,0.0</coordinates>
+                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="283">
@@ -1676,7 +1478,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#284</styleUrl>
             <LineString id="282">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6102861273281821,40.713509400244,0.0</coordinates>
+                <coordinates>0.6252581149093904,40.78896567339374,0.0 0.638049774070946,40.77583232964527,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="287">
@@ -1684,7 +1486,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#288</styleUrl>
             <LineString id="286">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.638240784370258,40.71542226643399,0.0</coordinates>
+                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5941642823913754,40.67177167242731,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="291">
@@ -1692,7 +1494,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#292</styleUrl>
             <LineString id="290">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
+                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="295">
@@ -1700,7 +1502,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#296</styleUrl>
             <LineString id="294">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
+                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.592757694270073,40.703640848412405,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="299">
@@ -1708,7 +1510,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#300</styleUrl>
             <LineString id="298">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
+                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="303">
@@ -1716,7 +1518,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#304</styleUrl>
             <LineString id="302">
-                <coordinates>0.6232179542988154,40.71646443687428,0.0 0.6288038833533894,40.70676348604091,0.0</coordinates>
+                <coordinates>0.5782289722199083,40.703153450870474,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="307">
@@ -1724,7 +1526,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#308</styleUrl>
             <LineString id="306">
-                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.593039795390625,40.78941445039062,0.0</coordinates>
+                <coordinates>0.5782289722199083,40.703153450870474,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="311">
@@ -1732,7 +1534,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#312</styleUrl>
             <LineString id="310">
-                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.6252581149093904,40.78896567339374,0.0</coordinates>
+                <coordinates>0.661112689347575,40.633243327165125,0.0 0.6448685727586206,40.63488584452586,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="315">
@@ -1740,7 +1542,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#316</styleUrl>
             <LineString id="314">
-                <coordinates>0.6111139396901073,40.78804048200239,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
+                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="319">
@@ -1748,7 +1550,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#320</styleUrl>
             <LineString id="318">
-                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
+                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="323">
@@ -1756,7 +1558,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#324</styleUrl>
             <LineString id="322">
-                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
+                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="327">
@@ -1764,7 +1566,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#328</styleUrl>
             <LineString id="326">
-                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5915075034930587,40.742251346439765,0.0</coordinates>
+                <coordinates>0.6558519554192229,40.78477191584867,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="331">
@@ -1772,7 +1574,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#332</styleUrl>
             <LineString id="330">
-                <coordinates>0.5887079595116989,40.75517224730417,0.0 0.5999232350228658,40.75339116383384,0.0</coordinates>
+                <coordinates>0.6558519554192229,40.78477191584867,0.0 0.638049774070946,40.77583232964527,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="335">
@@ -1780,7 +1582,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#336</styleUrl>
             <LineString id="334">
-                <coordinates>0.582565596875614,40.6263095654942,0.0 0.5762524524137931,40.63436421526437,0.0</coordinates>
+                <coordinates>0.7734944993065185,40.78656271937125,0.0 0.7861657339055794,40.77466958369099,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="339">
@@ -1788,7 +1590,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#340</styleUrl>
             <LineString id="338">
-                <coordinates>0.582565596875614,40.6263095654942,0.0 0.596926803020914,40.62153590929512,0.0</coordinates>
+                <coordinates>0.6282784104722133,40.653021239961454,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="343">
@@ -1796,7 +1598,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#344</styleUrl>
             <LineString id="342">
-                <coordinates>0.582565596875614,40.6263095654942,0.0 0.5795461364341086,40.60754748934109,0.0</coordinates>
+                <coordinates>0.6282784104722133,40.653021239961454,0.0 0.6387430088408644,40.668284365422394,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="347">
@@ -1804,7 +1606,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#348</styleUrl>
             <LineString id="346">
-                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.661112689347575,40.633243327165125,0.0</coordinates>
+                <coordinates>0.8123065878487847,40.708102603780375,0.0 0.8338469850520338,40.714549392904445,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="351">
@@ -1812,7 +1614,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#352</styleUrl>
             <LineString id="350">
-                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.6956145898749999,40.640942357375,0.0</coordinates>
+                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="355">
@@ -1820,7 +1622,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#356</styleUrl>
             <LineString id="354">
-                <coordinates>0.6801031214380239,40.63807585046317,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
+                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5858621961872486,40.71860711893667,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="359">
@@ -1828,7 +1630,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#360</styleUrl>
             <LineString id="358">
-                <coordinates>0.6252581149093904,40.78896567339374,0.0 0.638049774070946,40.77583232964527,0.0</coordinates>
+                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="363">
@@ -1836,7 +1638,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#364</styleUrl>
             <LineString id="362">
-                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5941642823913754,40.67177167242731,0.0</coordinates>
+                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="367">
@@ -1844,7 +1646,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#368</styleUrl>
             <LineString id="366">
-                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
+                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6524757888733705,40.717136683798884,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="371">
@@ -1852,7 +1654,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#372</styleUrl>
             <LineString id="370">
-                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5994274327868853,40.68374431007026,0.0</coordinates>
+                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="375">
@@ -1860,7 +1662,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#376</styleUrl>
             <LineString id="374">
-                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.592757694270073,40.703640848412405,0.0</coordinates>
+                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="379">
@@ -1868,7 +1670,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#380</styleUrl>
             <LineString id="378">
-                <coordinates>0.5845054562415196,40.68144773147897,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
+                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.7018711673392181,40.6816526814628,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="383">
@@ -1876,7 +1678,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#384</styleUrl>
             <LineString id="382">
-                <coordinates>0.5782289722199083,40.703153450870474,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
+                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="387">
@@ -1884,7 +1686,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#388</styleUrl>
             <LineString id="386">
-                <coordinates>0.5782289722199083,40.703153450870474,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
+                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.6565729511535402,40.673780575258554,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="391">
@@ -1892,7 +1694,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#392</styleUrl>
             <LineString id="390">
-                <coordinates>0.661112689347575,40.633243327165125,0.0 0.6448685727586206,40.63488584452586,0.0</coordinates>
+                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="395">
@@ -1900,7 +1702,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#396</styleUrl>
             <LineString id="394">
-                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
+                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7393819931447226,40.741685873884656,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="399">
@@ -1908,7 +1710,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#400</styleUrl>
             <LineString id="398">
-                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.6983054503416857,40.764153153416856,0.0</coordinates>
+                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7147170418863262,40.71249688093081,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="403">
@@ -1916,7 +1718,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#404</styleUrl>
             <LineString id="402">
-                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
+                <coordinates>0.7103604277108434,40.59175671987952,0.0 0.727015303030303,40.61230136363636,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="407">
@@ -1924,7 +1726,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#408</styleUrl>
             <LineString id="406">
-                <coordinates>0.7008333012872628,40.790737615447156,0.0 0.6558519554192229,40.78477191584867,0.0</coordinates>
+                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5999232350228658,40.75339116383384,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="411">
@@ -1932,7 +1734,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#412</styleUrl>
             <LineString id="410">
-                <coordinates>0.6558519554192229,40.78477191584867,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
+                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="415">
@@ -1940,7 +1742,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#416</styleUrl>
             <LineString id="414">
-                <coordinates>0.6558519554192229,40.78477191584867,0.0 0.638049774070946,40.77583232964527,0.0</coordinates>
+                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="419">
@@ -1948,7 +1750,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#420</styleUrl>
             <LineString id="418">
-                <coordinates>0.6558519554192229,40.78477191584867,0.0 0.6485925192962543,40.764935861861524,0.0</coordinates>
+                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="423">
@@ -1956,7 +1758,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#424</styleUrl>
             <LineString id="422">
-                <coordinates>0.7734944993065185,40.78656271937125,0.0 0.7861657339055794,40.77466958369099,0.0</coordinates>
+                <coordinates>0.6025289743589743,40.69909558238482,0.0 0.5994274327868853,40.68374431007026,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="427">
@@ -1964,7 +1766,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#428</styleUrl>
             <LineString id="426">
-                <coordinates>0.6282784104722133,40.653021239961454,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
+                <coordinates>0.6025289743589743,40.69909558238482,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="431">
@@ -1972,7 +1774,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#432</styleUrl>
             <LineString id="430">
-                <coordinates>0.6282784104722133,40.653021239961454,0.0 0.6387430088408644,40.668284365422394,0.0</coordinates>
+                <coordinates>0.7741507877419355,40.73877536073733,0.0 0.7588691580097088,40.741439805946605,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="435">
@@ -1980,7 +1782,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#436</styleUrl>
             <LineString id="434">
-                <coordinates>0.8123065878487847,40.708102603780375,0.0 0.8338469850520338,40.714549392904445,0.0</coordinates>
+                <coordinates>0.7741507877419355,40.73877536073733,0.0 0.7715294023537802,40.71001428102711,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="439">
@@ -1988,7 +1790,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#440</styleUrl>
             <LineString id="438">
-                <coordinates>0.8123065878487847,40.708102603780375,0.0 0.8533365144887917,40.72069193985784,0.0</coordinates>
+                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.5994274327868853,40.68374431007026,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="443">
@@ -1996,7 +1798,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#444</styleUrl>
             <LineString id="442">
-                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
+                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.6054309959919839,40.66478848162993,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="447">
@@ -2004,7 +1806,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#448</styleUrl>
             <LineString id="446">
-                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5858621961872486,40.71860711893667,0.0</coordinates>
+                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="451">
@@ -2012,7 +1814,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#452</styleUrl>
             <LineString id="450">
-                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
+                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="455">
@@ -2020,7 +1822,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#456</styleUrl>
             <LineString id="454">
-                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5795359531058415,40.71190295786003,0.0</coordinates>
+                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="459">
@@ -2028,7 +1830,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#460</styleUrl>
             <LineString id="458">
-                <coordinates>0.5778171992351816,40.730227489483745,0.0 0.5915075034930587,40.742251346439765,0.0</coordinates>
+                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="463">
@@ -2036,7 +1838,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#464</styleUrl>
             <LineString id="462">
-                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6524757888733705,40.717136683798884,0.0</coordinates>
+                <coordinates>0.5999232350228658,40.75339116383384,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="467">
@@ -2044,7 +1846,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#468</styleUrl>
             <LineString id="466">
-                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
+                <coordinates>0.5999232350228658,40.75339116383384,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="471">
@@ -2052,7 +1854,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#472</styleUrl>
             <LineString id="470">
-                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6288038833533894,40.70676348604091,0.0</coordinates>
+                <coordinates>0.7715294023537802,40.71001428102711,0.0 0.7551698355297158,40.71264084392765,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="475">
@@ -2060,7 +1862,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#476</styleUrl>
             <LineString id="474">
-                <coordinates>0.638240784370258,40.71542226643399,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
+                <coordinates>0.5795359531058415,40.71190295786003,0.0 0.5858621961872486,40.71860711893667,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="479">
@@ -2068,7 +1870,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#480</styleUrl>
             <LineString id="478">
-                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.7018711673392181,40.6816526814628,0.0</coordinates>
+                <coordinates>0.8104796572438164,40.73584367491166,0.0 0.801924886084584,40.72212460436562,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="483">
@@ -2076,7 +1878,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#484</styleUrl>
             <LineString id="482">
-                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
+                <coordinates>0.7462208406162465,40.67834830149393,0.0 0.733995824610592,40.65337875233645,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="487">
@@ -2084,7 +1886,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#488</styleUrl>
             <LineString id="486">
-                <coordinates>0.6790053288508557,40.69458016748166,0.0 0.6565729511535402,40.673780575258554,0.0</coordinates>
+                <coordinates>0.7462208406162465,40.67834830149393,0.0 0.7018711673392181,40.6816526814628,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="491">
@@ -2092,7 +1894,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#492</styleUrl>
             <LineString id="490">
-                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
+                <coordinates>0.6565729511535402,40.673780575258554,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="495">
@@ -2100,7 +1902,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#496</styleUrl>
             <LineString id="494">
-                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7393819931447226,40.741685873884656,0.0</coordinates>
+                <coordinates>0.6956145898749999,40.640942357375,0.0 0.7075577506963788,40.63970364623955,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="499">
@@ -2108,7 +1910,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#500</styleUrl>
             <LineString id="498">
-                <coordinates>0.7240606847080631,40.727141663762744,0.0 0.7147170418863261,40.71249688093081,0.0</coordinates>
+                <coordinates>0.6956145898749999,40.640942357375,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="503">
@@ -2116,7 +1918,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#504</styleUrl>
             <LineString id="502">
-                <coordinates>0.8533365144887917,40.72069193985784,0.0 0.8338469850520338,40.714549392904445,0.0</coordinates>
+                <coordinates>0.6956145898749999,40.640942357375,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="507">
@@ -2124,7 +1926,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#508</styleUrl>
             <LineString id="506">
-                <coordinates>0.7103604277108434,40.59175671987952,0.0 0.727015303030303,40.61230136363636,0.0</coordinates>
+                <coordinates>0.638049774070946,40.77583232964527,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="511">
@@ -2132,7 +1934,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#512</styleUrl>
             <LineString id="510">
-                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5999232350228658,40.75339116383384,0.0</coordinates>
+                <coordinates>0.7393819931447226,40.741685873884656,0.0 0.7588691580097088,40.741439805946605,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="515">
@@ -2140,7 +1942,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#516</styleUrl>
             <LineString id="514">
-                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
+                <coordinates>0.7393819931447226,40.741685873884656,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="519">
@@ -2148,7 +1950,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#520</styleUrl>
             <LineString id="518">
-                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
+                <coordinates>0.6054309959919839,40.66478848162993,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="523">
@@ -2156,7 +1958,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#524</styleUrl>
             <LineString id="522">
-                <coordinates>0.5915075034930587,40.742251346439765,0.0 0.5786871952751195,40.74156696411483,0.0</coordinates>
+                <coordinates>0.7018711673392181,40.6816526814628,0.0 0.7147170418863262,40.71249688093081,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="527">
@@ -2164,7 +1966,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#528</styleUrl>
             <LineString id="526">
-                <coordinates>0.6025289743589743,40.69909558238482,0.0 0.592757694270073,40.703640848412405,0.0</coordinates>
+                <coordinates>0.5858621961872486,40.71860711893667,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="531">
@@ -2172,7 +1974,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#532</styleUrl>
             <LineString id="530">
-                <coordinates>0.6025289743589743,40.69909558238482,0.0 0.5994274327868853,40.68374431007026,0.0</coordinates>
+                <coordinates>0.5858621961872486,40.71860711893667,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="535">
@@ -2180,7 +1982,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#536</styleUrl>
             <LineString id="534">
-                <coordinates>0.6025289743589743,40.69909558238482,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
+                <coordinates>0.6161922217661692,40.74316703963516,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="539">
@@ -2188,7 +1990,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#540</styleUrl>
             <LineString id="538">
-                <coordinates>0.7741507877419355,40.73877536073733,0.0 0.7588691580097088,40.741439805946605,0.0</coordinates>
+                <coordinates>0.6161922217661692,40.74316703963516,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="543">
@@ -2196,7 +1998,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#544</styleUrl>
             <LineString id="542">
-                <coordinates>0.7741507877419355,40.73877536073733,0.0 0.7715294023537802,40.71001428102711,0.0</coordinates>
+                <coordinates>0.7075577506963788,40.63970364623955,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="547">
@@ -2204,7 +2006,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#548</styleUrl>
             <LineString id="546">
-                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.5994274327868853,40.68374431007026,0.0</coordinates>
+                <coordinates>0.5795461364341086,40.60754748934109,0.0 0.596926803020914,40.62153590929512,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="551">
@@ -2212,7 +2014,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#552</styleUrl>
             <LineString id="550">
-                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.6054309959919839,40.66478848162993,0.0</coordinates>
+                <coordinates>0.733995824610592,40.65337875233645,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="555">
@@ -2220,7 +2022,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#556</styleUrl>
             <LineString id="554">
-                <coordinates>0.5941642823913754,40.67177167242731,0.0 0.5845512610668789,40.66407823248407,0.0</coordinates>
+                <coordinates>0.6102861273281821,40.713509400244,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="559">
@@ -2228,7 +2030,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#560</styleUrl>
             <LineString id="558">
-                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
+                <coordinates>0.6102861273281821,40.713509400244,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="563">
@@ -2236,7 +2038,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#564</styleUrl>
             <LineString id="562">
-                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.7227602246240601,40.7775236193609,0.0</coordinates>
+                <coordinates>0.7051477405298961,40.65075096537773,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="567">
@@ -2244,7 +2046,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#568</styleUrl>
             <LineString id="566">
-                <coordinates>0.6983054503416857,40.764153153416856,0.0 0.6699258235171262,40.79057404185464,0.0</coordinates>
+                <coordinates>0.619120805057336,40.65855580123493,0.0 0.6184896560121765,40.67100853957382,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="571">
@@ -2252,7 +2054,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#572</styleUrl>
             <LineString id="570">
-                <coordinates>0.5999232350228658,40.75339116383384,0.0 0.6161922217661692,40.74316703963516,0.0</coordinates>
+                <coordinates>0.6485925192962543,40.764935861861524,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="575">
@@ -2260,7 +2062,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#576</styleUrl>
             <LineString id="574">
-                <coordinates>0.5999232350228658,40.75339116383384,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
+                <coordinates>0.6485925192962543,40.764935861861524,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="579">
@@ -2268,7 +2070,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#580</styleUrl>
             <LineString id="578">
-                <coordinates>0.5999232350228658,40.75339116383384,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
+                <coordinates>0.6157920256582097,40.70299713800862,0.0 0.6288038833533894,40.70676348604091,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="583">
@@ -2276,7 +2078,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#584</styleUrl>
             <LineString id="582">
-                <coordinates>0.7715294023537802,40.71001428102711,0.0 0.7551698355297158,40.71264084392765,0.0</coordinates>
+                <coordinates>0.5845512610668789,40.66407823248407,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="587">
@@ -2284,7 +2086,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#588</styleUrl>
             <LineString id="586">
-                <coordinates>0.5795359531058415,40.71190295786003,0.0 0.5858621961872486,40.71860711893667,0.0</coordinates>
+                <coordinates>0.5786871952751195,40.74156696411483,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="591">
@@ -2292,7 +2094,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#592</styleUrl>
             <LineString id="590">
-                <coordinates>0.8104796572438164,40.73584367491166,0.0 0.801924886084584,40.72212460436562,0.0</coordinates>
+                <coordinates>0.5950703348614349,40.71509771196581,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="595">
@@ -2300,7 +2102,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#596</styleUrl>
             <LineString id="594">
-                <coordinates>0.7462208406162465,40.67834830149393,0.0 0.733995824610592,40.65337875233645,0.0</coordinates>
+                <coordinates>0.6288038833533894,40.70676348604091,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="599">
@@ -2308,7 +2110,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#600</styleUrl>
             <LineString id="598">
-                <coordinates>0.7462208406162465,40.67834830149393,0.0 0.7018711673392181,40.6816526814628,0.0</coordinates>
+                <coordinates>0.727015303030303,40.61230136363636,0.0 0.7441116094420601,40.630959077253216,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="603">
@@ -2316,7 +2118,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#604</styleUrl>
             <LineString id="602">
-                <coordinates>0.6565729511535402,40.673780575258554,0.0 0.6387430088408644,40.668284365422394,0.0</coordinates>
+                <coordinates>0.6146694243011348,40.680623830058124,0.0 0.6184896560121765,40.67100853957382,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="607">
@@ -2324,270 +2126,6 @@
             <description>Ruta comuna</description>
             <styleUrl>#608</styleUrl>
             <LineString id="606">
-                <coordinates>0.6565729511535402,40.673780575258554,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="611">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#612</styleUrl>
-            <LineString id="610">
-                <coordinates>0.6956145898749999,40.640942357375,0.0 0.7075577506963788,40.63970364623955,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="615">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#616</styleUrl>
-            <LineString id="614">
-                <coordinates>0.6956145898749999,40.640942357375,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="619">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#620</styleUrl>
-            <LineString id="618">
-                <coordinates>0.6956145898749999,40.640942357375,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="623">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#624</styleUrl>
-            <LineString id="622">
-                <coordinates>0.638049774070946,40.77583232964527,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="627">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#628</styleUrl>
-            <LineString id="626">
-                <coordinates>0.7393819931447226,40.741685873884656,0.0 0.7588691580097088,40.741439805946605,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="631">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#632</styleUrl>
-            <LineString id="630">
-                <coordinates>0.7393819931447226,40.741685873884656,0.0 0.7105695359706361,40.73242000570963,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="635">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#636</styleUrl>
-            <LineString id="634">
-                <coordinates>0.6054309959919839,40.66478848162993,0.0 0.619120805057336,40.65855580123493,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="639">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#640</styleUrl>
-            <LineString id="638">
-                <coordinates>0.7018711673392181,40.6816526814628,0.0 0.7147170418863261,40.71249688093081,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="643">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#644</styleUrl>
-            <LineString id="642">
-                <coordinates>0.5858621961872486,40.71860711893667,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="647">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#648</styleUrl>
-            <LineString id="646">
-                <coordinates>0.5858621961872486,40.71860711893667,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="651">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#652</styleUrl>
-            <LineString id="650">
-                <coordinates>0.6161922217661692,40.74316703963516,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="655">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#656</styleUrl>
-            <LineString id="654">
-                <coordinates>0.6161922217661692,40.74316703963516,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="659">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#660</styleUrl>
-            <LineString id="658">
-                <coordinates>0.7075577506963788,40.63970364623955,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="663">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#664</styleUrl>
-            <LineString id="662">
-                <coordinates>0.5795461364341086,40.60754748934109,0.0 0.596926803020914,40.62153590929512,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="667">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#668</styleUrl>
-            <LineString id="666">
-                <coordinates>0.733995824610592,40.65337875233645,0.0 0.7797732608695653,40.65736397365729,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="671">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#672</styleUrl>
-            <LineString id="670">
-                <coordinates>0.733995824610592,40.65337875233645,0.0 0.7051477405298961,40.65075096537773,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="675">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#676</styleUrl>
-            <LineString id="674">
-                <coordinates>0.6102861273281821,40.713509400244,0.0 0.5950703348614349,40.71509771196581,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="679">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#680</styleUrl>
-            <LineString id="678">
-                <coordinates>0.6102861273281821,40.713509400244,0.0 0.6157920256582097,40.70299713800862,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="683">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#684</styleUrl>
-            <LineString id="682">
-                <coordinates>0.6771673236589272,40.65859482898318,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="687">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#688</styleUrl>
-            <LineString id="686">
-                <coordinates>0.7051477405298961,40.65075096537773,0.0 0.6886642307692308,40.649520030978074,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="691">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#692</styleUrl>
-            <LineString id="690">
-                <coordinates>0.619120805057336,40.65855580123493,0.0 0.6184896560121765,40.67100853957382,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="695">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#696</styleUrl>
-            <LineString id="694">
-                <coordinates>0.6485925192962543,40.764935861861524,0.0 0.6384774529085873,40.73189766278855,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="699">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#700</styleUrl>
-            <LineString id="698">
-                <coordinates>0.6485925192962543,40.764935861861524,0.0 0.6276020430888176,40.763954040712804,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="703">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#704</styleUrl>
-            <LineString id="702">
-                <coordinates>0.5994274327868853,40.68374431007026,0.0 0.6146694243011348,40.680623830058124,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="707">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#708</styleUrl>
-            <LineString id="706">
-                <coordinates>0.6157920256582097,40.70299713800862,0.0 0.6288038833533894,40.70676348604091,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="711">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#712</styleUrl>
-            <LineString id="710">
-                <coordinates>0.5845512610668789,40.66407823248407,0.0 0.5775187594225721,40.68818992813648,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="715">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#716</styleUrl>
-            <LineString id="714">
-                <coordinates>0.5786871952751195,40.74156696411483,0.0 0.5879578067574647,40.76567714413305,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="719">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#720</styleUrl>
-            <LineString id="718">
-                <coordinates>0.5950703348614349,40.71509771196581,0.0 0.5904970679024886,40.73066063369731,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="723">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#724</styleUrl>
-            <LineString id="722">
-                <coordinates>0.6288038833533894,40.70676348604091,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="727">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#728</styleUrl>
-            <LineString id="726">
-                <coordinates>0.727015303030303,40.61230136363636,0.0 0.7441116094420601,40.630959077253216,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="731">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#732</styleUrl>
-            <LineString id="730">
-                <coordinates>0.6146694243011348,40.680623830058124,0.0 0.6184896560121765,40.67100853957382,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="735">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#736</styleUrl>
-            <LineString id="734">
-                <coordinates>0.6387430088408644,40.668284365422394,0.0 0.6184896560121765,40.67100853957382,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="739">
-            <name>Segment</name>
-            <description>Ruta comuna</description>
-            <styleUrl>#740</styleUrl>
-            <LineString id="738">
                 <coordinates>0.6387430088408644,40.668284365422394,0.0 0.6513455447219069,40.70029453950057,0.0</coordinates>
             </LineString>
         </Placemark>
