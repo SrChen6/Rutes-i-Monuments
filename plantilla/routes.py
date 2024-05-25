@@ -34,6 +34,7 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
+    dist = nx.get_edge_attributes(graph, 'dist')
 
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
@@ -41,7 +42,7 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
             node_path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
             route = Route(
                 path = [pos[v] for v in node_path],
-                
+                dist = sum(dist[(u-1, u)] for u in node_path[1::]),
                 name = end.name
             )
             routes.append(route)

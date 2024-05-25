@@ -14,6 +14,7 @@ def export_PNG(graph: nx.Graph, filename: str) -> None:
     
     image = map.render()
     image.save(f"{filename}.png")
+    image.show()
 
 
 def export_KML(graph: nx.Graph, filename: str) -> None:
