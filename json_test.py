@@ -3,7 +3,6 @@ import requests
 import bs4
 
 
-
 CM_LINK = "https://www.catalunyamedieval.es/comarques/"
 
 def __get_json():
