@@ -42,7 +42,8 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
             node_path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
             route = Route(
                 path = [pos[v] for v in node_path],
-                dist = sum(dist[(u-1, u)] for u in node_path[1::]),
+                dist = sum(dist[(node_path[i], node_path[i + 1])]
+                           for i in range(len(node_path) - 1)),
                 name = end.name
             )
             routes.append(route)
@@ -59,8 +60,8 @@ def export_PNG(routes: Routes, filename: str) -> None:
     print("exporting routes PNG...")
     map = StaticMap(1000, 1000)
     for route in routes:
-        for i in range(len(route) - 1):
-            map.add_line(Line((route[i], route[i+1]), 'black', 1))
+        for i in range(len(route.path) - 1):
+            map.add_line(Line((route.path[i], route.path[i+1]), 'black', 1))
     
     image = map.render()
     image.save(filename)       
@@ -72,13 +73,13 @@ def export_KML(routes: Routes, filename: str) -> None:
     print("exporting KML routes...")
     kml = Kml()
     for route in routes:
-        newline = kml.newlinestring(coords = route)
+        newline = kml.newlinestring(coords = route.path)
         newline.style.linestyle.color = "00000000"
         newline.style.linestyle.width = 5
     kml.save(filename)
 
 
-def __testing(n: int, simplify: bool,
+def __testing(n: int,
               max_dist: float, epsilon: float,
               png_file: str, kml_file: str) -> None:
     """Testing function."""
@@ -93,8 +94,6 @@ def __testing(n: int, simplify: bool,
     
     print("Creating graph...")
     graph = graphmaker.make_graph(points, n)
-    if simplify:
-        graphmaker.simplify_graph(graph, max_dist, epsilon)
     
     print("Getting monuments...")
     box = ((), ())
