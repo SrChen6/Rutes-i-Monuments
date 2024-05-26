@@ -74,11 +74,9 @@ def get_points(box: Box, filename: str) -> list[Point]:
     Otherwise, download segments in the box and save them to the file.
     """
     print('getting points...')
-    if isfile(filename):
-        return load_points(filename)
-    else:
+    if not isfile(filename):
         download_points(box, filename)
-        return load_points(filename)
+    return load_points(filename)
 
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
