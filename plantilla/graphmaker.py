@@ -20,7 +20,7 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     # clustering
     print("making graph...")
     kmeans = KMeans(n_clusters = n, random_state = 0,
-                    n_init = "auto").fit([(point.lon, point.lat) for point in points])
+                    n_init = "auto").fit([(point.lat, point.lon) for point in points])
     
     # inicialització del graf
     graph = nx.Graph()
@@ -40,3 +40,15 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > 4)
 
     return graph
+
+
+if __name__ == "__main__":
+    import viewer
+    import graphmaker
+    import segments
+    from yogi import read
+
+    filename = read(str)
+    points = segments.load_points(filename)
+    graph = graphmaker.make_graph(points, 300)
+    viewer.export_PNG(graph, "graph_prova2")

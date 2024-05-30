@@ -22,9 +22,8 @@ def download_points(box: Box, filename: str) -> None:
     """Download all segments in the box and save them to the file."""
     print('downloading points...')
     num_seg = 0
-    started = False
     page = 0
-    region = f"{box.bottom_left.lat},{box.bottom_left.lon},{box.top_right.lat},{box.top_right.lon}"
+    region = f"{box.bottom_left.lon},{box.bottom_left.lat},{box.top_right.lon},{box.top_right.lat}"
     f = open(f"{filename}.csv", "w")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
@@ -40,12 +39,10 @@ def download_points(box: Box, filename: str) -> None:
                     segment.points.sort(key=lambda p: p.time)  # type: ignore
                     for i in range(len(segment.points)):
                         p1 = segment.points[i]
-                        if not started:
-                            print("started importing")
-                            started= True
-                        f.write(f"{p1.longitude},{p1.latitude},{num_seg}")
+                        f.write(f"{p1.latitude},{p1.longitude},{num_seg}")
                         f.write("\n")
                 num_seg += 1
+        
         print(f"finished importing page {page}")                
         page += 1
 
@@ -62,9 +59,8 @@ def load_points(filename: str) -> list[Point]:
         reader = csv.reader(f)
         data = list(reader)
     #Llegir fila
-    for x, y, s in data:
-        #Mentre no es fagi el cluster, Point.clust = -1
-        pts.append(Point(float(x), float(y), int(s)))
+    for lat, lon, s in data:
+        pts.append(Point(float(lat), float(lon), int(s)))
     return pts
 
 def get_points(box: Box, filename: str) -> list[Point]:
@@ -92,3 +88,12 @@ def show_segments(pts: list[Point], filename: str) -> None:
         prev_pt = pt
     img = m.render() #TODO: Check if this works (requires internet)
     img.save(f"{filename}_total.png")
+
+
+if __name__ == "__main__":
+    box = Box(Point(40.5363713, 0.5739316671, -1),
+              Point(40.79886535, 0.9021482, -1)
+    )
+    filename = "prova_points"
+    download_points(box, filename)
+    load_points(filename)
