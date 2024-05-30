@@ -5,7 +5,6 @@ import simplekml
 
 def export_PNG(graph: nx.Graph, filename: str) -> None:
     """Export the graph to a PNG file using staticmaps."""
-    print("exporting PNG...")
     pos = nx.get_node_attributes(graph, 'pos')
     map = StaticMap(1000, 1000)
     
@@ -19,7 +18,6 @@ def export_PNG(graph: nx.Graph, filename: str) -> None:
 
 def export_KML(graph: nx.Graph, filename: str) -> None:
     """Export the graph to a KML file."""
-    print("Exporting KML...")
     kml = simplekml.Kml()
     pos = nx.get_node_attributes(graph, 'pos')
     for u, v in graph.edges:

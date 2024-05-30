@@ -31,7 +31,6 @@ def __nearest_node(graph: nx.Graph, point: Point) -> int:
 def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     """Find the shortest route between the starting point and all the endpoints."""
     # TODO: Optimitzar (es pot treure 'get_node_attributes'?)
-    print("finding routes...")
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
@@ -56,7 +55,6 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
 
 def export_PNG(routes: Routes, filename: str) -> None:
     """Export the routes to a PNG file using staticmaps."""
-    print("exporting routes PNG...")
     map = StaticMap(1000, 1000)
     for route in routes:
         for i in range(len(route.path) - 1):
@@ -69,7 +67,6 @@ def export_PNG(routes: Routes, filename: str) -> None:
 def export_KML(routes: Routes, filename: str) -> None:
     """Export the routes to a KML file."""
     # TODO: Make it pretty! Make it glow!
-    print("exporting KML routes...")
     kml = Kml()
     for route in routes:
         newline = kml.newlinestring(coords = route.path)

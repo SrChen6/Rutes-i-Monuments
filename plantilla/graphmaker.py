@@ -18,7 +18,6 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     n: El nombre de clusters del que estarà format el graf.
     """
     # clustering
-    print("making graph...")
     kmeans = KMeans(n_clusters = n, random_state = 0,
                     n_init = "auto").fit([(point.lon, point.lat) for point in points])
     

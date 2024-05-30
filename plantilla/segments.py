@@ -22,7 +22,6 @@ def download_points(box: Box, filename: str) -> None:
     """Download all segments in the box and save them to the file."""
     print('downloading points...')
     num_seg = 0
-    started = False
     page = 0
     region = f"{box.bottom_left.lat},{box.bottom_left.lon},{box.top_right.lat},{box.top_right.lon}"
     f = open(f"{filename}.csv", "w")
@@ -40,9 +39,6 @@ def download_points(box: Box, filename: str) -> None:
                     segment.points.sort(key=lambda p: p.time)  # type: ignore
                     for i in range(len(segment.points)):
                         p1 = segment.points[i]
-                        if not started:
-                            print("started importing")
-                            started= True
                         f.write(f"{p1.longitude},{p1.latitude},{num_seg}")
                         f.write("\n")
                 num_seg += 1
@@ -54,7 +50,6 @@ def download_points(box: Box, filename: str) -> None:
 
 def load_points(filename: str) -> list[Point]:
     """Load segments from the file."""
-    print('loading points...')
     pts: list[Point] = []
 
     #Obrir CSV
@@ -67,13 +62,13 @@ def load_points(filename: str) -> list[Point]:
         pts.append(Point(float(x), float(y), int(s)))
     return pts
 
+#TODO: no pinta molt útil, si al final no l'utilitzem el borrem
 def get_points(box: Box, filename: str) -> list[Point]:
     """
     Get all segments in the box.
     If filename exists, load segments from the file.
     Otherwise, download segments in the box and save them to the file.
     """
-    print('getting points...')
     if isfile(f'{filename}.csv'):
         return load_points(filename)
     else:
@@ -83,7 +78,6 @@ def get_points(box: Box, filename: str) -> list[Point]:
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
     #TODO: plotejar tots els camins
-    print("exporting segments to a PNG...")
     m = StaticMap(1000, 1000)
     prev_pt = Point(-1, -1, -1)
     for pt in pts:
@@ -92,3 +86,4 @@ def show_segments(pts: list[Point], filename: str) -> None:
         prev_pt = pt
     img = m.render() #TODO: Check if this works (requires internet)
     img.save(f"{filename}_total.png")
+    img.show()

@@ -6,57 +6,67 @@ import routes
 import viewer
 from segments import Box, Point
 
-def print_points(filename: str) -> None:
-    print(segments.load_points(filename))
 
-def user_input() ->tuple[Box, str]:
-    """First interactions with the user. Returns the name of the region that the 
-    user wants to plot."""
-    print("Welcome! Ready to explore the world?")
-    print("Would you like to download new routes?")
-    print("Write 'yes' if you want to download new routes.")
-    print("Write 'no' if you want to view an already existing graph.")
-    while True:
-        if read(str) == "yes":
-            print("Enter the west, south, east, north boundaries separated by spaces.")
-            bl = Point(read(float), read(float), -1)
-            tr = Point(read(float), read(float), -1)
-            box = Box(bl, tr)
-            print("Please enter a name for this region.")
-            return box, read(str)
-        elif read(str) == "no":
-            print("Please enter the name of the region you want to view.")
-            # If the file already exists, the box won't be used
-            # CONSULTAR AMB MARTÍ
-            return Box(Point(0,0, -1), Point(0,0, -1)), read(str)
-        else: print("This is not a valid input. Please write 'yes' or 'no'")
-
-def user_pov() ->None:
-    box, name = user_input()
-    # segments.download_points(box, name)
-    points = segments.get_points(box, name)
-    segments.show_segments(points, name)
+def show_graph(filename: str) -> None:
+    """Given the filename, shows the maps of the region"""
+    points = segments.load_points(filename)
+    print("Showing all the points imported...")
+    segments.show_segments(points, filename)
+    print("Showing the most common routes...")
     graph = graphmaker.make_graph(points, 300)
-    viewer.export_PNG(graph, name)
-    viewer.export_KML(graph, name)
+    viewer.export_PNG(graph, filename)
+    viewer.export_KML(graph, filename)
+    print("A KML file has been created, you can upload it to Google Earth to view it")
+    
     
 
-
-def tests() -> None:
+def new_region() -> None:
+    """shows the map of a new region"""
+    print("Please enter the coordenates of the new region ")
+    print("Write the coordenates of the west, south, east, north boundaries separated by spaces")
+    bl = Point(read(float), read(float), -1)
+    tr = Point(read(float), read(float), -1)
+    box = Box(bl, tr)
+    print("Please enter a name for this region")
     name = read(str)
-    graph = graphmaker.make_graph(segments.load_points(name), 100)
-    viewer.export_KML(graph, name)
-    viewer.export_PNG(graph, name)
+    segments.download_points(box, name)
+    show_graph(name)
+
+
+def old_region() -> None:
+    print("Please enter the name of the region")
+    name = read(str)
+    show_graph(name)
+
+
+def imp_monuments() -> None:
+    ...
+
+def user_input() ->int:
+    """First interactions with the user. Returns the name of the region that the 
+    user wants to plot."""
+    print("====================")
+    print("Welcome! Ready to explore the world?")
+    print("Please write one of the following digits.")
+    print("1 - Show the map of a new region.")
+    print("2 - Show the map of a region already downloaded")
+    print("3 - Download the monuments of Catalonia")
+    return read(int)   
 
 
 def main() -> None:
-    print("If user, write 1. If developer, write 2")
-    n = read(int)
-    if n==1:
-        user_pov()
-    elif n == 2:
-        tests()
-    print("Finsied :)")
+    command = user_input()
+    if command == 1:
+        new_region()
+    elif command == 2:
+        old_region()
+    elif command == 3:
+        imp_monuments()
+    else:
+        print("""The input is not valid. Please re-execute the program and 
+              introduce a valid one""")
+        
+    print("Thank you for using out app, we hope that it's benn usefull :)")
 
 
 if __name__ == "__main__":
