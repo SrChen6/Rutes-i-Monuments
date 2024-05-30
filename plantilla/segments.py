@@ -84,16 +84,16 @@ def show_segments(pts: list[Point], filename: str) -> None:
     prev_pt = Point(-1, -1, -1)
     for pt in pts:
         if prev_pt != Point(-1, -1, -1) and pt.seg == prev_pt.seg:
-            m.add_line(Line(((prev_pt.lat, prev_pt.lon), (pt.lat, pt.lon)), 'blue', 1))
+            m.add_line(Line(((prev_pt.lon, prev_pt.lat), (pt.lon, pt.lat)), 'blue', 1))
         prev_pt = pt
     img = m.render() #TODO: Check if this works (requires internet)
     img.save(f"{filename}_total.png")
 
 
 if __name__ == "__main__":
-    box = Box(Point(40.5363713, 0.5739316671, -1),
-              Point(40.79886535, 0.9021482, -1)
+    box = Box(Point(41.940344, 2.778792, -1),
+              Point(42.018007, 2.849885, -1)
     )
-    filename = "prova_points"
+    filename = "Girona"
     download_points(box, filename)
     load_points(filename)
