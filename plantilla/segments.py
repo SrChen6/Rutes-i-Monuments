@@ -74,7 +74,9 @@ def get_points(box: Box, filename: str) -> list[Point]:
     Otherwise, download segments in the box and save them to the file.
     """
     print('getting points...')
-    if not isfile(filename):
+    if isfile(f'{filename}.csv'):
+        return load_points(filename)
+    else:
         download_points(box, filename)
     return load_points(filename)
 

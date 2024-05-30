@@ -24,8 +24,9 @@ def __nearest_node(graph: nx.Graph, point: Point) -> int:
     """
     Returns the node of the graph nearest to the given point.
     """
+    pos = nx.get_node_attributes(graph, 'pos')
     return min(graph.nodes, key = lambda node:
-               haversine(node['pos'], (point.lat, point.lon)))
+               haversine(pos[node], (point.lat, point.lon)))
 
 def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     """Find the shortest route between the starting point and all the endpoints."""
@@ -34,21 +35,19 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
-    dist = nx.get_edge_attributes(graph, 'dist')
 
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
         try:
             node_path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
+            print(node_path)
             route = Route(
                 path = [pos[v] for v in node_path],
-                dist = sum(dist[(node_path[i], node_path[i + 1])]
+                dist = sum(graph[node_path[i]][node_path[i+1]]['dist']
                            for i in range(len(node_path) - 1)),
                 name = end.name
             )
             routes.append(route)
-        except nx.NodeNotFound:
-            print("A node was not found??")
         except nx.NetworkXNoPath:
             print(f"No path found from startpoint to monument: {end.name}")
     
@@ -79,26 +78,22 @@ def export_KML(routes: Routes, filename: str) -> None:
     kml.save(filename)
 
 
-def __testing(n: int,
-              max_dist: float, epsilon: float,
-              png_file: str, kml_file: str) -> None:
-    """Testing function."""
+if __name__ == "__main__":
     import monuments
     import graphmaker
-    import csv
+    import segments
+    import monuments
+    from yogi import read
 
-    print("Loading points...")
-    fd = open("Ebre.csv", 'r')
-    points = [Point(float(lat), float(lon), int(seg))
-                for lon, lat, seg in csv.reader(fd)]
-    
-    print("Creating graph...")
-    graph = graphmaker.make_graph(points, n)
-    
-    print("Getting monuments...")
-    box = ((), ())
-    mons = monuments.load_monuments()
+    box = segments.Box(Point(read(float), read(float), -1),
+                       Point(read(float), read(float), -1))
+    filename = read(str)
+    start = Point(read(float), read(float), -1)
+    points = segments.get_points(box, filename)
 
-    print("Finding routes...")
+    graph = graphmaker.make_graph(points, 300)
+    mons = monuments.get_monuments(box, "prova_rutes.csv")
+    routes = find_routes(graph, start, mons)
+    export_PNG(routes, "prova_rutes.png")
 
     

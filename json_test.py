@@ -17,24 +17,23 @@ SCRIPT_NUM = 7
 def __get_json() -> Any:
     """Retrieves the JSON containing monument information
     from Catalunya Medieval."""
-
     print(f"Downloading monument data from {CM_LINK}...")
+
     response = None
     while response is None:
         try: response = requests.get(CM_LINK)
         except: pass
-
+    
+    monuments = 
     soup = bs4.BeautifulSoup(response.content, 'html.parser')
     scripts = soup.find_all('script', type = "text/javascript")
-    variables = scripts[SCRIPT_NUM].string.split(' ]')
-    variables = [var.split('[ ')[-1] for var in variables]
-    print("Reading now.")
-    for var in variables:
-        try:
-            json.loads(var[1:len(var) - 1:1])
-            print("Hooray!")
-        except:
-            print("FUCK!")
+    for line in scripts[SCRIPT_NUM].get_text().splitlines():
+        line = line.strip()
+        if line and line[0] == "v":
+            json_data = line[len(line.split("=")[0])+1:-1]
+            parsed_data = json.loads(json_data)
+            for item in parsed_data:
+                pass
         
 def __retrieve_monuments() -> None:
     """Retrieves monument data from """
