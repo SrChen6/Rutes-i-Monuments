@@ -25,6 +25,9 @@ def download_points(box: Box, filename: str) -> None:
     page = 0
     region = f"{box.bottom_left.lon},{box.bottom_left.lat},{box.top_right.lon},{box.top_right.lat}"
     f = open(f"{filename}.csv", "w")
+    #TODO: Falta veure si això funciona
+    f.write(f"{box.bottom_left.lat},{box.bottom_left.lon},{0}")
+    f.write(f"{box.top_right.lat},{box.top_right.lon},{0}")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
         response = requests.get(url)
@@ -77,14 +80,13 @@ def get_points(box: Box, filename: str) -> list[Point]:
 
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
-    #TODO: plotejar tots els camins
     m = StaticMap(1000, 1000)
     prev_pt = Point(-1, -1, -1)
     for pt in pts:
         if prev_pt != Point(-1, -1, -1) and pt.seg == prev_pt.seg:
-            m.add_line(Line(((prev_pt.lat, prev_pt.lon), (pt.lat, pt.lon)), 'blue', 1))
+            m.add_line(Line(((prev_pt.lon, prev_pt.lat), (pt.lon, pt.lat)), 'blue', 1))
         prev_pt = pt
-    img = m.render() #TODO: Check if this works (requires internet)
+    img = m.render()
     img.save(f"{filename}_total.png")
     img.show()
 

@@ -17,13 +17,15 @@ def show_graph(filename: str) -> None:
     viewer.export_PNG(graph, filename)
     viewer.export_KML(graph, filename)
     print("A KML file has been created, you can upload it to Google Earth to view it")
-    
+    print("Showing the shortest routes to some monuments")
+    #TODO: Get box
+    #TODO: export monuments graph
     
 
 def new_region() -> None:
     """shows the map of a new region"""
     print("Please enter the coordenates of the new region ")
-    print("Write the coordenates of the west, south, east, north boundaries separated by spaces")
+    print("Write the coordenates of the south, west, north, east boundaries separated by spaces")
     bl = Point(read(float), read(float), -1)
     tr = Point(read(float), read(float), -1)
     box = Box(bl, tr)
@@ -38,9 +40,6 @@ def old_region() -> None:
     name = read(str)
     show_graph(name)
 
-
-def imp_monuments() -> None:
-    ...
 
 def user_input() ->int:
     """First interactions with the user. Returns the name of the region that the 
@@ -61,7 +60,7 @@ def main() -> None:
     elif command == 2:
         old_region()
     elif command == 3:
-        imp_monuments()
+        monuments.download_monuments("Monuments")
     else:
         print("""The input is not valid. Please re-execute the program and 
               introduce a valid one""")
