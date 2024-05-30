@@ -93,10 +93,10 @@ def show_segments(pts: list[Point], filename: str) -> None:
 
 
 if __name__ == "__main__":
-    box = Box(Point(40.5363713, 0.5739316671, -1),
-              Point(40.79886535, 0.9021482, -1)
+    box = Box(Point(41.940344, 2.778792, -1),
+              Point(42.018007, 2.849885, -1)
     )
-    filename = "prova_points"
+    filename = "Girona"
     download_points(box, filename)
     load_points(filename)
 

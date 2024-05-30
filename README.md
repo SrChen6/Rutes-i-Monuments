@@ -16,15 +16,15 @@ Mode details about the implementation will be given in [Development](#developmen
 
 This project uses the following python libraries:
 - [requests](https://pypi.org/project/requests/): to request importations from the web.
-- [gpxpy](https://pypi.org/project/gpxpy/): to import the gpx data from OpenStreetMap
-- [csv](https://docs.python.org/3/library/csv.html): to read and write .csv files
+- [gpxpy](https://pypi.org/project/gpxpy/): to import the gpx data from OpenStreetMap.
+- [csv](https://docs.python.org/3/library/csv.html): to read and write .csv files.
 - [staticmap](https://developers.google.com/maps/documentation/maps-static/overview?hl=es-419): to export the graph to a PNG file.
 - [networkx](https://networkx.org/documentation/stable/reference/index.html): to create and edit graphs.
 - [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html): to create clusters on the graph.
 - [haversine](https://pypi.org/project/haversine/): To calculate distances on Earth's surface.
 - [simplekml](https://simplekml.readthedocs.io/en/latest/): do create a kml file.
 
-Furthermore, some library stubs should be installed to minimize the errors that `Mypy` detect. Some of them are the following:
+Furthermore, some library stubs should be installed to minimize the errors that `Mypy` detects. Some of them are the following:
 
 **AQUI FALTA ACABAR DE TROBAR LES LIBRARY STUBS**
 
