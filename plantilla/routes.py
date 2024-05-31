@@ -28,8 +28,10 @@ def __nearest_node(graph: nx.Graph, point: Point) -> int:
     return min(graph.nodes, key = lambda node:
                haversine(pos[node], (point.lat, point.lon)))
 
-def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
-    """Find the shortest route between the starting point and all the endpoints."""
+def find_routes(graph: nx.Graph, start: Point, 
+                endpoints: Monuments) -> Routes:
+    """Find the shortest route between the starting point and
+      all the endpoints."""
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
@@ -37,7 +39,8 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
         try:
-            node_path = nx.algorithms.shortest_path(graph, start_node, end_node, 'dist')
+            node_path = nx.algorithms.shortest_path(graph, start_node, 
+                                                    end_node, 'dist')
             route = Route(
                 path = [pos[v] for v in node_path],
                 dist = sum(graph[node_path[i]][node_path[i+1]]['dist']
@@ -56,7 +59,8 @@ def export_PNG(routes: Routes, filename: str) -> None:
     map = StaticMap(1000, 1000)
     for route in routes:
         for i in range(len(route.path) - 1):
-            map.add_line(Line((route.path[i][::-1], route.path[i+1][::-1]), 'black', 1))
+            map.add_line(Line((route.path[i][::-1], 
+                               route.path[i+1][::-1]), 'black', 1))
     
     # TODO: Soluciona error de connexió amb python
     image = map.render()
@@ -77,21 +81,21 @@ def export_KML(routes: Routes, filename: str) -> None:
     kml.save(filename)
 
 
-if __name__ == "__main__":
-    import monuments
-    import graphmaker
-    import segments
-    from yogi import read
+# if __name__ == "__main__":
+#     import monuments
+#     import graphmaker
+#     import segments
+#     from yogi import read
 
-    box = segments.Box(Point(read(float), read(float), -1),
-                       Point(read(float), read(float), -1))
-    filename = read(str)
-    start = Point(read(float), read(float), -1)
-    points = segments.get_points(box, filename)
+#     box = segments.Box(Point(read(float), read(float), -1),
+#                        Point(read(float), read(float), -1))
+#     filename = read(str)
+#     start = Point(read(float), read(float), -1)
+#     points = segments.get_points(box, filename)
 
-    graph = graphmaker.make_graph(points, 300)
-    mons = monuments.get_monuments(box, "prova_rutes.csv")
-    routes = find_routes(graph, start, mons)
-    export_PNG(routes, "prova_rutes2.png")
+#     graph = graphmaker.make_graph(points, 300)
+#     mons = monuments.get_monuments(box, "prova_rutes.csv")
+#     routes = find_routes(graph, start, mons)
+#     export_PNG(routes, "prova_rutes2.png")
 
     

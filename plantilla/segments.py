@@ -26,13 +26,20 @@ def download_points(box: Box, filename: str) -> None:
     print('downloading points...')
     num_seg = 0
     page = 0
-    region = f"{box.bottom_left.lon},{box.bottom_left.lat},{box.top_right.lon},{box.top_right.lat}"
+    region = f"{box.bottom_left.lon},{box.bottom_left.lat},
+               {box.top_right.lon},{box.top_right.lat}"
+
+    # Create the csv file
     f = open(f"{filename}.csv", "w")
-    #TODO: Falta veure si això funciona
+
+    # Writes the coordenates of the box in the first two rows
     f.write(f"{box.bottom_left.lat},{box.bottom_left.lon},{-1}\n")
     f.write(f"{box.top_right.lat},{box.top_right.lon},{-1}\n")
+
+    # Add data to csv
     while True:
-        url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
+        url = f"https://api.openstreetmap.org/api/0.6/
+                trackpoints?bbox={region}&page={page}"
         response = requests.get(url)
         gpx_content = response.content.decode("utf-8")
         gpx = gpxpy.parse(gpx_content)
@@ -45,8 +52,7 @@ def download_points(box: Box, filename: str) -> None:
                     segment.points.sort(key=lambda p: p.time)  # type: ignore
                     for i in range(len(segment.points)):
                         p1 = segment.points[i]
-                        f.write(f"{p1.latitude},{p1.longitude},{num_seg}")
-                        f.write("\n")
+                        f.write(f"{p1.latitude},{p1.longitude},{num_seg}\n")
                 num_seg += 1
         
         print(f"finished importing page {page}")                
@@ -59,40 +65,30 @@ def load_points(filename: str) -> list[Point]:
     """Load segments from the file."""
     pts: list[Point] = []
 
-    #Obrir CSV
+    #Open CSV
     with open(f'{filename}.csv', 'r', newline='') as f:
         reader = csv.reader(f)
-        #Ignorem els dos primers punts (del box)
+        #The first two rows (the box) are ignored
         next(reader)
         next(reader)
         data = list(reader)
-    #Llegir fila
+
+    #Read rows
     for lat, lon, s in data:
         pts.append(Point(float(lat), float(lon), int(s)))
     return pts
 
 def load_box(filename: str) -> Box:
     """Load the box from the point file."""
+
+    # Open csv
     with open(f'{filename}.csv', 'r', newline = '') as f:
         reader = csv.reader(f)
         min_lat, min_lon, _ = next(reader)
         max_lat, max_lon, _ = next(reader)
         return Box(Point(float(min_lat), float(min_lon), -1),
                    Point(float(max_lat), float(max_lon), -1))
-    ...
 
-#TODO: no pinta molt útil, si al final no l'utilitzem el borrem
-def get_points(box: Box, filename: str) -> list[Point]:
-    """
-    Get all segments in the box.
-    If filename exists, load segments from the file.
-    Otherwise, download segments in the box and save them to the file.
-    """
-    if isfile(f'{filename}.csv'):
-        return load_points(filename)
-    else:
-        download_points(box, filename)
-    return load_points(filename)
 
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
@@ -100,9 +96,9 @@ def show_segments(pts: list[Point], filename: str) -> None:
     prev_pt = Point(-1, -1, -1)
     for pt in pts:
         if prev_pt != Point(-1, -1, -1) and pt.seg == prev_pt.seg:
-            m.add_line(Line(((prev_pt.lon, prev_pt.lat), (pt.lon, pt.lat)), 'blue', 1))
+            m.add_line(Line(((prev_pt.lon, prev_pt.lat),
+                             (pt.lon, pt.lat)), 'blue', 1))
         prev_pt = pt
-    print("hola")
     img = m.render()
     img.save(f"{filename}_total.png")
 

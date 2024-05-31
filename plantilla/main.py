@@ -7,7 +7,7 @@ import viewer
 from segments import Box, Point
 
 
-def show_graph(filename: str, start: Point) -> None:
+def show_graphs(filename: str, start: Point) -> None:
     """Given the points filename, shows the maps of the region."""
 
     print("Loading points from file...")
@@ -20,7 +20,8 @@ def show_graph(filename: str, start: Point) -> None:
     viewer.export_PNG(graph, filename)
     viewer.export_KML(graph, filename)
 
-    print("A KML file has been created, you can upload it to Google Earth to view it.")
+    print("""A KML file has been created, you can upload it to Google Earth
+           to view it.""")
     print("Showing the shortest routes to near monuments...")
     box = segments.load_box(filename)
     mons = monuments.get_monuments(box, "monuments")
@@ -32,7 +33,8 @@ def show_graph(filename: str, start: Point) -> None:
 def new_region() -> None:
     """shows the map of a new region"""
     print("Please enter the coordenates of the new region ")
-    print("Write the coordenates of the south, west, north, east boundaries separated by spaces")
+    print("""Write the coordenates of the south, west, north, east boundaries
+           separated by spaces""")
     bl = Point(read(float), read(float), -1)
     tr = Point(read(float), read(float), -1)
     box = Box(bl, tr)
@@ -43,7 +45,7 @@ def new_region() -> None:
     start = Point(read(float), read(float), -1)
 
     segments.download_points(box, filename)
-    show_graph(filename, start)
+    show_graphs(filename, start)
 
 
 def old_region() -> None:
@@ -53,19 +55,18 @@ def old_region() -> None:
     print("Please enter your current location (latitude, longitude).")
     start = Point(read(float), read(float), -1)
 
-    show_graph(name, start)
+    show_graphs(name, start)
 
 
 # TODO: Maybe remove option 3
 def user_input() ->int:
-    """First interactions with the user. Returns the name of the region that the 
-    user wants to plot."""
+    """First interactions with the user. Returns the name of the region that
+      the user wants to plot."""
     print("====================")
     print("Welcome! Ready to explore the world?")
-    print("Please write one of the following digits.")
+    print("Please choose one of the following options.")
     print("1 - Show the map of a new region.")
-    print("2 - Show the map of a region already downloaded")
-    print("3 - Download the monuments of Catalonia")
+    print("2 - Show the map of a region already downloaded.")
     return read(int)   
 
 
@@ -75,8 +76,6 @@ def main() -> None:
         new_region()
     elif command == 2:
         old_region()
-    elif command == 3:
-        monuments.download_monuments("Monuments")
     else:
         print("""The input is not valid. Please re-execute the program and 
               introduce a valid one""")
@@ -86,6 +85,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
-

@@ -17,11 +17,12 @@ class Monument:
 Monuments: TypeAlias = list[Monument]
 
 
-# Website link from which to download monument information (Catalunya Medieval).
+# Website link from which to download monument information.
+# (Catalunya Medieval).
 CM_LINK = "https://www.catalunyamedieval.es/comarques/"
 
-# In the HTML file, the script that needs to be downloaded is the eighth found by
-# Beautiful Soup's lineal search. If the web is updated and problems arise,
+# In the HTML file, the script that needs to be downloaded is the eighth found
+# by Beautiful Soup's lineal search. If the web is updated and problems arise,
 # we should check if the script has been moved or removed.
 SCRIPT_NUM = 7
 
@@ -59,7 +60,8 @@ def download_monuments(filename: str) -> Monuments:
             for item in parsed_data:
                 monuments.append(Monument(
                     item["title"],
-                    Point(item["position"]["lat"], item["position"]["long"], -1)
+                    Point(item["position"]["lat"], 
+                          item["position"]["long"], -1)
                     )
                 )
     
@@ -77,7 +79,8 @@ def load_monuments(box: Box, filename: str) -> Monuments:
                 if box.bottom_left.lat < float(lat) < box.top_right.lat
                     and box.bottom_left.lon < float(lon) < box.top_right.lon]
     except:
-        print(f"An error ocurred while trying to load monument information from file {filename}.")
+        print(f"An error ocurred while trying to load 
+              monument information from file {filename}.")
         exit()
 
 
@@ -87,8 +90,9 @@ def get_monuments(box: Box, filename: str) -> Monuments:
     If filename exists, load monuments from the file.
     Otherwise, download monuments and save them to the file.
     """
-    if not isfile(f"{filename}.csv"):
-        print(f"File not found. Downloading monuments from {CM_LINK} into a new file with this name...")
+    if not isfile(f"{filename}"):
+        print(f"File not found. Downloading monuments 
+              from {CM_LINK} into a new file with this name...")
         download_monuments(filename)
     print("Loading and filtering monuments by location...")
     return load_monuments(box, filename)

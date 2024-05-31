@@ -9,7 +9,8 @@ def export_PNG(graph: nx.Graph, filename: str) -> None:
     map = StaticMap(1000, 1000)
     
     for u, v in graph.edges:
-        map.add_line(Line(((pos[u][1], pos[u][0]), (pos[v][1], pos[v][0])), 'black', 1))
+        map.add_line(Line(((pos[u][1], pos[u][0]), 
+                           (pos[v][1], pos[v][0])), 'black', 1))
     
     image = map.render()
     image.save(f"{filename}.png")

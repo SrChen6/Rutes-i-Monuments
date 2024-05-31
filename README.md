@@ -43,17 +43,19 @@ To start the program, enter the command `python3 main.py` in your terminal. The 
 
 If the first option is chosen, a set of real numbers have to be written. They correspond to the latitude and longitude of the south, west, north and east boundaries of the region that will be worked on. For example, for Girona, these numbers are `41.940344, 2.778792, 42.018007, 2.849885`.
 
+Afterwards, the user will be asked to write a name for the region. The `.csv`, `.png` and `.kml` files that are created will have that name.
 
+If the second option is chosen, the user will only have to write the name of a previously downloaded region. If this region doesn't exist, the program will terminate.
 
 After writing a name for this region, an image will appear that shows the most common routes that hikers take. This image will be automatically saved in the folder along with a KML file. This KML file can be uploaded to [Google Earth](https://www.google.es/intl/es/earth/index.html) following [these steps](https://support.google.com/mymaps/answer/3024836?hl=en&co=GENIE.Platform%3DDesktop).
 
 **AQUI FALTA UNA IMATGE D'EXEMPLE DE PNG I KML**
 
-Finally, the user will be asked if he wants the location of the nearby monuments along with the shortest path to get there. As before, an image will appear which contains a dot with the user's location, the location of some nearby monuments and a route to get to them.
+Finally the user will be asked for his location (with the same format as before: latitude and longitude separated by a space). Then the user will be shown the location of the nearby monuments along with the shortest path to get there. As before, an image will appear which contains the location of some nearby monuments and a route to get to them.
 
 **AQUI FALTA UNA IMATGE DELS MONUMENTS**
 
-PUNT USUARI: 
+Keep in mind that access to internet is required for this program to work. This is because some webs (such as [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279)) are accessed during the execution.
 
 ## Development
 
