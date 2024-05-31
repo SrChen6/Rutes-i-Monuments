@@ -4,7 +4,7 @@ Made by: Martí Gil, Haokang Chen
 ## Description
 These programs are the [second task for Algoritmics and Programming II](https://github.com/jordi-petit/ap2-rutes-i-monuments-2024).
 
-The project consists in obtaining information about routes in a certain region that hikers upload to the web to then create a graph of the common paths taken by all of them. Furthermore, there is an option to look for nearby monuments and find the shortest path to get there from a certain location. All of these graphs will be exported to a PNG and a KML file that the user can upload to [Google Earth](https://www.google.es/intl/es/earth/index.html).
+The project consists in obtaining information about routes in a certain region that hikers upload to the web to then create a graph of the common paths taken by all of them. Furthermore, the programs will look for nearby monuments and find the shortest path to get there from a certain location. All of these graphs will be saved as a PNG and a KML file that the user can upload to [Google Earth](https://www.google.es/intl/es/earth/index.html).
 
 The routes are downloaded from [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279) and the monuments are imported from [Catalunya Medieval](https://www.catalunyamedieval.es/). 
 
@@ -24,26 +24,18 @@ This project uses the following python libraries:
 - [haversine](https://pypi.org/project/haversine/): To calculate distances on Earth's surface.
 - [simplekml](https://simplekml.readthedocs.io/en/latest/): do create a kml file.
 
-Furthermore, some library stubs should be installed to minimize the errors that `Mypy` detects. Some of them are the following:
+To install these libraries, execute:
 
-**AQUI FALTA ACABAR DE TROBAR LES LIBRARY STUBS**
+`python3 -r pip install requirements.txt`
 
+Please have in mind that Some of these libraries do not have type specifications, so Mypy may rise some warning when type-checking.
 
-
-Install "import" library stubs
-
-``
-pip install types-requests
-``
-
-Install "staticmaps" library stubs
-``
 
 ## Usage
 
-To start the program, please enter the command `python3 main.py` in your terminal. The following text should appear:
+To start the program, enter the command `python3 main.py` in your terminal. The following text should appear:
 
-![inici_terminal](image.png)
+![terminal_inici](terminal1.png)
 
 - The first option is to download the data of a new region to then show the routes.
 - The second option is to show the routes of an already-downloaded region.
@@ -61,6 +53,7 @@ Finally, the user will be asked if he wants the location of the nearby monuments
 
 **AQUI FALTA UNA IMATGE DELS MONUMENTS**
 
+PUNT USUARI: 
 
 ## Development
 
@@ -76,7 +69,7 @@ The graph is a simplification of all the data downloaded from [OpenStreetMap](ht
 
 ### Exporting to PNG
 
-
+The PNG file of the routes will be rendered using [staticmap](https://developers.google.com/maps/documentation/maps-static/overview?hl=es-419).The PNG will be shown on screen and saved on the same folder with the code once it is rendered. 
 
 ### Exporting to KML
 One must imagine Sisyphus happy.
