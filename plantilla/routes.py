@@ -30,7 +30,6 @@ def __nearest_node(graph: nx.Graph, point: Point) -> int:
 
 def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
     """Find the shortest route between the starting point and all the endpoints."""
-    # TODO: Optimitzar (es pot treure 'get_node_attributes'?)
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
@@ -59,6 +58,7 @@ def export_PNG(routes: Routes, filename: str) -> None:
         for i in range(len(route.path) - 1):
             map.add_line(Line((route.path[i][::-1], route.path[i+1][::-1]), 'black', 1))
     
+    # TODO: Soluciona error de connexió amb python
     image = map.render()
     image.save(filename)       
 
@@ -68,7 +68,10 @@ def export_KML(routes: Routes, filename: str) -> None:
     # TODO: Make it pretty! Make it glow!
     kml = Kml()
     for route in routes:
-        newline = kml.newlinestring(coords = route.path)
+        newline = kml.newlinestring(
+            name = route.name,
+            coords = route.path
+        )
         newline.style.linestyle.color = "00000000"
         newline.style.linestyle.width = 5
     kml.save(filename)
