@@ -26,8 +26,8 @@ def download_points(box: Box, filename: str) -> None:
     region = f"{box.bottom_left.lon},{box.bottom_left.lat},{box.top_right.lon},{box.top_right.lat}"
     f = open(f"{filename}.csv", "w")
     #TODO: Falta veure si això funciona
-    f.write(f"{box.bottom_left.lat},{box.bottom_left.lon},{0}")
-    f.write(f"{box.top_right.lat},{box.top_right.lon},{0}")
+    f.write(f"{box.bottom_left.lat},{box.bottom_left.lon},{-1}\n")
+    f.write(f"{box.top_right.lat},{box.top_right.lon},{-1}\n")
     while True:
         url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
         response = requests.get(url)
@@ -59,6 +59,9 @@ def load_points(filename: str) -> list[Point]:
     #Obrir CSV
     with open(f'{filename}.csv', 'r', newline='') as f:
         reader = csv.reader(f)
+        #Ignorem els dos primers punts (del box)
+        next(reader)
+        next(reader)
         data = list(reader)
     #Llegir fila
     for lat, lon, s in data:

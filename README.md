@@ -43,9 +43,15 @@ Install "staticmaps" library stubs
 
 To start the program, please enter the command `python3 main.py` in your terminal. The following text should appear:
 
-**AQUI FALTA UNA IMATGE DEL TERMINAL**
+![inici_terminal](image.png)
 
-Now, a set of real numbers have to be written. They correspond to the latitude and longitude of the west, south, east and north boundaries of the region that will be worked on. For example, for _Girona_, these numbers are **`AQUI FALTEN ELS NUMEROS PER GIRONA`**
+- The first option is to download the data of a new region to then show the routes.
+- The second option is to show the routes of an already-downloaded region.
+- The third option is to re-download the monuments of Catalonia (only if the user accidentally deletes the file or wants to update it)
+
+If the first option is chosen, a set of real numbers have to be written. They correspond to the latitude and longitude of the south, west, north and east boundaries of the region that will be worked on. For example, for Girona, these numbers are `41.940344, 2.778792, 42.018007, 2.849885`.
+
+
 
 After writing a name for this region, an image will appear that shows the most common routes that hikers take. This image will be automatically saved in the folder along with a KML file. This KML file can be uploaded to [Google Earth](https://www.google.es/intl/es/earth/index.html) following [these steps](https://support.google.com/mymaps/answer/3024836?hl=en&co=GENIE.Platform%3DDesktop).
 
@@ -60,16 +66,17 @@ Finally, the user will be asked if he wants the location of the nearby monuments
 
 ### Storing data
 
-The data imported form [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279) will be stored in a `.csv` file, and all it's treatments will be done with the module [segments.py](segments.py).
+The data imported form [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279) is stored in a `.csv` file, and all it's treatments will be done with the module [segments.py](segments.py).
+
+The first two rows of the csv correspond to the boundaries of the box. The first column is the latitude, the second one is the longitude and the third column is a number that identifies every segment (route that a hiker took).
 
 ### Graph making
 
-
-
-**FALTEN COSETES**
+The graph is a simplification of all the data downloaded from [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279). The nodes are clusters that are found using K-means on the data and the edges are added if there is a segment that connects two clusters.
 
 ### Exporting to PNG
-One must imagine Sisyphus happy.
+
+
 
 ### Exporting to KML
 One must imagine Sisyphus happy.
