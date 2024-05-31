@@ -87,7 +87,7 @@ def get_monuments(box: Box, filename: str) -> Monuments:
     If filename exists, load monuments from the file.
     Otherwise, download monuments and save them to the file.
     """
-    if not isfile(filename):
+    if not isfile(f"{filename}.csv"):
         print(f"File not found. Downloading monuments from {CM_LINK} into a new file with this name...")
         download_monuments(filename)
     print("Loading and filtering monuments by location...")

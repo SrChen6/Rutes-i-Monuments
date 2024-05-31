@@ -7,19 +7,26 @@ import viewer
 from segments import Box, Point
 
 
-def show_graph(filename: str) -> None:
-    """Given the filename, shows the maps of the region"""
+def show_graph(filename: str, start: Point) -> None:
+    """Given the points filename, shows the maps of the region."""
+
+    print("Loading points from file...")
     points = segments.load_points(filename)
     print("Showing all the points imported...")
     segments.show_segments(points, filename)
+
     print("Showing the most common routes...")
     graph = graphmaker.make_graph(points, 300)
     viewer.export_PNG(graph, filename)
     viewer.export_KML(graph, filename)
-    print("A KML file has been created, you can upload it to Google Earth to view it")
-    print("Showing the shortest routes to some monuments")
-    #TODO: Get box
-    #TODO: export monuments graph
+
+    print("A KML file has been created, you can upload it to Google Earth to view it.")
+    print("Showing the shortest routes to near monuments...")
+    box = segments.load_box(filename)
+    mons = monuments.get_monuments(box, "monuments")
+    route_list = routes.find_routes(graph, start, mons)
+    routes.export_PNG(route_list, filename)
+    routes.export_KML(route_list, filename)
     
 
 def new_region() -> None:
@@ -29,18 +36,27 @@ def new_region() -> None:
     bl = Point(read(float), read(float), -1)
     tr = Point(read(float), read(float), -1)
     box = Box(bl, tr)
-    print("Please enter a name for this region")
-    name = read(str)
-    segments.download_points(box, name)
-    show_graph(name)
+
+    print("Please enter a name for this region.")
+    filename = read(str)
+    print("Please enter your current location (latitude, longitude).")
+    start = Point(read(float), read(float), -1)
+
+    segments.download_points(box, filename)
+    show_graph(filename, start)
 
 
 def old_region() -> None:
-    print("Please enter the name of the region")
+    """"""
+    print("Please enter the name of the region.")
     name = read(str)
-    show_graph(name)
+    print("Please enter your current location (latitude, longitude).")
+    start = Point(read(float), read(float), -1)
+
+    show_graph(name, start)
 
 
+# TODO: Maybe remove option 3
 def user_input() ->int:
     """First interactions with the user. Returns the name of the region that the 
     user wants to plot."""

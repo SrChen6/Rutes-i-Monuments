@@ -6,6 +6,9 @@ from os.path import isfile #checks if file exists
 from staticmap import Line, StaticMap
 
 
+# TODO: IMPLEMENT EXCEPTIONS
+
+
 @dataclass
 class Point:
     lat: float
@@ -64,6 +67,16 @@ def load_points(filename: str) -> list[Point]:
     for lat, lon, s in data:
         pts.append(Point(float(lat), float(lon), int(s)))
     return pts
+
+def load_box(filename: str) -> Box:
+    """Load the box from the point file."""
+    with open(f'{filename}.csv', 'r', newline = '') as f:
+        reader = csv.reader(f)
+        min_lat, min_lon, _ = next(reader)
+        max_lat, max_lon, _ = next(reader)
+        return Box(Point(float(min_lat), float(min_lon), -1),
+                   Point(float(max_lat), float(max_lon), -1))
+    ...
 
 #TODO: no pinta molt útil, si al final no l'utilitzem el borrem
 def get_points(box: Box, filename: str) -> list[Point]:
