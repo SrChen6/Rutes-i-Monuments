@@ -38,6 +38,8 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
     dist = nx.get_edge_attributes(graph, 'dist')
     graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > 4)
 
+    # TODO: Simplify by angle.
+
     return graph
 
 

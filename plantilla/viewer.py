@@ -13,7 +13,6 @@ def export_PNG(graph: nx.Graph, filename: str) -> None:
     
     image = map.render()
     image.save(f"{filename}.png")
-    image.show()
 
 
 def export_KML(graph: nx.Graph, filename: str) -> None:
@@ -27,5 +26,4 @@ def export_KML(graph: nx.Graph, filename: str) -> None:
             coords = [(pos[u][1], pos[u][0]), (pos[v][1], pos[v][0])]
         )
         lin.style.linestyle.width = 1
-
     kml.save(f"{filename}.kml")
