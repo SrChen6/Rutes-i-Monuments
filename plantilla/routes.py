@@ -60,7 +60,7 @@ def export_PNG(routes: Routes, filename: str) -> None:
     
     # TODO: Soluciona error de connexió amb python
     image = map.render()
-    image.save(filename)       
+    image.save(f"{filename}.png")      
 
 
 def export_KML(routes: Routes, filename: str) -> None:

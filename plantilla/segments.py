@@ -102,10 +102,9 @@ def show_segments(pts: list[Point], filename: str) -> None:
         if prev_pt != Point(-1, -1, -1) and pt.seg == prev_pt.seg:
             m.add_line(Line(((prev_pt.lon, prev_pt.lat), (pt.lon, pt.lat)), 'blue', 1))
         prev_pt = pt
+    print("hola")
     img = m.render()
     img.save(f"{filename}_total.png")
-    img.show()
-
 
 
 if __name__ == "__main__":
