@@ -41,13 +41,13 @@ def __monuments_to_csv(monuments: Monuments, filename: str) -> None:
 
 
 def download_monuments(filename: str) -> Monuments:
-    """Download monuments from Catalunya Medieval into a file."""
+    """Download monuments from Catalunya Medieval into a .csv file."""
     response = None
     while response is None:
         try: response = requests.get(CM_LINK)
         except: pass
     
-    # This block of code gets the JSONs from the java script.
+    # This block of code gets the JSONs from the java script downloaded from Catalunya Medieval.
     monuments = Monuments()
     soup = bs4.BeautifulSoup(response.content, 'html.parser')
     scripts = soup.find_all('script', type = "text/javascript")
@@ -68,16 +68,18 @@ def download_monuments(filename: str) -> Monuments:
 
 
 def load_monuments(box: Box, filename: str) -> Monuments:
-    """Load monuments from a file."""
-    fd = open(filename, "r")
-    reader = csv.reader(fd)
+    """Load monuments from a .csv file with the given name."""
     try:
+        fd = open(filename, "r")
+        reader = csv.reader(fd)
         return [Monument(name, Point(float(lat), float(lon), -1))
                 for name, lat, lon in reader
                 if box.bottom_left.lat < float(lat) < box.top_right.lat
                     and box.bottom_left.lon < float(lon) < box.top_right.lon]
     except:
-        print(f"An error ocurred while trying to load monument information from file {filename}.")
+        print(f"ERROR: An exception ocurred while trying to read monument data from {filename}.csv.")
+        print("The file may not exist, be corrupted or be located in a different folder.")
+        print("Remove it, then try again.")
         exit()
 
 
