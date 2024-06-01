@@ -55,6 +55,7 @@ def download_points(box: Box, filename: str) -> None:
     print("finished importing")
     f.close()
 
+
 def load_points(filename: str) -> list[Point]:
     """Load segments from the file."""
     pts: list[Point] = []
@@ -71,6 +72,7 @@ def load_points(filename: str) -> list[Point]:
         pts.append(Point(float(lat), float(lon), int(s)))
     return pts
 
+
 def load_box(filename: str) -> Box:
     """Load the box from the point file."""
     with open(f'{filename}.csv', 'r', newline = '') as f:
@@ -80,6 +82,7 @@ def load_box(filename: str) -> Box:
         return Box(Point(float(min_lat), float(min_lon), -1),
                    Point(float(max_lat), float(max_lon), -1))
     ...
+
 
 #TODO: no pinta molt útil, si al final no l'utilitzem el borrem
 def get_points(box: Box, filename: str) -> list[Point]:
@@ -93,6 +96,7 @@ def get_points(box: Box, filename: str) -> list[Point]:
     else:
         download_points(box, filename)
     return load_points(filename)
+
 
 def show_segments(pts: list[Point], filename: str) -> None:
     """Show all segments in a PNG file using staticmaps."""
