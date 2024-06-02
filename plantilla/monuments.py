@@ -80,8 +80,10 @@ def load_monuments(box: Box, filename: str) -> Monuments:
                 if box.bottom_left.lat < float(lat) < box.top_right.lat
                     and box.bottom_left.lon < float(lon) < box.top_right.lon]
     except:
-        print(f"ERROR: An exception ocurred while trying to read monument data from {filename}.csv.")
-        print("The file may not exist, be corrupted or be located in a different folder.")
+        print("ERROR: An exception ocurred while trying to"
+              f" read monument data from {filename}.csv.")
+        print("The file may not exist, be corrupted or" 
+              " be located in a different folder.")
         print("Remove the file before trying again.")
         exit()
 
@@ -98,8 +100,10 @@ def get_monuments(box: Box, filename: str) -> Monuments:
         try:
             download_monuments(filename)
         except:
-            print("ERROR: Error while trying to download monument information from Catalunya Medieval.")
-            print("Try again. If the error persists, contact the developers of this application.")
+            print("ERROR: Error while trying to download monument" 
+                  " information from Catalunya Medieval.")
+            print("Try again. If the error persists, contact" 
+                  " the developers of this application.")
             exit()
     return load_monuments(box, filename)
 

@@ -26,8 +26,8 @@ def download_points(box: Box, filename: str) -> None:
     print('Downloading point data...')
     num_seg = 0
     page = 0
-    region = f"{box.bottom_left.lon},{box.bottom_left.lat},
-               {box.top_right.lon},{box.top_right.lat}"
+    region = f"""{box.bottom_left.lon},{box.bottom_left.lat},
+               {box.top_right.lon},{box.top_right.lat}"""
 
     # Create the csv file
     f = open(f"{filename}.csv", "w")
@@ -38,7 +38,7 @@ def download_points(box: Box, filename: str) -> None:
     f.write(f"{box.top_right.lat},{box.top_right.lon},{-1}\n")
 
     while True:
-        url = f"https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"
+        url = f"""https://api.openstreetmap.org/api/0.6/trackpoints?bbox={region}&page={page}"""
         response = None
         while response is None:
             try: response = requests.get(url)
@@ -49,7 +49,8 @@ def download_points(box: Box, filename: str) -> None:
         gpx_content = response.content.decode("utf-8")
         try: gpx = gpxpy.parse(gpx_content)
         except:
-            print(f"An error ocurred while trying to parse data from downloaded GPX file. Skiping page {page}...")
+            print("An error ocurred while trying to parse data from"
+                   f" downloaded GPX file. Skiping page {page}...")
             continue
 
         if len(gpx.tracks) == 0:
@@ -59,7 +60,7 @@ def download_points(box: Box, filename: str) -> None:
                 if all(point.time is not None for point in segment.points):
                     segment.points.sort(key = lambda p: p.time)  # type: ignore
                     for point in segment.points:
-                        f.write(f"{point.latitude},{point.longitude},{num_seg}\n")
+                        f.write(f"""{point.latitude},{point.longitude},{num_seg}\n""")
                 num_seg += 1
         
         print(f"Finished importing page {page}...")                
@@ -69,11 +70,9 @@ def download_points(box: Box, filename: str) -> None:
     f.close()
 
 
-# TODO: Hao, si prefereixes com era abans, m'ho dius, encara que crec que ara
-# és una funció més concisa i més eficient perquè no copia el fitxer a una llista.
 def load_points(filename: str) -> list[Point]:
     """Load points from the file."""
-    print(f"Loading point data from {filename}.csv...")
+    print(f"Loading points from {filename}.csv...")
 
     if not isfile(f'{filename}.csv'):
         print(f"ERROR: {filename}.csv does not exist.")
@@ -83,16 +82,20 @@ def load_points(filename: str) -> list[Point]:
     try:
         with open(f'{filename}.csv', 'r', newline = '') as f:
             reader = csv.reader(f)
-            # Skips over the first two points (they define the box of the region).
+            # Skips over the first two points 
+            # (they define the box of the region).
             next(reader, None)
             next(reader, None)
-            data =  [Point(float(lat), float(lon), int(s)) for lat, lon, s in reader]
+            data =  [Point(float(lat), float(lon), int(s)) 
+                     for lat, lon, s in reader]
             if len(data) == 0:
                 print(f"WARNING: Point data for {filename} is empty.")
             return data
     except:
-        print(f"ERROR: An error ocurred while trying to read point data from {filename}.csv.")
-        print("The file may be corrupted; you may have to download point data from the region again.")
+        print("ERROR: An error ocurred while trying to"
+               f" read point data from {filename}.csv.")
+        print("The file may be corrupted; you may have to"
+              " download point data from the region again.")
         exit()
 
     # pts: list[Point] = []
@@ -120,9 +123,11 @@ def load_box(filename: str) -> Box:
             return Box(Point(float(min_lat), float(min_lon), -1),
                     Point(float(max_lat), float(max_lon), -1))
     except:
-        print(f"ERROR: An exception ocurred while trying to read region data from file {filename}.csv.")
-        print("The file may not exist, be corrupted or be located in a different folder.")
-        print("You may have to download point data from the region again.")
+        print("ERROR: An exception ocurred while trying to" 
+              " fread region data from file {filename}.csv.")
+        print("The file may not exist, be corrupted or be"
+              " located in a different folder.")
+        print("""You may have to download point data from the region again.""")
         exit()
 
 
