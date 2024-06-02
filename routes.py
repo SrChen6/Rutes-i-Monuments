@@ -78,7 +78,7 @@ def export_KML(routes: Routes, filename: str) -> None:
         )
         newline.style.linestyle.color = "00000000"
         newline.style.linestyle.width = 5
-    kml.save(filename)
+    kml.save(f"{filename}.kml")
 
 
 # if __name__ == "__main__":

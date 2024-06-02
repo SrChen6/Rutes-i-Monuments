@@ -12,17 +12,17 @@ def show_graphs(filename: str, start: Point) -> None:
 
     print("Loading points from file...")
     points = segments.load_points(filename)
-    print("Showing all the points imported...")
+    print("Saving all the points imported...")
     segments.show_segments(points, filename)
 
-    print("Showing the most common routes...")
+    print("Saving the most common routes...")
     graph = graphmaker.make_graph(points, 300)
     viewer.export_PNG(graph, filename)
     viewer.export_KML(graph, filename)
 
     print("A KML file has been created, you can upload it to Google Earth"
           " to view it.")
-    print("Showing the shortest routes to near monuments...")
+    print("Saving the shortest routes to near monuments...")
     box = segments.load_box(filename)
     mons = monuments.get_monuments(box, "monuments")
     route_list = routes.find_routes(graph, start, mons)
@@ -58,7 +58,6 @@ def old_region() -> None:
     show_graphs(name, start)
 
 
-# TODO: Maybe remove option 3
 def user_input() ->int:
     """First interactions with the user. Returns the name of the region that
       the user wants to plot."""
