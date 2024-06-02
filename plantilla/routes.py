@@ -35,6 +35,7 @@ def find_routes(graph: nx.Graph, start: Point,
     routes = Routes()
     start_node = __nearest_node(graph, start)
     pos = nx.get_node_attributes(graph, 'pos')
+    dist = nx.get_edge_attributes(graph, 'dist')
 
     for end in endpoints:
         end_node = __nearest_node(graph, end.location)
@@ -56,15 +57,18 @@ def find_routes(graph: nx.Graph, start: Point,
 
 def export_PNG(routes: Routes, filename: str) -> None:
     """Export the routes to a PNG file using staticmaps."""
+    print("Exporting routes to PNG file...")
     map = StaticMap(1000, 1000)
     for route in routes:
         for i in range(len(route.path) - 1):
             map.add_line(Line((route.path[i][::-1], 
                                route.path[i+1][::-1]), 'black', 1))
     
-    # TODO: Soluciona error de connexió amb python
-    image = map.render()
-    image.save(f"{filename}.png")      
+    try:
+        image = map.render()
+        image.save(f"{filename}_routes.png")
+    except:
+        print("ERROR: Failed to render StaticMaps image (route map).")     
 
 
 def export_KML(routes: Routes, filename: str) -> None:
@@ -74,28 +78,34 @@ def export_KML(routes: Routes, filename: str) -> None:
     for route in routes:
         newline = kml.newlinestring(
             name = route.name,
+            description = f"Shortest route to {route.name}, {route.dist} km.",
             coords = route.path
         )
         newline.style.linestyle.color = "00000000"
         newline.style.linestyle.width = 5
-    kml.save(filename)
+    kml.save(f"{filename}_routes.kml")
 
 
-# if __name__ == "__main__":
-#     import monuments
-#     import graphmaker
-#     import segments
-#     from yogi import read
+if __name__ == "__main__":
+    import monuments
+    import graphmaker
+    import segments
+    from segments import Box
+    from yogi import read
 
-#     box = segments.Box(Point(read(float), read(float), -1),
-#                        Point(read(float), read(float), -1))
-#     filename = read(str)
-#     start = Point(read(float), read(float), -1)
-#     points = segments.get_points(box, filename)
+    N = read(int)
 
-#     graph = graphmaker.make_graph(points, 300)
-#     mons = monuments.get_monuments(box, "prova_rutes.csv")
-#     routes = find_routes(graph, start, mons)
-#     export_PNG(routes, "prova_rutes2.png")
+    for _ in range(N):
+        box = Box(Point(read(float), read(float), -1),
+                  Point(read(float), read(float), -1))
+        filename = read(str)
+        start = Point(read(float), read(float), -1)
+
+        points = segments.load_points(filename)
+        graph = graphmaker.make_graph(points, 300)
+        mons = monuments.get_monuments(box, "monuments")
+        routes = find_routes(graph, start, mons)
+        export_PNG(routes, filename)
+        export_KML(routes, filename)
 
     
