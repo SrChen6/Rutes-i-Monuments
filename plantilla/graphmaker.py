@@ -68,17 +68,9 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
 
     n: The number of clusters which will form the graph.
     """
-<<<<<<< HEAD
-    # Clustering
-    kmeans = KMeans(n_clusters = n, random_state = 0,n_init = "auto").fit([(
-                    point.lat, point.lon) for point in points])
-=======
-
     print("Making graph...")
     # clustering
-    kmeans = KMeans(n_clusters = n, random_state = 0,
-                    n_init = "auto").fit([(point.lat, point.lon) for point in points])
->>>>>>> 66f21f2 (simplifying is hard, I want to kill myself)
+    kmeans = KMeans(n_clusters = n, random_state = 0, n_init = "auto").fit([(point.lat, point.lon) for point in points])
     
     # Inicialization of the graf
     graph = nx.Graph()
