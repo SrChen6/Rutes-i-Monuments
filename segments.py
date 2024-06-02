@@ -6,9 +6,6 @@ from os.path import isfile #checks if file exists
 from staticmap import Line, StaticMap
 
 
-# TODO: IMPLEMENT EXCEPTIONS
-
-
 @dataclass
 class Point:
     lat: float
@@ -22,7 +19,7 @@ class Box:
 
 
 def download_points(box: Box, filename: str) -> None:
-    """Download all segments in the box and save them to the file."""
+    """Download all point data in the box and save them to the file."""
     print('Downloading point data...')
     num_seg = 0
     page = 0
@@ -71,7 +68,7 @@ def download_points(box: Box, filename: str) -> None:
 
 
 def load_points(filename: str) -> list[Point]:
-    """Load points from the file."""
+    """Load points from the point data file."""
     print(f"Loading point data from {filename}.csv...")
 
     if not isfile(f'{filename}.csv'):
@@ -98,23 +95,9 @@ def load_points(filename: str) -> list[Point]:
               " download point data from the region again.")
         exit()
 
-    # pts: list[Point] = []
-
-    # #Obrir CSV
-    # with open(f'{filename}.csv', 'r', newline='') as f:
-    #     reader = csv.reader(f)
-    #     #Ignorem els dos primers punts (del box)
-    #     next(reader)
-    #     next(reader)
-    #     data = list(reader)
-    # #Llegir fila
-    # for lat, lon, s in data:
-    #     pts.append(Point(float(lat), float(lon), int(s)))
-    # return pts
-
 
 def load_box(filename: str) -> Box:
-    """Load the box from the point file."""
+    """Load the box from the point data file."""
     try:
         with open(f'{filename}.csv', 'r', newline = '') as f:
             reader = csv.reader(f)
@@ -151,21 +134,13 @@ def show_segments(pts: list[Point], filename: str) -> None:
         print("ERROR: Failed to render StaticMaps image (point map).")
 
 
-if __name__ == "__main__":
-    from yogi import read
-    print("Testing segments.py module.")
-    N = read(int)
-    for _ in range(N):
-        box = Box(Point(read(float), read(float), -1),
-                  Point(read(float), read(float), -1))
-        filename = read(str)
-        download_points(box, filename)
-        points = load_points(filename)
-        show_segments(points, filename)
-    # box = Box(Point(41.940344, 2.778792, -1),
-    #           Point(42.018007, 2.849885, -1)
-    # )
-    # filename = "Girona"
-    # download_points(box, filename)
-    # load_points(filename)
-
+# if __name__ == "__main__":
+#     from yogi import read
+#     N = read(int)
+#     for _ in range(N):
+#         box = Box(Point(read(float), read(float), -1),
+#                   Point(read(float), read(float), -1))
+#         filename = read(str)
+#         download_points(box, filename)
+#         points = load_points(filename)
+#         show_segments(points, filename)

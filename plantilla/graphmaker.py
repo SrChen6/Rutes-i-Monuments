@@ -69,7 +69,6 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
 
     n: The number of clusters which will form the graph.
     """
-    print("Making graph...")
     # clustering
     kmeans = KMeans(n_clusters = n, random_state = 0, n_init = "auto").fit([(point.lat, point.lon) for point in points])
     
@@ -88,22 +87,21 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
         prev_seg = point.seg
         prev_lab = lab
     
-    print("Simplifying graph...")
     __simplify_by_distance(graph, REFERENCE_DISTANCE)
     __simplify_by_angle(graph, REFERENCE_ANGLE)
 
     return graph
 
 
-if __name__ == "__main__":
-    import viewer
-    import segments
-    from yogi import read
+# if __name__ == "__main__":
+#     import viewer
+#     import segments
+#     from yogi import read
 
-    N = read(int)
-    for _ in range(N):
-        filename = read(str)
-        points = segments.load_points(filename)
-        box = segments.load_box(filename)
-        graph = make_graph(points, REFERENCE_CLUSTERS)
-        viewer.export_PNG(graph, filename)
+#     N = read(int)
+#     for _ in range(N):
+#         filename = read(str)
+#         points = segments.load_points(filename)
+#         box = segments.load_box(filename)
+#         graph = make_graph(points, REFERENCE_CLUSTERS)
+#         viewer.export_PNG(graph, filename)

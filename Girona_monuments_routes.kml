@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="2071">
+        <Style id="2074">
+            <LineStyle id="2075">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2078">
+            <LineStyle id="2079">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2082">
+            <LineStyle id="2083">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2086">
+            <LineStyle id="2087">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2090">
+            <LineStyle id="2091">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2094">
+            <LineStyle id="2095">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2098">
+            <LineStyle id="2099">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2102">
+            <LineStyle id="2103">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2106">
+            <LineStyle id="2107">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2110">
+            <LineStyle id="2111">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2114">
+            <LineStyle id="2115">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2118">
+            <LineStyle id="2119">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2122">
+            <LineStyle id="2123">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2126">
+            <LineStyle id="2127">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2130">
+            <LineStyle id="2131">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2134">
+            <LineStyle id="2135">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2138">
+            <LineStyle id="2139">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2142">
+            <LineStyle id="2143">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2146">
+            <LineStyle id="2147">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2150">
+            <LineStyle id="2151">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2154">
+            <LineStyle id="2155">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2158">
+            <LineStyle id="2159">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2162">
+            <LineStyle id="2163">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2166">
+            <LineStyle id="2167">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2170">
+            <LineStyle id="2171">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2174">
+            <LineStyle id="2175">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2178">
+            <LineStyle id="2179">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2182">
+            <LineStyle id="2183">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2186">
+            <LineStyle id="2187">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2190">
+            <LineStyle id="2191">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2194">
+            <LineStyle id="2195">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2198">
+            <LineStyle id="2199">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2202">
+            <LineStyle id="2203">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2206">
+            <LineStyle id="2207">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2210">
+            <LineStyle id="2211">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2214">
+            <LineStyle id="2215">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2218">
+            <LineStyle id="2219">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2222">
+            <LineStyle id="2223">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2226">
+            <LineStyle id="2227">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2230">
+            <LineStyle id="2231">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2234">
+            <LineStyle id="2235">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2238">
+            <LineStyle id="2239">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2242">
+            <LineStyle id="2243">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2246">
+            <LineStyle id="2247">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2250">
+            <LineStyle id="2251">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2254">
+            <LineStyle id="2255">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2258">
+            <LineStyle id="2259">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2262">
+            <LineStyle id="2263">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2266">
+            <LineStyle id="2267">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2270">
+            <LineStyle id="2271">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2274">
+            <LineStyle id="2275">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2278">
+            <LineStyle id="2279">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2282">
+            <LineStyle id="2283">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2286">
+            <LineStyle id="2287">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2290">
+            <LineStyle id="2291">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2294">
+            <LineStyle id="2295">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2298">
+            <LineStyle id="2299">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2302">
+            <LineStyle id="2303">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2306">
+            <LineStyle id="2307">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2310">
+            <LineStyle id="2311">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2314">
+            <LineStyle id="2315">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2318">
+            <LineStyle id="2319">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2322">
+            <LineStyle id="2323">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2326">
+            <LineStyle id="2327">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2330">
+            <LineStyle id="2331">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2334">
+            <LineStyle id="2335">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2338">
+            <LineStyle id="2339">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2342">
+            <LineStyle id="2343">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2346">
+            <LineStyle id="2347">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2350">
+            <LineStyle id="2351">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2354">
+            <LineStyle id="2355">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2358">
+            <LineStyle id="2359">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2362">
+            <LineStyle id="2363">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2366">
+            <LineStyle id="2367">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2370">
+            <LineStyle id="2371">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2374">
+            <LineStyle id="2375">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2378">
+            <LineStyle id="2379">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2382">
+            <LineStyle id="2383">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2386">
+            <LineStyle id="2387">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2390">
+            <LineStyle id="2391">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2394">
+            <LineStyle id="2395">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2398">
+            <LineStyle id="2399">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2402">
+            <LineStyle id="2403">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2406">
+            <LineStyle id="2407">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2410">
+            <LineStyle id="2411">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2414">
+            <LineStyle id="2415">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2418">
+            <LineStyle id="2419">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2422">
+            <LineStyle id="2423">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2426">
+            <LineStyle id="2427">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2430">
+            <LineStyle id="2431">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2434">
+            <LineStyle id="2435">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2438">
+            <LineStyle id="2439">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2442">
+            <LineStyle id="2443">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2446">
+            <LineStyle id="2447">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2450">
+            <LineStyle id="2451">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2454">
+            <LineStyle id="2455">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2458">
+            <LineStyle id="2459">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2462">
+            <LineStyle id="2463">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2466">
+            <LineStyle id="2467">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2470">
+            <LineStyle id="2471">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="2474">
+            <LineStyle id="2475">
+                <color>red</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Placemark id="2073">
+            <name>Casa del Marquès de Camps</name>
+            <description>Shortest route to Casa del Marquès de Camps, 3.723433963048567 km.</description>
+            <styleUrl>#2074</styleUrl>
+            <LineString id="2072">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7786636503836317,41.97139762676897,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2077">
+            <name>Casa dels Templers</name>
+            <description>Shortest route to Casa dels Templers, 6.85253717435438 km.</description>
+            <styleUrl>#2078</styleUrl>
+            <LineString id="2076">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7786636503836317,41.97139762676897,0.0 2.7870180208284023,41.9540599460355,0.0 2.7889703135983264,41.94444530460251,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2081">
+            <name>La Torre</name>
+            <description>Shortest route to La Torre, 6.193449431135431 km.</description>
+            <styleUrl>#2082</styleUrl>
+            <LineString id="2080">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7688381710970464,41.97543198438819,0.0 2.76171545,41.973192572,0.0 2.7541718948302867,41.970708364229765,0.0 2.741904205067064,41.96772684470939,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2085">
+            <name>Mas Bru</name>
+            <description>Shortest route to Mas Bru, 1.6209979999574355 km.</description>
+            <styleUrl>#2086</styleUrl>
+            <LineString id="2084">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.8038496094287853,41.98827706096284,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2089">
+            <name>Mas de la Torre d’en Rosés</name>
+            <description>Shortest route to Mas de la Torre d’en Rosés, 4.698079351215128 km.</description>
+            <styleUrl>#2090</styleUrl>
+            <LineString id="2088">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.8470350949129855,41.982293379518076,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2093">
+            <name>Torre de Taialà</name>
+            <description>Shortest route to Torre de Taialà, 0 km.</description>
+            <styleUrl>#2094</styleUrl>
+            <LineString id="2092">
+                <coordinates>2.801564448471616,41.999212939126636,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2097">
+            <name>Torre Ferrana</name>
+            <description>Shortest route to Torre Ferrana, 5.1264195603888325 km.</description>
+            <styleUrl>#2098</styleUrl>
+            <LineString id="2096">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7688381710970464,41.97543198438819,0.0 2.76171545,41.973192572,0.0 2.7541718948302867,41.970708364229765,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2101">
+            <name>Torre Sampsona</name>
+            <description>Shortest route to Torre Sampsona, 6.147365507864602 km.</description>
+            <styleUrl>#2102</styleUrl>
+            <LineString id="2100">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.81766790352065,41.976755849966146,0.0 2.814521718475452,41.96992327958657,0.0 2.8116975782792664,41.96068701763046,0.0 2.809615003963012,41.95592444821664,0.0 2.8057731806543385,41.94982710398293,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2105">
+            <name>Casa Salieti</name>
+            <description>Shortest route to Casa Salieti, 2.6103903284089793 km.</description>
+            <styleUrl>#2106</styleUrl>
+            <LineString id="2104">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.820491720558777,41.98577970943595,0.0 2.824824334298038,41.98367669053847,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2109">
+            <name>La Fontana d’or</name>
+            <description>Shortest route to La Fontana d’or, 2.6103903284089793 km.</description>
+            <styleUrl>#2110</styleUrl>
+            <LineString id="2108">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.820491720558777,41.98577970943595,0.0 2.824824334298038,41.98367669053847,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2113">
+            <name>Palau Episcopal</name>
+            <description>Shortest route to Palau Episcopal, 2.425557241052031 km.</description>
+            <styleUrl>#2114</styleUrl>
+            <LineString id="2112">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2117">
+            <name>Passera entre Sant Gregori i Bescanó</name>
+            <description>Shortest route to Passera entre Sant Gregori i Bescanó, 6.193449431135431 km.</description>
+            <styleUrl>#2118</styleUrl>
+            <LineString id="2116">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7688381710970464,41.97543198438819,0.0 2.76171545,41.973192572,0.0 2.7541718948302867,41.970708364229765,0.0 2.741904205067064,41.96772684470939,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2121">
+            <name>Pont de la Font del Bisbe</name>
+            <description>Shortest route to Pont de la Font del Bisbe, 2.673554296198244 km.</description>
+            <styleUrl>#2122</styleUrl>
+            <LineString id="2120">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2125">
+            <name>Pont de l’Aigua</name>
+            <description>Shortest route to Pont de l’Aigua, 3.5359618002272564 km.</description>
+            <styleUrl>#2126</styleUrl>
+            <LineString id="2124">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.825548526429479,42.01229855146124,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2129">
+            <name>Castell de Barbavella</name>
+            <description>Shortest route to Castell de Barbavella, 8.582438262590495 km.</description>
+            <styleUrl>#2130</styleUrl>
+            <LineString id="2128">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.8459981376936314,41.99741016342513,0.0 2.8461702836,42.00302521973333,0.0 2.8632877964052286,42.00224528153595,0.0 2.8690491148648647,42.00697348648649,0.0 2.872212108974359,42.01395650320513,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2133">
+            <name>Castell de Campdorà </name>
+            <description>Shortest route to Castell de Campdorà , 5.751633124232847 km.</description>
+            <styleUrl>#2134</styleUrl>
+            <LineString id="2132">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.842934917293233,42.02015690601504,0.0 2.846866254972875,42.01372165461121,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2137">
+            <name>Castell de Canet d&amp;#8217;Adri</name>
+            <description>Shortest route to Castell de Canet d&amp;#8217;Adri, 8.0248404493491 km.</description>
+            <styleUrl>#2138</styleUrl>
+            <LineString id="2136">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7961838403940886,42.00780875837438,0.0 2.7849251510638298,42.01196933989362,0.0 2.7776880480905235,42.02785863705799,0.0 2.76679815046729,42.03532015607477,0.0 2.747396576223776,42.038442346853145,0.0 2.7331713234455957,42.03609609637306,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2141">
+            <name>Castell de Cartellà</name>
+            <description>Shortest route to Castell de Cartellà, 6.816411664926396 km.</description>
+            <styleUrl>#2142</styleUrl>
+            <LineString id="2140">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.773244109876543,41.99003872320988,0.0 2.771480641025641,42.0068056775641,0.0 2.75983355,42.018610233333334,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2145">
+            <name>Castell de Celrà </name>
+            <description>Shortest route to Castell de Celrà , 9.526772316064793 km.</description>
+            <styleUrl>#2146</styleUrl>
+            <LineString id="2144">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.8459981376936314,41.99741016342513,0.0 2.8461702836,42.00302521973333,0.0 2.8632877964052286,42.00224528153595,0.0 2.8690491148648647,42.00697348648649,0.0 2.872212108974359,42.01395650320513,0.0 2.882085916798732,42.0182355110935,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2149">
+            <name>Castell de Fornells</name>
+            <description>Shortest route to Castell de Fornells, 8.518430533040593 km.</description>
+            <styleUrl>#2150</styleUrl>
+            <LineString id="2148">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.81766790352065,41.976755849966146,0.0 2.814521718475452,41.96992327958657,0.0 2.8116975782792664,41.96068701763046,0.0 2.8138253412742382,41.94895556481995,0.0 2.80959370296875,41.93755725828125,0.0 2.8028197905405405,41.929619206486485,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2153">
+            <name>Castell de Gironella o Torre Gironella</name>
+            <description>Shortest route to Castell de Gironella o Torre Gironella, 2.7905800958338114 km.</description>
+            <styleUrl>#2154</styleUrl>
+            <LineString id="2152">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2157">
+            <name>Castell de Juià </name>
+            <description>Shortest route to Castell de Juià , 12.459803799296164 km.</description>
+            <styleUrl>#2158</styleUrl>
+            <LineString id="2156">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.84492982741573,41.990573507715354,0.0 2.8494144388998035,41.98995907662083,0.0 2.8560200998454404,41.988535091344666,0.0 2.861230465903308,41.985149169847325,0.0 2.866631106237219,41.98242955235174,0.0 2.869795325894378,41.990680637308344,0.0 2.8726283973031284,41.995139012081985,0.0 2.8769054491103203,42.001043258007115,0.0 2.8823451845637584,41.99654275503356,0.0 2.885797594249201,42.002768146964854,0.0 2.8919769241192412,42.00880308130081,0.0 2.900603664634146,42.01289151829268,0.0 2.9084282849637684,42.01452930778986,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2161">
+            <name>Castell de Medinyà</name>
+            <description>Shortest route to Castell de Medinyà, 8.179108668003728 km.</description>
+            <styleUrl>#2162</styleUrl>
+            <LineString id="2160">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.815799041069723,42.02160164765998,0.0 2.827218617068528,42.0297250001269,0.0 2.8367946322393824,42.03273299642857,0.0 2.840205532980456,42.03783487956026,0.0 2.843991354916067,42.04225560515587,0.0 2.868081232785538,42.04599502908792,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2165">
+            <name>Castell de Montagut</name>
+            <description>Shortest route to Castell de Montagut, 3.4170546343906105 km.</description>
+            <styleUrl>#2166</styleUrl>
+            <LineString id="2164">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.815799041069723,42.02160164765998,0.0 2.820692602,42.026189716105264,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2169">
+            <name>Castell de Montjuïc</name>
+            <description>Shortest route to Castell de Montjuïc, 2.673554296198244 km.</description>
+            <styleUrl>#2170</styleUrl>
+            <LineString id="2168">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2173">
+            <name>Castell de Palagret</name>
+            <description>Shortest route to Castell de Palagret, 10.942816644202118 km.</description>
+            <styleUrl>#2174</styleUrl>
+            <LineString id="2172">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.84492982741573,41.990573507715354,0.0 2.8494144388998035,41.98995907662083,0.0 2.8560200998454404,41.988535091344666,0.0 2.861230465903308,41.985149169847325,0.0 2.866631106237219,41.98242955235174,0.0 2.869795325894378,41.990680637308344,0.0 2.8726283973031284,41.995139012081985,0.0 2.8769054491103203,42.001043258007115,0.0 2.8823451845637584,41.99654275503356,0.0 2.885797594249201,42.002768146964854,0.0 2.8919769241192412,42.00880308130081,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2177">
+            <name>Castell de Palol</name>
+            <description>Shortest route to Castell de Palol, 7.045686650038002 km.</description>
+            <styleUrl>#2178</styleUrl>
+            <LineString id="2176">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.8480638718482254,41.96261959547124,0.0 2.850591319009901,41.95289509108911,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2181">
+            <name>Castell de Sant Gregori</name>
+            <description>Shortest route to Castell de Sant Gregori, 6.418989977837617 km.</description>
+            <styleUrl>#2182</styleUrl>
+            <LineString id="2180">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7616662314563105,41.9853071961165,0.0 2.750333574584323,41.9880467087886,0.0 2.7393856943589743,41.9939355534188,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2185">
+            <name>Castell de Sant Miquel</name>
+            <description>Shortest route to Castell de Sant Miquel, 7.0539139855102535 km.</description>
+            <styleUrl>#2186</styleUrl>
+            <LineString id="2184">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.8459981376936314,41.99741016342513,0.0 2.8461702836,42.00302521973333,0.0 2.8632877964052286,42.00224528153595,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2189">
+            <name>Castell de Taialà</name>
+            <description>Shortest route to Castell de Taialà, 0.5480591305482746 km.</description>
+            <styleUrl>#2190</styleUrl>
+            <LineString id="2188">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2193">
+            <name>Castell de Tudela</name>
+            <description>Shortest route to Castell de Tudela, 10.52709083512342 km.</description>
+            <styleUrl>#2194</styleUrl>
+            <LineString id="2192">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7616662314563105,41.9853071961165,0.0 2.750333574584323,41.9880467087886,0.0 2.7393856943589743,41.9939355534188,0.0 2.7317834581344904,41.99519788557484,0.0 2.725058664705882,42.00014864837577,0.0 2.720163705298013,42.00642114227373,0.0 2.718261201276596,41.98961042914894,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2197">
+            <name>Muralles de Girona </name>
+            <description>Shortest route to Muralles de Girona , 2.8462573043071737 km.</description>
+            <styleUrl>#2198</styleUrl>
+            <LineString id="2196">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2201">
+            <name>La Torre</name>
+            <description>Shortest route to La Torre, 14.096058851606076 km.</description>
+            <styleUrl>#2202</styleUrl>
+            <LineString id="2200">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.84478168574969,42.030416028624536,0.0 2.8508565687246143,42.029940950690495,0.0 2.854105356761006,42.0365467586478,0.0 2.858711795221239,42.03794058477876,0.0 2.866798703783102,42.03805304337957,0.0 2.881184260900901,42.03970204414414,0.0 2.894881467409471,42.04410989220056,0.0 2.9072443402898553,42.04727065869565,0.0 2.9185804935010484,42.05028090670859,0.0 2.92694942675841,42.0456305529052,0.0 2.9397872571142285,42.04513210871743,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2205">
+            <name>Torre Cornèlia</name>
+            <description>Shortest route to Torre Cornèlia, 2.673554296198244 km.</description>
+            <styleUrl>#2206</styleUrl>
+            <LineString id="2204">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2209">
+            <name>Torre de Bac i Basset</name>
+            <description>Shortest route to Torre de Bac i Basset, 7.82716080095091 km.</description>
+            <styleUrl>#2210</styleUrl>
+            <LineString id="2208">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.81766790352065,41.976755849966146,0.0 2.814521718475452,41.96992327958657,0.0 2.8116975782792664,41.96068701763046,0.0 2.809615003963012,41.95592444821664,0.0 2.8057731806543385,41.94982710398293,0.0 2.804600700981767,41.94268151079944,0.0 2.798041368359375,41.93645798046875,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2213">
+            <name>Torre de Can Ninetes</name>
+            <description>Shortest route to Torre de Can Ninetes, 3.00329884908783 km.</description>
+            <styleUrl>#2214</styleUrl>
+            <LineString id="2212">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.8080901967607974,41.975417579651165,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2217">
+            <name>Torre de Can Sitjar</name>
+            <description>Shortest route to Torre de Can Sitjar, 4.983535601592628 km.</description>
+            <styleUrl>#2218</styleUrl>
+            <LineString id="2216">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.8080901967607974,41.975417579651165,0.0 2.8010952759229535,41.973306437078655,0.0 2.7901268468812876,41.96423781146881,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2221">
+            <name>Torre de Sant Dionís</name>
+            <description>Shortest route to Torre de Sant Dionís, 3.0856428542848406 km.</description>
+            <styleUrl>#2222</styleUrl>
+            <LineString id="2220">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7863900185858586,41.98787743212121,0.0 2.7900827974276527,41.983407565380496,0.0 2.788292136285097,41.977035606047515,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2225">
+            <name>Torre del Bell-lloc</name>
+            <description>Shortest route to Torre del Bell-lloc, 4.103080185094542 km.</description>
+            <styleUrl>#2226</styleUrl>
+            <LineString id="2224">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.8080901967607974,41.975417579651165,0.0 2.807361908455565,41.96554185522002,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2229">
+            <name>Torre del Mas Llorens</name>
+            <description>Shortest route to Torre del Mas Llorens, 3.723433963048567 km.</description>
+            <styleUrl>#2230</styleUrl>
+            <LineString id="2228">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7786636503836317,41.97139762676897,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2233">
+            <name>Torre del Telègraf Òptic</name>
+            <description>Shortest route to Torre del Telègraf Òptic, 2.673554296198244 km.</description>
+            <styleUrl>#2234</styleUrl>
+            <LineString id="2232">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2237">
+            <name>Torre del Telègraf</name>
+            <description>Shortest route to Torre del Telègraf, 9.806611942289479 km.</description>
+            <styleUrl>#2238</styleUrl>
+            <LineString id="2236">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0 2.7628440116144017,41.93864144483159,0.0 2.743787705479452,41.93780719178082,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2241">
+            <name>Torre Desvern</name>
+            <description>Shortest route to Torre Desvern, 9.526772316064793 km.</description>
+            <styleUrl>#2242</styleUrl>
+            <LineString id="2240">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.8459981376936314,41.99741016342513,0.0 2.8461702836,42.00302521973333,0.0 2.8632877964052286,42.00224528153595,0.0 2.8690491148648647,42.00697348648649,0.0 2.872212108974359,42.01395650320513,0.0 2.882085916798732,42.0182355110935,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2245">
+            <name>Torre Mirona</name>
+            <description>Shortest route to Torre Mirona, 3.723433963048567 km.</description>
+            <styleUrl>#2246</styleUrl>
+            <LineString id="2244">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7786636503836317,41.97139762676897,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2249">
+            <name>Torre Rufina</name>
+            <description>Shortest route to Torre Rufina, 2.7905800958338114 km.</description>
+            <styleUrl>#2250</styleUrl>
+            <LineString id="2248">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2253">
+            <name>Torre sepulcral de Vilablareix </name>
+            <description>Shortest route to Torre sepulcral de Vilablareix , 5.154352989593617 km.</description>
+            <styleUrl>#2254</styleUrl>
+            <LineString id="2252">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2257">
+            <name>Torre Suchet</name>
+            <description>Shortest route to Torre Suchet, 2.673554296198244 km.</description>
+            <styleUrl>#2258</styleUrl>
+            <LineString id="2256">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2261">
+            <name>Torre Vescomtal</name>
+            <description>Shortest route to Torre Vescomtal, 2.7905800958338114 km.</description>
+            <styleUrl>#2262</styleUrl>
+            <LineString id="2260">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2265">
+            <name>Basílica de Sant Feliu</name>
+            <description>Shortest route to Basílica de Sant Feliu, 2.425557241052031 km.</description>
+            <styleUrl>#2266</styleUrl>
+            <LineString id="2264">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2269">
+            <name>Catedral de Girona</name>
+            <description>Shortest route to Catedral de Girona, 2.673554296198244 km.</description>
+            <styleUrl>#2270</styleUrl>
+            <LineString id="2268">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2273">
+            <name>Capella de la Pietat</name>
+            <description>Shortest route to Capella de la Pietat, 9.82641131450385 km.</description>
+            <styleUrl>#2274</styleUrl>
+            <LineString id="2272">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7688381710970464,41.97543198438819,0.0 2.76171545,41.973192572,0.0 2.7541718948302867,41.970708364229765,0.0 2.7224918338954467,41.96851309123103,0.0 2.7092818562616823,41.977174789719626,0.0 2.702097295168375,41.97855619692533,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2277">
+            <name>Capella de Sant Jaume</name>
+            <description>Shortest route to Capella de Sant Jaume, 2.6170496405243835 km.</description>
+            <styleUrl>#2278</styleUrl>
+            <LineString id="2276">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.8202185276397516,41.99593632541408,0.0 2.8228255305269534,41.99701594609328,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2281">
+            <name>Capella de Sant Joaquim d’Olivars</name>
+            <description>Shortest route to Capella de Sant Joaquim d’Olivars, 8.110333018459668 km.</description>
+            <styleUrl>#2282</styleUrl>
+            <LineString id="2280">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.815799041069723,42.02160164765998,0.0 2.820692602,42.026189716105264,0.0 2.82222388996139,42.039723772586875,0.0 2.817979332388664,42.05150719473684,0.0 2.8392766602941175,42.05595829117647,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2285">
+            <name>Capella de Sant Vicenç de les Roquetes</name>
+            <description>Shortest route to Capella de Sant Vicenç de les Roquetes, 5.80211041487189 km.</description>
+            <styleUrl>#2286</styleUrl>
+            <LineString id="2284">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.84478168574969,42.030416028624536,0.0 2.8508565687246143,42.029940950690495,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2289">
+            <name>Ermita de Sant Cristòfol del Bosc</name>
+            <description>Shortest route to Ermita de Sant Cristòfol del Bosc, 17.276912384198614 km.</description>
+            <styleUrl>#2290</styleUrl>
+            <LineString id="2288">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.8480638718482254,41.96261959547124,0.0 2.862477357588187,41.963042932731746,0.0 2.862385046305419,41.95505028768473,0.0 2.8735834809116807,41.952186362393164,0.0 2.903938525879397,41.953824267336685,0.0 2.907942542016807,41.94241319747899,0.0 2.9256198567073173,41.93447353048781,0.0 2.9179090032733224,41.9276723502455,0.0 2.914464654465593,41.92092633235725,0.0 2.9087796311300638,41.91356701279318,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2293">
+            <name>Ermita de Sant Llop</name>
+            <description>Shortest route to Ermita de Sant Llop, 12.66557230842009 km.</description>
+            <styleUrl>#2294</styleUrl>
+            <LineString id="2292">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0 2.7628440116144017,41.93864144483159,0.0 2.743787705479452,41.93780719178082,0.0 2.7380253799603174,41.92656504384921,0.0 2.731183032931727,41.923852524230256,0.0 2.7373667993227992,41.91741709616253,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2297">
+            <name>Església de Sant Andreu de l’Estanyol</name>
+            <description>Shortest route to Església de Sant Andreu de l’Estanyol, 9.806611942289479 km.</description>
+            <styleUrl>#2298</styleUrl>
+            <LineString id="2296">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0 2.7628440116144017,41.93864144483159,0.0 2.743787705479452,41.93780719178082,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2301">
+            <name>Església de Sant Bartomeu</name>
+            <description>Shortest route to Església de Sant Bartomeu, 5.1264195603888325 km.</description>
+            <styleUrl>#2302</styleUrl>
+            <LineString id="2300">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7688381710970464,41.97543198438819,0.0 2.76171545,41.973192572,0.0 2.7541718948302867,41.970708364229765,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2305">
+            <name>Església de Sant Dalmai</name>
+            <description>Shortest route to Església de Sant Dalmai, 12.66557230842009 km.</description>
+            <styleUrl>#2306</styleUrl>
+            <LineString id="2304">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0 2.7628440116144017,41.93864144483159,0.0 2.743787705479452,41.93780719178082,0.0 2.7380253799603174,41.92656504384921,0.0 2.731183032931727,41.923852524230256,0.0 2.7373667993227992,41.91741709616253,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2309">
+            <name>Església de Sant Joan de Montbó</name>
+            <description>Shortest route to Església de Sant Joan de Montbó, 8.07658992724997 km.</description>
+            <styleUrl>#2310</styleUrl>
+            <LineString id="2308">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.802557032075472,42.011327901886794,0.0 2.8040239816161616,42.02228081878788,0.0 2.7949889923076925,42.031849307692305,0.0 2.7870478590996166,42.05335636024905,0.0 2.7687771469135805,42.057291488888886,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2313">
+            <name>Església de Sant Joan d’Aiguaviva</name>
+            <description>Shortest route to Església de Sant Joan d’Aiguaviva, 8.22765704949238 km.</description>
+            <styleUrl>#2314</styleUrl>
+            <LineString id="2312">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0 2.7628440116144017,41.93864144483159,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2317">
+            <name>Església de Sant Llorenç d’Adri</name>
+            <description>Shortest route to Església de Sant Llorenç d’Adri, 6.821419090973389 km.</description>
+            <styleUrl>#2318</styleUrl>
+            <LineString id="2316">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7961838403940886,42.00780875837438,0.0 2.7849251510638298,42.01196933989362,0.0 2.7776880480905235,42.02785863705799,0.0 2.76679815046729,42.03532015607477,0.0 2.747396576223776,42.038442346853145,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2321">
+            <name>Església de Sant Martí de la Mota</name>
+            <description>Shortest route to Església de Sant Martí de la Mota, 6.505938691879534 km.</description>
+            <styleUrl>#2322</styleUrl>
+            <LineString id="2320">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.802557032075472,42.011327901886794,0.0 2.8040239816161616,42.02228081878788,0.0 2.7949889923076925,42.031849307692305,0.0 2.7870478590996166,42.05335636024905,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2325">
+            <name>Església de Sant Martí Sacosta</name>
+            <description>Shortest route to Església de Sant Martí Sacosta, 2.7905800958338114 km.</description>
+            <styleUrl>#2326</styleUrl>
+            <LineString id="2324">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2329">
+            <name>Església de Sant Mateu de Montnegre</name>
+            <description>Shortest route to Església de Sant Mateu de Montnegre, 12.83323840919504 km.</description>
+            <styleUrl>#2330</styleUrl>
+            <LineString id="2328">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.8480638718482254,41.96261959547124,0.0 2.862477357588187,41.963042932731746,0.0 2.862385046305419,41.95505028768473,0.0 2.8735834809116807,41.952186362393164,0.0 2.903938525879397,41.953824267336685,0.0 2.907942542016807,41.94241319747899,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2333">
+            <name>Església de Sant Nicolau</name>
+            <description>Shortest route to Església de Sant Nicolau, 2.673554296198244 km.</description>
+            <styleUrl>#2334</styleUrl>
+            <LineString id="2332">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2337">
+            <name>Església de Sant Pere de Llorà</name>
+            <description>Shortest route to Església de Sant Pere de Llorà, 10.344530026359287 km.</description>
+            <styleUrl>#2338</styleUrl>
+            <LineString id="2336">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7616662314563105,41.9853071961165,0.0 2.750333574584323,41.9880467087886,0.0 2.7393856943589743,41.9939355534188,0.0 2.7317834581344904,41.99519788557484,0.0 2.725058664705882,42.00014864837577,0.0 2.720163705298013,42.00642114227373,0.0 2.713477616924027,42.012408044286595,0.0 2.7069975510204083,42.018091497802196,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2341">
+            <name>Església de Sant Roc</name>
+            <description>Shortest route to Església de Sant Roc, 7.0653229557384325 km.</description>
+            <styleUrl>#2342</styleUrl>
+            <LineString id="2340">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0 2.779956882668501,41.978081730330125,0.0 2.7799489608901515,41.964663205681816,0.0 2.783290282621951,41.95897962764228,0.0 2.7757790627906975,41.94272712848837,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2345">
+            <name>Església de Santa Cecília de Montcal</name>
+            <description>Shortest route to Església de Santa Cecília de Montcal, 5.181938286098446 km.</description>
+            <styleUrl>#2346</styleUrl>
+            <LineString id="2344">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7961838403940886,42.00780875837438,0.0 2.7849251510638298,42.01196933989362,0.0 2.7776880480905235,42.02785863705799,0.0 2.76679815046729,42.03532015607477,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2349">
+            <name>Església de Santa Llúcia</name>
+            <description>Shortest route to Església de Santa Llúcia, 2.673554296198244 km.</description>
+            <styleUrl>#2350</styleUrl>
+            <LineString id="2348">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2353">
+            <name>Església de Santa Margarida</name>
+            <description>Shortest route to Església de Santa Margarida, 7.902090799727444 km.</description>
+            <styleUrl>#2354</styleUrl>
+            <LineString id="2352">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.83886860043592,41.95808514786399,0.0 2.842620105151515,41.95288880181818,0.0 2.847500623339012,41.94276530477002,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2357">
+            <name>Església de Santa Maria de Montnegre</name>
+            <description>Shortest route to Església de Santa Maria de Montnegre, 13.934602979775551 km.</description>
+            <styleUrl>#2358</styleUrl>
+            <LineString id="2356">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.8480638718482254,41.96261959547124,0.0 2.862477357588187,41.963042932731746,0.0 2.862385046305419,41.95505028768473,0.0 2.8735834809116807,41.952186362393164,0.0 2.903938525879397,41.953824267336685,0.0 2.9127430320610688,41.95845039912759,0.0 2.9224345928395064,41.96114287209877,0.0 2.929552570766129,41.95834330745968,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2361">
+            <name>Església de Santa Pel•laia</name>
+            <description>Shortest route to Església de Santa Pel•laia, 16.33303119428918 km.</description>
+            <styleUrl>#2362</styleUrl>
+            <LineString id="2360">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.8480638718482254,41.96261959547124,0.0 2.862477357588187,41.963042932731746,0.0 2.862385046305419,41.95505028768473,0.0 2.8735834809116807,41.952186362393164,0.0 2.903938525879397,41.953824267336685,0.0 2.907942542016807,41.94241319747899,0.0 2.9256198567073173,41.93447353048781,0.0 2.9179090032733224,41.9276723502455,0.0 2.914464654465593,41.92092633235725,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2365">
+            <name>Església dels Sants Metges</name>
+            <description>Shortest route to Església dels Sants Metges, 5.80211041487189 km.</description>
+            <styleUrl>#2366</styleUrl>
+            <LineString id="2364">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.84478168574969,42.030416028624536,0.0 2.8508565687246143,42.029940950690495,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2369">
+            <name>Església i Santuari de la Mare de Déu de la Pietat</name>
+            <description>Shortest route to Església i Santuari de la Mare de Déu de la Pietat, 9.644029202060063 km.</description>
+            <styleUrl>#2370</styleUrl>
+            <LineString id="2368">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.83886860043592,41.95808514786399,0.0 2.8364707845454546,41.938471233181815,0.0 2.842052800754717,41.933865176037735,0.0 2.8488649650294695,41.9299209654224,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2373">
+            <name>Església parroquial de Nostra Senyora de la Misericòrdia</name>
+            <description>Shortest route to Església parroquial de Nostra Senyora de la Misericòrdia, 2.8777222656814003 km.</description>
+            <styleUrl>#2374</styleUrl>
+            <LineString id="2372">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2377">
+            <name>Església parroquial de Sant Cristòfol</name>
+            <description>Shortest route to Església parroquial de Sant Cristòfol, 11.216200080313353 km.</description>
+            <styleUrl>#2378</styleUrl>
+            <LineString id="2376">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0 2.8245892128728416,41.97507325313972,0.0 2.8335961663934426,41.97235718797814,0.0 2.8386164506687646,41.967715397875686,0.0 2.83886860043592,41.95808514786399,0.0 2.8364707845454546,41.938471233181815,0.0 2.842052800754717,41.933865176037735,0.0 2.8488649650294695,41.9299209654224,0.0 2.850338363970588,41.91582467720588,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2381">
+            <name>Església parroquial de Sant Feliu de Cartellà</name>
+            <description>Shortest route to Església parroquial de Sant Feliu de Cartellà, 6.816411664926396 km.</description>
+            <styleUrl>#2382</styleUrl>
+            <LineString id="2380">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.773244109876543,41.99003872320988,0.0 2.771480641025641,42.0068056775641,0.0 2.75983355,42.018610233333334,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2385">
+            <name>Església parroquial de Sant Feliu de Domeny</name>
+            <description>Shortest route to Església parroquial de Sant Feliu de Domeny, 1.1431113311778693 km.</description>
+            <styleUrl>#2386</styleUrl>
+            <LineString id="2384">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2389">
+            <name>Església parroquial de Sant Feliu</name>
+            <description>Shortest route to Església parroquial de Sant Feliu, 8.610189296182966 km.</description>
+            <styleUrl>#2390</styleUrl>
+            <LineString id="2388">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.84478168574969,42.030416028624536,0.0 2.8508565687246143,42.029940950690495,0.0 2.853876123308271,42.02363567142857,0.0 2.8585865927346115,42.02578810595358,0.0 2.8683468667466987,42.02707321932773,0.0 2.877535148202397,42.02899184527297,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2393">
+            <name>Església parroquial de Sant Gregori</name>
+            <description>Shortest route to Església parroquial de Sant Gregori, 6.418989977837617 km.</description>
+            <styleUrl>#2394</styleUrl>
+            <LineString id="2392">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7616662314563105,41.9853071961165,0.0 2.750333574584323,41.9880467087886,0.0 2.7393856943589743,41.9939355534188,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2397">
+            <name>Església parroquial de Sant Jaume de Campdorà</name>
+            <description>Shortest route to Església parroquial de Sant Jaume de Campdorà, 5.751633124232847 km.</description>
+            <styleUrl>#2398</styleUrl>
+            <LineString id="2396">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.8130526373029774,42.01493031987741,0.0 2.819712492977528,42.016182239494384,0.0 2.822783337731586,42.01785029688206,0.0 2.828595267987805,42.022403338109754,0.0 2.838432217085427,42.02392588023451,0.0 2.842934917293233,42.02015690601504,0.0 2.846866254972875,42.01372165461121,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2401">
+            <name>Església parroquial de Sant Martí</name>
+            <description>Shortest route to Església parroquial de Sant Martí, 6.283607071799892 km.</description>
+            <styleUrl>#2402</styleUrl>
+            <LineString id="2400">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.805842821350365,42.00366178421533,0.0 2.8093046115710254,42.00946242634055,0.0 2.815799041069723,42.02160164765998,0.0 2.820692602,42.026189716105264,0.0 2.82222388996139,42.039723772586875,0.0 2.817979332388664,42.05150719473684,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2405">
+            <name>Església parroquial de Sant Medir de Cartellà</name>
+            <description>Shortest route to Església parroquial de Sant Medir de Cartellà, 3.9582760598639304 km.</description>
+            <styleUrl>#2406</styleUrl>
+            <LineString id="2404">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7961838403940886,42.00780875837438,0.0 2.7849251510638298,42.01196933989362,0.0 2.7776880480905235,42.02785863705799,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2409">
+            <name>Església parroquial de Sant Narcís de Taialà</name>
+            <description>Shortest route to Església parroquial de Sant Narcís de Taialà, 0.5480591305482746 km.</description>
+            <styleUrl>#2410</styleUrl>
+            <LineString id="2408">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7963594717067584,41.996158396449026,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2413">
+            <name>Església parroquial de Sant Vicenç</name>
+            <description>Shortest route to Església parroquial de Sant Vicenç, 8.0248404493491 km.</description>
+            <styleUrl>#2414</styleUrl>
+            <LineString id="2412">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7961838403940886,42.00780875837438,0.0 2.7849251510638298,42.01196933989362,0.0 2.7776880480905235,42.02785863705799,0.0 2.76679815046729,42.03532015607477,0.0 2.747396576223776,42.038442346853145,0.0 2.7331713234455957,42.03609609637306,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2417">
+            <name>Església parroquial de Santa Maria de Ginestar</name>
+            <description>Shortest route to Església parroquial de Santa Maria de Ginestar, 9.573833484554099 km.</description>
+            <styleUrl>#2418</styleUrl>
+            <LineString id="2416">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.7919874962068967,41.99179515954023,0.0 2.7819350759150807,41.984053096412886,0.0 2.7735579076655053,41.97995791184669,0.0 2.7616662314563105,41.9853071961165,0.0 2.750333574584323,41.9880467087886,0.0 2.7393856943589743,41.9939355534188,0.0 2.7317834581344904,41.99519788557484,0.0 2.725058664705882,42.00014864837577,0.0 2.720163705298013,42.00642114227373,0.0 2.7182293681335357,42.0145929414264,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2421">
+            <name>Santuari de la Mare de Déu dels Àngels </name>
+            <description>Shortest route to Santuari de la Mare de Déu dels Àngels , 10.0460284431836 km.</description>
+            <styleUrl>#2422</styleUrl>
+            <LineString id="2420">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0 2.8390749603575185,41.98779506256572,0.0 2.84492982741573,41.990573507715354,0.0 2.8494144388998035,41.98995907662083,0.0 2.8560200998454404,41.988535091344666,0.0 2.861230465903308,41.985149169847325,0.0 2.866631106237219,41.98242955235174,0.0 2.8725549015503877,41.982302209302325,0.0 2.8842361020754717,41.98083486018868,0.0 2.898726729535096,41.98349234685506,0.0 2.909698553575709,41.98443944518578,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2425">
+            <name>Convent de Sant Domènec</name>
+            <description>Shortest route to Convent de Sant Domènec, 2.7905800958338114 km.</description>
+            <styleUrl>#2426</styleUrl>
+            <LineString id="2424">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2429">
+            <name>Monestir de Sant Daniel</name>
+            <description>Shortest route to Monestir de Sant Daniel, 3.3826033926012213 km.</description>
+            <styleUrl>#2430</styleUrl>
+            <LineString id="2428">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0 2.835172281055156,41.98541730755396,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2433">
+            <name>Monestir de Sant Pere de Galligants</name>
+            <description>Shortest route to Monestir de Sant Pere de Galligants, 2.673554296198244 km.</description>
+            <styleUrl>#2434</styleUrl>
+            <LineString id="2432">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2437">
+            <name>Restes del convent de Sant Francesc d’Assís</name>
+            <description>Shortest route to Restes del convent de Sant Francesc d’Assís, 2.8462573043071737 km.</description>
+            <styleUrl>#2438</styleUrl>
+            <LineString id="2436">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.8184925576271187,41.98196021351897,0.0 2.823712552145905,41.981038857985446,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2441">
+            <name>Banys Àrabs</name>
+            <description>Shortest route to Banys Àrabs, 2.673554296198244 km.</description>
+            <styleUrl>#2442</styleUrl>
+            <LineString id="2440">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.826865404641818,41.98844441151448,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2445">
+            <name>Casa Agullana</name>
+            <description>Shortest route to Casa Agullana, 2.7905800958338114 km.</description>
+            <styleUrl>#2446</styleUrl>
+            <LineString id="2444">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2449">
+            <name>Estudi General</name>
+            <description>Shortest route to Estudi General, 2.7905800958338114 km.</description>
+            <styleUrl>#2450</styleUrl>
+            <LineString id="2448">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0 2.828009524026985,41.985420001297356,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2453">
+            <name>Hospital de Sant Llàtzer</name>
+            <description>Shortest route to Hospital de Sant Llàtzer, 2.6170496405243835 km.</description>
+            <styleUrl>#2454</styleUrl>
+            <LineString id="2452">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.8202185276397516,41.99593632541408,0.0 2.8228255305269534,41.99701594609328,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2457">
+            <name>La Pabordia</name>
+            <description>Shortest route to La Pabordia, 2.425557241052031 km.</description>
+            <styleUrl>#2458</styleUrl>
+            <LineString id="2456">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2461">
+            <name>La Pia Almoina</name>
+            <description>Shortest route to La Pia Almoina, 2.425557241052031 km.</description>
+            <styleUrl>#2462</styleUrl>
+            <LineString id="2460">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2465">
+            <name>Museu d&amp;#8217;Història dels Jueus</name>
+            <description>Shortest route to Museu d&amp;#8217;Història dels Jueus, 2.425557241052031 km.</description>
+            <styleUrl>#2466</styleUrl>
+            <LineString id="2464">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81821380434385,41.99084296680384,0.0 2.824337062100193,41.987243379499034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2469">
+            <name>Voltes de la Plaça del Vi</name>
+            <description>Shortest route to Voltes de la Plaça del Vi, 2.6103903284089793 km.</description>
+            <styleUrl>#2470</styleUrl>
+            <LineString id="2468">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.820491720558777,41.98577970943595,0.0 2.824824334298038,41.98367669053847,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="2473">
+            <name>Voltes d’en Rosès</name>
+            <description>Shortest route to Voltes d’en Rosès, 2.6103903284089793 km.</description>
+            <styleUrl>#2474</styleUrl>
+            <LineString id="2472">
+                <coordinates>2.801564448471616,41.999212939126636,0.0 2.8118117699207135,41.99093037913776,0.0 2.81493711056169,41.98817307993279,0.0 2.820491720558777,41.98577970943595,0.0 2.824824334298038,41.98367669053847,0.0</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>

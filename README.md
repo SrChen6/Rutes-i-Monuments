@@ -10,7 +10,7 @@ The routes are downloaded from [OpenStreetMap](https://www.openstreetmap.org/#ma
 
 All the graph processing is done with [NetworkX](https://networkx.org/documentation/stable/tutorial.html). The exportations are done with [StaticMap](https://github.com/komoot/staticmap/blob/master/README.md) for the PNG file and [Simplekml](https://simplekml.readthedocs.io/en/latest/) for the KML file.
 
-Mode details about the implementation will be given in [Development](#development).
+More details about the implementation will be given in [Development](#development).
 
 ## Requirements
 
@@ -28,7 +28,7 @@ To install these libraries, execute:
 
 `python3 pip install requirements.txt`
 
-Please have in mind that Some of these libraries do not have type specifications, so Mypy may rise some warning when type-checking.
+Please keep in mind that some of these libraries do not have type specifications, so Mypy may rise some warnings when type-checking.
 
 
 ## Usage
@@ -52,7 +52,8 @@ After writing a name for this region, an image will be saved (filename_points.pn
 
 Finally the user will be asked for his location (with the same format as before: latitude and longitude separated by a space). After writing them, the user a file will be saved with the location of the nearby monuments along with the shortest path to get there. As before, an image will appear which contains the location of some nearby monuments and a route to get to them.
 
-For this functionality, a file called `monuments.csv` has to be downloaded. In case the user accidentally deletes it or it gets corrupted, the program will automatically redownload the file.
+For this functionality, a file called `monuments.csv` has to be downloaded. In case the user accidentally deletes it, the program will automatically redownload the file.
+If it gets corrupted, the program notifies the user and asks him to delete it (afterwards, the user can execute the program normally and monuments will be downloaded again).
 
 **AQUI FALTA UNA IMATGE DELS MONUMENTS**
 
@@ -64,7 +65,7 @@ Keep in mind that access to internet is required for this program to work. This 
 
 The data imported form [OpenStreetMap](https://www.openstreetmap.org/#map=12/41.3823/2.1279) is stored in a `.csv` file, and all it's treatments will be done with the module [segments.py](segments.py).
 
-The first two rows of the csv correspond to the boundaries of the box. The first column is the latitude, the second one is the longitude and the third column is a number that identifies every segment (route that a hiker took).
+The first two rows of the `.csv` file correspond to the boundaries of the box. The first column is the latitude, the second one is the longitude and the third column is a number that identifies every segment (route that a hiker took).
 
 ### Graph making
 
@@ -72,7 +73,7 @@ The graph is a simplification of all the data downloaded from [OpenStreetMap](ht
 
 
 ### Downloading monuments
-The coordenates of the monuments are downloaded from [Catalunya Medieval](https://www.catalunyamedieval.es/comarques/). It is not the way that we were adviced to download them, but it is still the same web and it is way more reliable and easy to download.
+The coordinates of the monuments are downloaded from [Catalunya Medieval](https://www.catalunyamedieval.es/comarques/). It is not the way that we were adviced to download them, but it is still the same web and it is way more reliable and easy to download.
 
 ### Others
 The other functions (exporting png, kml, etc) are as simple as using the library.
