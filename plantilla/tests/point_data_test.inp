@@ -1,0 +1,11 @@
+3
+
+40.5363713 0.5739316671 40.79886535 0.9021482 Ebre_testing
+41.940344 2.778792 42.018007 2.849885 Girona_testing
+41.595392 0.587088 41.649110 0.654867 Lleida_testing
+
+
+Test for "segments.py" module.
+Execute the following command to test:
+
+    python3 segments.py < tests/point_data_test.inp

@@ -35,7 +35,8 @@ def make_graph(points: list[Point], n: int) -> nx.Graph:
                            haversine(pos[prev_lab], pos[lab]))
         prev_seg = point.seg
         prev_lab = lab
-
+    
+    
     dist = nx.get_edge_attributes(graph, 'dist')
     graph.remove_edges_from(edge for edge in graph.edges if dist[edge] > 4)
 

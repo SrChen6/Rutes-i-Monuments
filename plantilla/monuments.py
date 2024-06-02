@@ -35,20 +35,21 @@ def __print_monuments(monuments: Monuments) -> None:
 
 def __monuments_to_csv(monuments: Monuments, filename: str) -> None:
     """Convert a list of monuments into a .csv file."""
-    fd = open(f"{filename}", "w")
+    fd = open(f"{filename}.csv", "w")
     for mon in monuments:
         fd.write(f"\"{mon.name}\",{mon.location.lat},{mon.location.lon}\n")
     fd.close()
 
 
 def download_monuments(filename: str) -> Monuments:
-    """Download monuments from Catalunya Medieval into a file."""
+    """Download monuments from Catalunya Medieval into a .csv file."""
     response = None
     while response is None:
         try: response = requests.get(CM_LINK)
         except: pass
     
-    # This block of code gets the JSONs from the java script.
+    # This block of code gets the JSONs from the java script
+    # downloaded from Catalunya Medieval.
     monuments = Monuments()
     soup = bs4.BeautifulSoup(response.content, 'html.parser')
     scripts = soup.find_all('script', type = "text/javascript")
@@ -64,23 +65,24 @@ def download_monuments(filename: str) -> Monuments:
                           item["position"]["long"], -1)
                     )
                 )
-    
     __monuments_to_csv(monuments, filename)
     return monuments
 
 
 def load_monuments(box: Box, filename: str) -> Monuments:
-    """Load monuments from a file."""
-    fd = open(filename, "r")
-    reader = csv.reader(fd)
+    """Load monuments from a .csv file with the given name."""
+    print("Loading monuments from the region...")
     try:
+        fd = open(f"{filename}.csv", "r")
+        reader = csv.reader(fd)
         return [Monument(name, Point(float(lat), float(lon), -1))
                 for name, lat, lon in reader
                 if box.bottom_left.lat < float(lat) < box.top_right.lat
                     and box.bottom_left.lon < float(lon) < box.top_right.lon]
     except:
-        print(f"An error ocurred while trying to load 
-              monument information from file {filename}.")
+        print(f"ERROR: An exception ocurred while trying to read monument data from {filename}.csv.")
+        print("The file may not exist, be corrupted or be located in a different folder.")
+        print("Remove the file before trying again.")
         exit()
 
 
@@ -88,21 +90,27 @@ def get_monuments(box: Box, filename: str) -> Monuments:
     """
     Get all monuments in the box.
     If filename exists, load monuments from the file.
-    Otherwise, download monuments and save them to the file.
+    Otherwise, download monuments and save them to the file, then load them.
     """
-    if not isfile(f"{filename}"):
-        print(f"File not found. Downloading monuments 
-              from {CM_LINK} into a new file with this name...")
-        download_monuments(filename)
-    print("Loading and filtering monuments by location...")
+    if not isfile(f"{filename}.csv"):
+        print(f"{filename}.csv file not found.")
+        print(f"Downloading monuments from {CM_LINK} into a new file...")
+        try:
+            download_monuments(filename)
+        except:
+            print("ERROR: Error while trying to download monument information from Catalunya Medieval.")
+            print("Try again. If the error persists, contact the developers of this application.")
+            exit()
     return load_monuments(box, filename)
 
 
 if __name__ == "__main__":
     """Testing."""
     from yogi import read
-    box = Box(Point(read(float), read(float), -1),
-              Point(read(float), read(float), -1))
-    mons = get_monuments(box, "prova.csv")
-    __print_monuments(mons)
-    
+    N = read(int)
+    for _ in range(N): 
+        box = Box(Point(read(float), read(float), -1),
+                  Point(read(float), read(float), -1))
+        _ = read(str)
+        mons = get_monuments(box, "monuments")
+        __print_monuments(mons)
