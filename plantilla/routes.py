@@ -86,24 +86,6 @@ def export_KML(routes: Routes, filename: str) -> None:
     kml.save(f"{filename}_routes.kml")
 
 
-<<<<<<< HEAD
-# if __name__ == "__main__":
-#     import monuments
-#     import graphmaker
-#     import segments
-#     from yogi import read
-
-#     box = segments.Box(Point(read(float), read(float), -1),
-#                        Point(read(float), read(float), -1))
-#     filename = read(str)
-#     start = Point(read(float), read(float), -1)
-#     points = segments.get_points(box, filename)
-
-#     graph = graphmaker.make_graph(points, 300)
-#     mons = monuments.get_monuments(box, "prova_rutes.csv")
-#     routes = find_routes(graph, start, mons)
-#     export_PNG(routes, "prova_rutes2.png")
-=======
 if __name__ == "__main__":
     import monuments
     import graphmaker
@@ -119,11 +101,11 @@ if __name__ == "__main__":
         filename = read(str)
         start = Point(read(float), read(float), -1)
 
-        points = segments.get_points(box, filename)
+        points = segments.load_points(filename)
         graph = graphmaker.make_graph(points, 300)
         mons = monuments.get_monuments(box, "monuments")
         routes = find_routes(graph, start, mons)
         export_PNG(routes, filename)
->>>>>>> 66f21f2 (simplifying is hard, I want to kill myself)
+        export_KML(routes, filename)
 
     

@@ -38,15 +38,16 @@ def __simplify_by_angle(graph: nx.Graph, angle: float) -> nx.Graph:
     which do not differ more than the given angle.
     """
     pos = nx.get_node_attributes(graph, 'pos')
-    for node in graph.nodes:
+    for node in list(graph.nodes):
         edges = list(graph.edges(node))
         if len(edges) == 2:
             u, v = tuple(n for edge in edges for n in edge
                          if n != node)
             if angle > __angle_between(pos[u], pos[node], pos[v]):
                 graph.add_edge(u, v, dist = haversine(pos[u], pos[v]))
-                graph.remove_edges_from(edges)
+                graph.remove_node(node)
     return graph
+
 
 def __simplify_by_distance(graph: nx.Graph, distance: float) -> None:
     """
