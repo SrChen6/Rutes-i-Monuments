@@ -79,9 +79,9 @@ def export_KML(routes: Routes, filename: str) -> None:
         newline = kml.newlinestring(
             name = route.name,
             description = f"Shortest route to {route.name}, {route.dist} km.",
-            coords = route.path
+            coords = (coord[::-1] for coord in route.path)
         )
-        newline.style.linestyle.color = "00000000"
+        newline.style.linestyle.color = "red"
         newline.style.linestyle.width = 5
     kml.save(f"{filename}_routes.kml")
 
