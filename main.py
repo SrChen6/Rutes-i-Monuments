@@ -15,26 +15,40 @@ def show_graphs(filename: str, start: Point) -> None:
     print("Saving all the points imported...")
     segments.show_segments(points, filename)
 
+<<<<<<< HEAD
     print("Saving the most common routes...")
+=======
+    print("Finding the most common paths...")
+>>>>>>> 6218cb407f2f02ccb9b8360ea7aa0ec92ae40f9f
     graph = graphmaker.make_graph(points, 300)
     viewer.export_PNG(graph, filename)
     viewer.export_KML(graph, filename)
-
     print("A KML file has been created, you can upload it to Google Earth"
+<<<<<<< HEAD
           " to view it.")
     print("Saving the shortest routes to near monuments...")
+=======
+          " to view the graph. A PNG file has also been created.")
+    
+    print("Finding the shortest routes to near monuments...")
+>>>>>>> 6218cb407f2f02ccb9b8360ea7aa0ec92ae40f9f
     box = segments.load_box(filename)
     mons = monuments.get_monuments(box, "monuments")
     route_list = routes.find_routes(graph, start, mons)
     routes.export_PNG(route_list, f"{filename}_monuments")
     routes.export_KML(route_list, f"{filename}_monuments")
+    print("A KML file has been created, you can upload it to Google Earth"
+          " to view the routes. A PNG file has also been created.")
     
 
 def new_region() -> None:
-    """shows the map of a new region"""
+    """Asks for information of a new region and current location of the user
+    Exports the maps of the new region."""
+
     print("Please enter the coordenates of the new region ")
     print("Write the coordenates of the south, west, north, east boundaries"
-          " separated by spaces")
+          " separated by spaces (north / south in latitude,"
+          " east / west in longitude).")
     bl = Point(read(float), read(float), -1)
     tr = Point(read(float), read(float), -1)
     box = Box(bl, tr)
@@ -49,12 +63,14 @@ def new_region() -> None:
 
 
 def old_region() -> None:
-    """"""
+    """
+    Asks for the name of an old region and current location of the user.
+    Exports the maps of the old region.
+    """
     print("Please enter the name of the region.")
     name = read(str)
     print("Please enter your current location (latitude, longitude).")
     start = Point(read(float), read(float), -1)
-
     show_graphs(name, start)
 
 
@@ -79,7 +95,7 @@ def main() -> None:
         print("The input is not valid. Please re-execute the program and"
               " introduce a valid one")
         
-    print("Thank you for using out app, we hope that it's benn usefull :)")
+    print("Thank you for using our app, we hope that it's been useful. :)")
 
 
 if __name__ == "__main__":

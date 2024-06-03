@@ -3,84 +3,84 @@
     <Document id="269">
         <Style id="272">
             <LineStyle id="273">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="276">
             <LineStyle id="277">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="280">
             <LineStyle id="281">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="284">
             <LineStyle id="285">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="288">
             <LineStyle id="289">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="292">
             <LineStyle id="293">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="296">
             <LineStyle id="297">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="300">
             <LineStyle id="301">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="304">
             <LineStyle id="305">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="308">
             <LineStyle id="309">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="312">
             <LineStyle id="313">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
         </Style>
         <Style id="316">
             <LineStyle id="317">
-                <color>00000000</color>
+                <color>red</color>
                 <colorMode>normal</colorMode>
                 <width>5</width>
             </LineStyle>
@@ -90,7 +90,7 @@
             <description>Shortest route to La Paeria, 0.6475845336807067 km.</description>
             <styleUrl>#272</styleUrl>
             <LineString id="270">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61663530113636,0.6283739852272727,0.0 41.61532434282828,0.6276849298989899,0.0 41.6144748409396,0.6263977463087248,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6283739852272727,41.61663530113636,0.0 0.6276849298989899,41.61532434282828,0.0 0.6263977463087248,41.6144748409396,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="275">
@@ -98,7 +98,7 @@
             <description>Shortest route to Castell de Gardeny, 1.7488677912305708 km.</description>
             <styleUrl>#276</styleUrl>
             <LineString id="274">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0 41.616996948828124,0.62596449296875,0.0 41.61621177874016,0.6242893755905512,0.0 41.61542018923885,0.6206727601049868,0.0 41.61338861487889,0.6197341989619377,0.0 41.61205689317269,0.6192083236947791,0.0 41.60930823855422,0.6167605354216867,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0 0.62596449296875,41.616996948828124,0.0 0.6242893755905512,41.61621177874016,0.0 0.6206727601049868,41.61542018923885,0.0 0.6197341989619377,41.61338861487889,0.0 0.6192083236947791,41.61205689317269,0.0 0.6167605354216867,41.60930823855422,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="279">
@@ -106,7 +106,7 @@
             <description>Shortest route to Castell de la Suda, 0.479838670064297 km.</description>
             <styleUrl>#280</styleUrl>
             <LineString id="278">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0 41.61857343265306,0.6262457857142857,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0 0.6262457857142857,41.61857343265306,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="283">
@@ -114,7 +114,7 @@
             <description>Shortest route to Fortificacions modernes del turó de la Seu Vella, 0.5106511474690281 km.</description>
             <styleUrl>#284</styleUrl>
             <LineString id="282">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0 41.616996948828124,0.62596449296875,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0 0.62596449296875,41.616996948828124,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="287">
@@ -122,7 +122,7 @@
             <description>Shortest route to Seu Nova, 0.9630738894552962 km.</description>
             <styleUrl>#288</styleUrl>
             <LineString id="286">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61663530113636,0.6283739852272727,0.0 41.61532434282828,0.6276849298989899,0.0 41.6144748409396,0.6263977463087248,0.0 41.61316017058824,0.6251101461764705,0.0 41.612784136082475,0.6235749394329897,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6283739852272727,41.61663530113636,0.0 0.6276849298989899,41.61532434282828,0.0 0.6263977463087248,41.6144748409396,0.0 0.6251101461764705,41.61316017058824,0.0 0.6235749394329897,41.612784136082475,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="291">
@@ -130,7 +130,7 @@
             <description>Shortest route to Seu Vella, 0.35409719529885864 km.</description>
             <styleUrl>#292</styleUrl>
             <LineString id="290">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="295">
@@ -138,7 +138,7 @@
             <description>Shortest route to Capella de Sant Jaume, 0.8287700831631596 km.</description>
             <styleUrl>#296</styleUrl>
             <LineString id="294">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61663530113636,0.6283739852272727,0.0 41.61532434282828,0.6276849298989899,0.0 41.6144748409396,0.6263977463087248,0.0 41.61316017058824,0.6251101461764705,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6283739852272727,41.61663530113636,0.0 0.6276849298989899,41.61532434282828,0.0 0.6263977463087248,41.6144748409396,0.0 0.6251101461764705,41.61316017058824,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="299">
@@ -146,7 +146,7 @@
             <description>Shortest route to Església de Sant Joan, 0.3482271179070793 km.</description>
             <styleUrl>#300</styleUrl>
             <LineString id="298">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61663530113636,0.6283739852272727,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6283739852272727,41.61663530113636,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="303">
@@ -154,7 +154,7 @@
             <description>Shortest route to Església de Sant Llorenç, 0.9882829960433616 km.</description>
             <styleUrl>#304</styleUrl>
             <LineString id="302">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0 41.616996948828124,0.62596449296875,0.0 41.61621177874016,0.6242893755905512,0.0 41.61542018923885,0.6206727601049868,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0 0.62596449296875,41.616996948828124,0.0 0.6242893755905512,41.61621177874016,0.0 0.6206727601049868,41.61542018923885,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="307">
@@ -162,7 +162,7 @@
             <description>Shortest route to Església de Sant Martí, 0.982821640791291 km.</description>
             <styleUrl>#308</styleUrl>
             <LineString id="306">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61787558303965,0.6274360248898678,0.0 41.616996948828124,0.62596449296875,0.0 41.61621177874016,0.6242893755905512,0.0 41.61857878993288,0.6223694073825503,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6274360248898678,41.61787558303965,0.0 0.62596449296875,41.616996948828124,0.0 0.6242893755905512,41.61621177874016,0.0 0.6223694073825503,41.61857878993288,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="311">
@@ -170,7 +170,7 @@
             <description>Shortest route to Església de Sant Ruf– Lleida , 2.443303381386235 km.</description>
             <styleUrl>#312</styleUrl>
             <LineString id="310">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.621694980465115,0.6300939039534884,0.0 41.624290449565216,0.6318657184782609,0.0 41.62634415901163,0.6327798209302326,0.0 41.62873309166667,0.63290041875,0.0 41.63559862826087,0.6369391152173913,0.0 41.639895811504424,0.6377162699115044,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6300939039534884,41.621694980465115,0.0 0.6318657184782609,41.624290449565216,0.0 0.6327798209302326,41.62634415901163,0.0 0.63290041875,41.62873309166667,0.0 0.6369391152173913,41.63559862826087,0.0 0.6377162699115044,41.639895811504424,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="315">
@@ -178,7 +178,7 @@
             <description>Shortest route to Antic Hospital de Santa Maria, 0.9630738894552962 km.</description>
             <styleUrl>#316</styleUrl>
             <LineString id="314">
-                <coordinates>41.61910362490421,0.6309438,0.0 41.61788038907563,0.6295393092436975,0.0 41.61663530113636,0.6283739852272727,0.0 41.61532434282828,0.6276849298989899,0.0 41.6144748409396,0.6263977463087248,0.0 41.61316017058824,0.6251101461764705,0.0 41.612784136082475,0.6235749394329897,0.0</coordinates>
+                <coordinates>0.6309438,41.61910362490421,0.0 0.6295393092436975,41.61788038907563,0.0 0.6283739852272727,41.61663530113636,0.0 0.6276849298989899,41.61532434282828,0.0 0.6263977463087248,41.6144748409396,0.0 0.6251101461764705,41.61316017058824,0.0 0.6235749394329897,41.612784136082475,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>

@@ -1,0 +1,7 @@
+requests
+gpxpy
+staticmap
+networkx
+scikit-learn
+haversine
+simplekml
