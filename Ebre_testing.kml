@@ -3334,7 +3334,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#312</styleUrl>
             <LineString id="310">
-                <coordinates>0.6637229720626632,40.63216064471279,0.0 0.6783633398081534,40.63538413669065,0.0</coordinates>
+                <coordinates>0.6637229720626632,40.63216064471279,0.0 0.6783633398081536,40.63538413669065,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="315">
@@ -3590,7 +3590,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#440</styleUrl>
             <LineString id="438">
-                <coordinates>0.5764942587012509,40.70349351260118,0.0 0.5801909046511629,40.70370698683932,0.0</coordinates>
+                <coordinates>0.5764942587012509,40.70349351260118,0.0 0.5801909046511627,40.70370698683932,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="443">
@@ -4198,7 +4198,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#744</styleUrl>
             <LineString id="742">
-                <coordinates>0.684489062098501,40.63720023340471,0.0 0.6783633398081534,40.63538413669065,0.0</coordinates>
+                <coordinates>0.684489062098501,40.63720023340471,0.0 0.6783633398081536,40.63538413669065,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="747">
@@ -4870,7 +4870,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1080</styleUrl>
             <LineString id="1078">
-                <coordinates>0.5790891028895184,40.6982270823796,0.0 0.5801909046511629,40.70370698683932,0.0</coordinates>
+                <coordinates>0.5790891028895184,40.6982270823796,0.0 0.5801909046511627,40.70370698683932,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1083">
@@ -5158,7 +5158,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1224</styleUrl>
             <LineString id="1222">
-                <coordinates>0.5785556102084447,40.70732621576697,0.0 0.5801909046511629,40.70370698683932,0.0</coordinates>
+                <coordinates>0.5785556102084447,40.70732621576697,0.0 0.5801909046511627,40.70370698683932,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1227">
@@ -5494,7 +5494,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1392</styleUrl>
             <LineString id="1390">
-                <coordinates>0.5855736614490982,40.70398912916539,0.0 0.5801909046511629,40.70370698683932,0.0</coordinates>
+                <coordinates>0.5855736614490982,40.70398912916539,0.0 0.5801909046511627,40.70370698683932,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1395">
@@ -6006,7 +6006,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1648</styleUrl>
             <LineString id="1646">
-                <coordinates>0.5801909046511629,40.70370698683932,0.0 0.5814510698236447,40.71096591345526,0.0</coordinates>
+                <coordinates>0.5801909046511627,40.70370698683932,0.0 0.5814510698236447,40.71096591345526,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1651">
@@ -6294,7 +6294,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1792</styleUrl>
             <LineString id="1790">
-                <coordinates>0.6804772418467584,40.64338015481336,0.0 0.6783633398081534,40.63538413669065,0.0</coordinates>
+                <coordinates>0.6804772418467584,40.64338015481336,0.0 0.6783633398081536,40.63538413669065,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1795">
@@ -6318,7 +6318,7 @@
             <description>Ruta comuna</description>
             <styleUrl>#1804</styleUrl>
             <LineString id="1802">
-                <coordinates>0.6700402186119874,40.64001914132492,0.0 0.6783633398081534,40.63538413669065,0.0</coordinates>
+                <coordinates>0.6700402186119874,40.64001914132492,0.0 0.6783633398081536,40.63538413669065,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="1807">
